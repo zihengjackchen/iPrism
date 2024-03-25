@@ -16,6 +16,6 @@ Our approach demonstrates a substantial reduction in the accident rate for advan
 Agents in PyTorch to preemptively brake using the traffic risk as an indicator, reducing accidents by 72.7%
 
 #### Result
-*Related lightning talk accepted by VehicleSec 2024*
+*Related lightning talk accepted by VehicleSec 2024*  
 *Paper accepted by DSN 2024*
 
