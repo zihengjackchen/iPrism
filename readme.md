@@ -177,3 +177,8 @@ def compute_escape_routes(M, X, x_ego_t, constants, delta_t, k, N):
 
 ### Notes
 - STI is calculated in `<PATH_TO_FILE>/iPrism/DiverseEnv/carladataset/carla-sim/bev_planning_sim/generate_risk_traj_poly_single_timestamp_simfunction.py`
+
+
+# Related Work
+- LBC
+- RIP
