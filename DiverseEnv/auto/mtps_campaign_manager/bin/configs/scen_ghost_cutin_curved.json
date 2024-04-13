@@ -1,0 +1,23 @@
+{   
+    "basePath": "/<PATH_TO_FILE>/DSN2024/DiverseEnv/auto/",
+    "scriptPath": "/<PATH_TO_FILE>/DSN2024/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/mitigation_inference_driver.py",
+    "campaigns":
+    [   
+        {
+            "sceneName": "fi_ghost_cutin_curved",
+            "sceneClassName": "GhostCutinCurved",
+            "basePath2": "agents/2020_CARLA_challenge",
+            "sceneMgrDir": "scenario_runner/srunner/scenario_configs",
+            "sceneRoute": "leaderboard/data/routes_fi/route_highway_curved.xml",
+            "tunableParameters": {
+                "listofNames": ["distance_same_lane", "distance_lane_change", "speed_lane_change"],
+                "listofRanges": [
+                    [10, 20, 1],
+                    [6, 16, 1],
+                    [9, 19, 1]
+                ]
+            }
+        }
+    ]
+}
+
