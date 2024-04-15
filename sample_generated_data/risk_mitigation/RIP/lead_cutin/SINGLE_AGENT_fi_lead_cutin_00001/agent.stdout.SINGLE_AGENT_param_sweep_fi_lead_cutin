@@ -1,0 +1,1423 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+New episode load state dicts.
+
+creating control dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_logs/routes_fi_route_highway-1116_183731-fi_lead_cutin_logs-single_ctl.csv
+
+creating ego trajectory dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_logs/routes_fi_route_highway-1116_183731-fi_lead_cutin_logs-single_traj.csv
+
+creating cvip dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_logs/routes_fi_route_highway-1116_183731-fi_lead_cutin_logs-single_cvip.csv
+
+creating network points dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_logs/routes_fi_route_highway-1116_183731-fi_lead_cutin_logs-single_points.csv
+
+creating pid delta dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_logs/routes_fi_route_highway-1116_183731-fi_lead_cutin_logs-single_piddelta.csv
+
+creating unclipped control dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_logs/routes_fi_route_highway-1116_183731-fi_lead_cutin_logs-single_unclip_ctl.csv
+
+done creating dump files.
+Prepare for stepping
+
+[1m========= Preparing RouteScenario_0 (repetition 0) =========
+> Setting up the agent[0m
+Loading the world
+Save to //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_data/route_highway.xml_fi_lead_cutin.json.pkl
+Exclude list: [17, 23]
+Location(x=192.362411, y=-86.262680, z=0.700000) Rotation(pitch=0.000000, yaw=89.330902, roll=0.000000)
+Base scenario time out after: 36.333333333333336
+Replacing key event_trigger_distance's value from 8 to 5.
+Replacing key distance_lane_change's value from 11 to 5.
+Replacing key speed_lane_change's value from 10 to 6.
+Config for LeadCutIn scenario is {'first_vehicle_location': 22, 'first_vehicle_speed': 16, 'event_trigger_distance': 5, 'distance_lane_change': 5, 'speed_lane_change': 6}
+2.897122958675027 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.922122959047556 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.947122959420085 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.972122959792614 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.997122960165143 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.022122960537672 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.047122960910201 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.07212296128273 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.097122961655259 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.122122962027788 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.147122962400317 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.172122962772846 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.1971229631453753 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.2221229635179043 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.2471229638904333 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.2721229642629623 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.2971229646354914 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.3221229650080204 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.3471229653805494 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.3721229657530785 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.3971229661256075 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.4221229664981365 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.4471229668706656 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.4721229672431946 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.4971229676157236 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.5221229679882526 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.5471229683607817 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.5721229687333107 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.5971229691058397 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.6221229694783688 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.647122969850898 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.672122970223427 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.697122970595956 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.722122970968485 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.747122971341014 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.772122971713543 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.797122972086072 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.822122972458601 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.84712297283113 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.872122973203659 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.897122973576188 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.108465, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.922122973948717 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.947122974321246 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.972122974693775 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.997122975066304 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.109482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.022122975438833 seconds in game passed.
+At 4.022122975438833 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.047122975811362 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.072122976183891 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.09712297655642 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.122122976928949 seconds in game passed.
+At 4.122122976928949 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.147122977301478 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.172122977674007 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.1971229780465364 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.090518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.2221229784190655 seconds in game passed.
+At 4.2221229784190655 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.2471229787915945 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.2721229791641235 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.297122979536653 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.009482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.322122979909182 seconds in game passed.
+At 4.322122979909182 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.347122980281711 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.37212298065424 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.397122981026769 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.086195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.422122981399298 seconds in game passed.
+At 4.422122981399298 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.447122981771827 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.472122982144356 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.497122982516885 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.062039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.522122982889414 seconds in game passed.
+At 4.522122982889414 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.547122983261943 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.572122983634472 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.597122984007001 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.021357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.62212298437953 seconds in game passed.
+At 4.62212298437953 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.647122984752059 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.672122985124588 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.697122985497117 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.722122985869646 seconds in game passed.
+At 4.722122985869646 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.747122986242175 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.772122986614704 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.797122986987233 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.822122987359762 seconds in game passed.
+At 4.822122987359762 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.847122987732291 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.87212298810482 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.897122988477349 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.066331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.922122988849878 seconds in game passed.
+At 4.922122988849878 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.947122989222407 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.972122989594936 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.997122989967465 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002363, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.022122990339994 seconds in game passed.
+At 5.022122990339994 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.0471229907125235 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.0721229910850525 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.0971229914575815 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.030401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.1221229918301105 seconds in game passed.
+At 5.1221229918301105 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.14712299220264 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.172122992575169 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.197122992947698 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.222122993320227 seconds in game passed.
+At 5.222122993320227 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.247122993692756 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.272122994065285 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.297122994437814 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.104074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.322122994810343 seconds in game passed.
+At 5.322122994810343 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.347122995182872 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.372122995555401 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.39712299592793 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.038140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.422122996300459 seconds in game passed.
+At 5.422122996300459 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.447122996672988 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.472122997045517 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.497122997418046 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.028667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.522122997790575 seconds in game passed.
+At 5.522122997790575 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.547122998163104 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.572122998535633 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.597122998908162 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.054638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.622122999280691 seconds in game passed.
+At 5.622122999280691 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.64712299965322 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.672123000025749 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.697123000398278 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.045963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.722123000770807 seconds in game passed.
+At 5.722123000770807 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.747123001143336 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.772123001515865 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.797123001888394 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.822123002260923 seconds in game passed.
+At 5.822123002260923 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.847123002633452 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.8721230030059814 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.8971230033785105 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.012117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.9221230037510395 seconds in game passed.
+At 5.9221230037510395 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+5.9471230041235685 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.972123004496098 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+5.997123004868627 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003805, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.022123005241156 seconds in game passed.
+At 6.022123005241156 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.047123005613685 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.072123005986214 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.097123006358743 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.122123006731272 seconds in game passed.
+At 6.122123006731272 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.147123007103801 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.17212300747633 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.197123007848859 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.006753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.222123008221388 seconds in game passed.
+At 6.222123008221388 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.247123008593917 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.272123008966446 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.297123009338975 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002709, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.322123009711504 seconds in game passed.
+At 6.322123009711504 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.347123010084033 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.372123010456562 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.397123010829091 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.42212301120162 seconds in game passed.
+At 6.42212301120162 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.447123011574149 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.472123011946678 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.497123012319207 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.004939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.522123012691736 seconds in game passed.
+At 6.522123012691736 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.547123013064265 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.572123013436794 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.597123013809323 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.622123014181852 seconds in game passed.
+At 6.622123014181852 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.647123014554381 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.67212301492691 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.697123015299439 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.7221230156719685 seconds in game passed.
+At 6.7221230156719685 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.7471230160444975 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.7721230164170265 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.7971230167895555 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001961, brake=0.063132, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.822123017162085 seconds in game passed.
+At 6.822123017162085 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.847123017534614 seconds in game passed.
+Action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.872123017907143 seconds in game passed.
+Action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.897123018279672 seconds in game passed.
+Action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.054761, steer=0.002103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.922123018652201 seconds in game passed.
+At 6.922123018652201 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+6.94712301902473 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.972123019397259 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+6.997123019769788 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000358, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.022123020142317 seconds in game passed.
+At 7.022123020142317 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.047123020514846 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.072123020887375 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.097123021259904 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.122123021632433 seconds in game passed.
+At 7.122123021632433 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.147123022004962 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.172123022377491 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.19712302275002 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.222123023122549 seconds in game passed.
+At 7.222123023122549 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.247123023495078 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.272123023867607 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.297123024240136 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.322123024612665 seconds in game passed.
+At 7.322123024612665 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.347123024985194 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.372123025357723 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.397123025730252 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.422123026102781 seconds in game passed.
+At 7.422123026102781 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.44712302647531 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.472123026847839 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.497123027220368 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.522123027592897 seconds in game passed.
+At 7.522123027592897 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.5471230279654264 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.5721230283379555 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.5971230287104845 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.6221230290830135 seconds in game passed.
+At 7.6221230290830135 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.647123029455543 seconds in game passed.
+Action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.672123029828072 seconds in game passed.
+Action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.697123030200601 seconds in game passed.
+Action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.206900, steer=-0.000657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.72212303057313 seconds in game passed.
+At 7.72212303057313 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.747123030945659 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.772123031318188 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.797123031690717 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.822123032063246 seconds in game passed.
+At 7.822123032063246 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.847123032435775 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.872123032808304 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.897123033180833 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.922123033553362 seconds in game passed.
+At 7.922123033553362 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+7.947123033925891 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.97212303429842 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+7.997123034670949 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000374, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.022123035043478 seconds in game passed.
+At 8.022123035043478 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.047123035416007 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.072123035788536 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.097123036161065 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000191, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.122123036533594 seconds in game passed.
+At 8.122123036533594 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.147123036906123 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.172123037278652 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.197123037651181 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.22212303802371 seconds in game passed.
+At 8.22212303802371 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.24712303839624 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.272123038768768 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.297123039141297 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000239, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.322123039513826 seconds in game passed.
+At 8.322123039513826 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.347123039886355 seconds in game passed.
+Action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.372123040258884 seconds in game passed.
+Action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.397123040631413 seconds in game passed.
+Action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.589868, steer=-0.000139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.422123041003942 seconds in game passed.
+At 8.422123041003942 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.447123041376472 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.472123041749 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.49712304212153 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.522123042494059 seconds in game passed.
+At 8.522123042494059 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.547123042866588 seconds in game passed.
+Action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.572123043239117 seconds in game passed.
+Action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.597123043611646 seconds in game passed.
+Action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.850870, steer=0.000203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.622123043984175 seconds in game passed.
+At 8.622123043984175 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.647123044356704 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.672123044729233 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.697123045101762 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.72212304547429 seconds in game passed.
+At 8.72212304547429 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+8.74712304584682 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.772123046219349 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.797123046591878 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000127, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+8.822123046964407 seconds in game passed.
+At 8.822123046964407 seconds, saving state-action tuples.
+Mitigation action turned off.
+Action: VehicleControl(throttle=0.000000, steer=-0.000098, brake=0.285191, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000098, brake=0.285191, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Resetting ego-vehicle!
+#############################
+Current risk: nan
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+Post-processing after stepping
+Simulation done, stopping the scenario
+Stopping the route
+
+========= Results of RouteScenario_0 (repetition 0) ------ [91mFAILURE[0m =========
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-11-16 18:37:33 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-11-16 18:38:20 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 47.22s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 5.95s               │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.126               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ FAILURE │ 23.75 % │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ SUCCESS │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ FAILURE │ 1 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ SUCCESS │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+Simulation saved.
+Registering the global statistics
+================= Finish episode 0 =================
+Episode: 0, reward: 0, average_reward: 0.0 
+
+Saving mitigation results to //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip/SINGLE_AGENT_fi_lead_cutin_00001/fi_lead_cutin_data

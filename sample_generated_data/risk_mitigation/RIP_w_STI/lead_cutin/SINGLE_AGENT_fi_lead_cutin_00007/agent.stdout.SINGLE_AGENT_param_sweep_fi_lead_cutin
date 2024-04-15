@@ -1,0 +1,2476 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+New episode load state dicts.
+
+creating control dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_logs/routes_fi_route_highway-1125_002217-fi_lead_cutin_logs-single_ctl.csv
+
+creating ego trajectory dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_logs/routes_fi_route_highway-1125_002217-fi_lead_cutin_logs-single_traj.csv
+
+creating cvip dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_logs/routes_fi_route_highway-1125_002217-fi_lead_cutin_logs-single_cvip.csv
+
+creating network points dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_logs/routes_fi_route_highway-1125_002217-fi_lead_cutin_logs-single_points.csv
+
+creating pid delta dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_logs/routes_fi_route_highway-1125_002217-fi_lead_cutin_logs-single_piddelta.csv
+
+creating unclipped control dump file at: //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_logs/routes_fi_route_highway-1125_002217-fi_lead_cutin_logs-single_unclip_ctl.csv
+
+done creating dump files.
+Positional uncertainty is not enabled for this run.
+Prediction type: CVCTR
+Prepare for stepping
+
+[1m========= Preparing RouteScenario_0 (repetition 0) =========
+> Setting up the agent[0m
+Loading the world
+Save to //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_data/route_highway.xml_fi_lead_cutin.json.pkl
+Exclude list: [17, 23]
+Location(x=192.362411, y=-86.262680, z=0.700000) Rotation(pitch=0.000000, yaw=89.330902, roll=0.000000)
+Base scenario time out after: 36.333333333333336
+Replacing key event_trigger_distance's value from 8 to 5.
+Replacing key distance_lane_change's value from 11 to 5.
+Replacing key speed_lane_change's value from 10 to 12.
+Config for LeadCutIn scenario is {'first_vehicle_location': 22, 'first_vehicle_speed': 16, 'event_trigger_distance': 5, 'distance_lane_change': 5, 'speed_lane_change': 12}
+2.9385357331484556 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.9635357335209846 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.9885357338935137 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.0135357342660427 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.0385357346385717 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.100000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3063535735
+$$$$$$$$$$$$$$$$$$$$$ 0.40327978134155273$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6778585910797119$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3063535735 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4021031856536865$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5175766944885254 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.0635357350111008 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.08853573538363 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.113535735756159 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.138535736128688 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3163535736
+$$$$$$$$$$$$$$$$$$$$$ 0.41353869438171387$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6782536506652832$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3163535736 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.40375733375549316$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5275602340698242 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.163535736501217 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.188535736873746 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.213535737246275 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.238535737618804 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3263535737
+$$$$$$$$$$$$$$$$$$$$$ 0.41136932373046875$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6604726314544678$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3263535737 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3995215892791748$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.503504991531372 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.263535737991333 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 3.415575186870881e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.288535738363862 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.313535738736391 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.33853573910892 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3363535739
+$$$$$$$$$$$$$$$$$$$$$ 0.40131449699401855$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6621310710906982$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3363535739 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4125514030456543$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5036933422088623 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.363535739481449 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 3.4024588532599863e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.388535739853978 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.413535740226507 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.438535740599036 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3463535740
+$$$$$$$$$$$$$$$$$$$$$ 0.40312767028808594$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6707761287689209$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3463535740 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.40239858627319336$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.498302936553955 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.4635357409715652 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 1.9067608460816242e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.4885357413440943 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.5135357417166233 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.5385357420891523 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3563535742
+$$$$$$$$$$$$$$$$$$$$$ 0.5366487503051758$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6688823699951172$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3563535742 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4147980213165283$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.643465280532837 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.5635357424616814 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 1.1075855307842519e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.5885357428342104 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.6135357432067394 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.6385357435792685 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3663535743
+$$$$$$$$$$$$$$$$$$$$$ 0.41263866424560547$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6690864562988281$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3663535743 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.40340662002563477$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5084617137908936 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.6635357439517975 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 2.6223839576618197e-06
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.6885357443243265 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.7135357446968555 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.7385357450693846 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3763535745
+$$$$$$$$$$$$$$$$$$$$$ 0.4046478271484375$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6656379699707031$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3763535745 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4042551517486572$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4983928203582764 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.7635357454419136 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.7885357458144426 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.8135357461869717 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.8385357465595007 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.057361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3863535746
+$$$$$$$$$$$$$$$$$$$$$ 0.40909647941589355$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6685914993286133$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3863535746 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4145197868347168$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.51570725440979 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.8635357469320297 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.8885357473045588 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.913535747677088 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.938535748049617 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.157361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3963535748
+$$$$$$$$$$$$$$$$$$$$$ 0.4096858501434326$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.676100492477417$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3963535748 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4083983898162842$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5168960094451904 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+3.963535748422146 seconds in game passed.
+Skip conversion, the game just started.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.988535748794675 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.013535749167204 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.038535749539733 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 4063535749
+$$$$$$$$$$$$$$$$$$$$$ 0.4128081798553467$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6743025779724121$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4063535749 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.5361430644989014$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6470882892608643 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+4.063535749912262 seconds in game passed.
+At 4.063535749912262 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.088535750284791 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.11353575065732 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.138535751029849 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.357361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 4163535751
+$$$$$$$$$$$$$$$$$$$$$ 0.4098532199859619$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6719849109649658$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4163535751 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4106292724609375$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.515836238861084 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000002, 'empty': 50.16000000000002, 'full': 50.16000000000002} {0: 202}
+4.163535751402378 seconds in game passed.
+At 4.163535751402378 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.0020000123343771434
+Current mitigation activation: 0
+#############################
+Total reward: 0.0020000123343771434
+4.188535751774907 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.0020000123343771434
+4.213535752147436 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.0020000123343771434
+4.238535752519965 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.257361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.0020000123343771434
+Start Processing Time stamp: 4263535752
+$$$$$$$$$$$$$$$$$$$$$ 0.4560694694519043$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+57.34
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7387340068817139$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+57.34
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4263535752 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.46094608306884766$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6798012256622314 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 57.34, 'empty': 57.34, 'full': 57.34} {0: 202}
+4.263535752892494 seconds in game passed.
+At 4.263535752892494 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.07527950925637895
+Current mitigation activation: 0
+#############################
+Total reward: 0.0772795215907561
+4.288535753265023 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.0772795215907561
+4.313535753637552 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.0772795215907561
+4.338535754010081 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.272895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.0772795215907561
+Start Processing Time stamp: 4363535754
+$$$$$$$$$$$$$$$$$$$$$ 0.5635550022125244$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+72.60000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.9018869400024414$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+72.60000000000004
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4363535754 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.5623226165771484$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 2.052361011505127 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 72.60000000000004, 'empty': 72.60000000000004, 'full': 72.60000000000004} {0: 202}
+4.36353575438261 seconds in game passed.
+At 4.36353575438261 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.15488752094043698
+Current mitigation activation: 0
+#############################
+Total reward: 0.23216704253119308
+4.388535754755139 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.23216704253119308
+4.413535755127668 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.23216704253119308
+4.438535755500197 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.172895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.23216704253119308
+Start Processing Time stamp: 4463535755
+$$$$$$$$$$$$$$$$$$$$$ 0.5598275661468506$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+74.99999999999994
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.8852787017822266$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+74.99999999999994
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4463535755 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.6722309589385986$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 2.14027738571167 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 74.99999999999994, 'empty': 74.99999999999994, 'full': 74.99999999999994} {0: 202}
+4.463535755872726 seconds in game passed.
+At 4.463535755872726 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.21338935461242792
+Current mitigation activation: 0
+#############################
+Total reward: 0.445556397143621
+4.4885357562452555 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.445556397143621
+4.5135357566177845 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.445556397143621
+4.5385357569903135 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.072895, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.445556397143621
+Start Processing Time stamp: 4563535757
+$$$$$$$$$$$$$$$$$$$$$ 0.5288643836975098$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+82.46000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.8588957786560059$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+82.46000000000004
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4563535757 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.5303895473480225$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.949733018875122 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 82.46000000000004, 'empty': 82.46000000000004, 'full': 82.46000000000004} {0: 202}
+4.563535757362843 seconds in game passed.
+At 4.563535757362843 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.2616095119113109
+Current mitigation activation: 0
+#############################
+Total reward: 0.7071659090549318
+4.588535757735372 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.7071659090549318
+4.613535758107901 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.7071659090549318
+4.63853575848043 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.063891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.7071659090549318
+Start Processing Time stamp: 4663535758
+$$$$$$$$$$$$$$$$$$$$$ 0.4639458656311035$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+85.48000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7510817050933838$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+85.48000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4663535758 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.47334957122802734$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.7156126499176025 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 85.48000000000002, 'empty': 85.48000000000002, 'full': 85.48000000000002} {0: 202}
+4.663535758852959 seconds in game passed.
+At 4.663535758852959 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.3034535374634163
+Current mitigation activation: 0
+#############################
+Total reward: 1.0106194465183482
+4.688535759225488 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.0106194465183482
+4.713535759598017 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.0106194465183482
+4.738535759970546 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.021532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.0106194465183482
+Start Processing Time stamp: 4763535760
+$$$$$$$$$$$$$$$$$$$$$ 0.4899892807006836$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+88.60000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7737183570861816$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+88.06
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4763535760 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.6090729236602783$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.899224042892456 seconds.
+{'0': 0.006094808126410905} {'0': 0.006094808126410905} {'0': 88.60000000000001, 'empty': 88.60000000000001, 'full': 88.06} {0: 202}
+4.763535760343075 seconds in game passed.
+At 4.763535760343075 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.006094808126410905
+Current reward: 0.33740158402277687
+Current mitigation activation: 0
+#############################
+Total reward: 1.348021030541125
+4.788535760715604 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.348021030541125
+4.813535761088133 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.348021030541125
+4.838535761460662 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.085554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.348021030541125
+Start Processing Time stamp: 4863535761
+$$$$$$$$$$$$$$$$$$$$$ 0.4537343978881836$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+95.10000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7322416305541992$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+90.94000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4863535761 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4564499855041504$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6711900234222412 seconds.
+{'0': 0.04374342797055727} {'0': 0.04374342797055727} {'0': 95.10000000000001, 'empty': 95.10000000000001, 'full': 90.94000000000001} {0: 202}
+4.863535761833191 seconds in game passed.
+At 4.863535761833191 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.04374342797055727
+Current reward: 0.34461273064801284
+Current mitigation activation: 0
+#############################
+Total reward: 1.692633761189138
+4.88853576220572 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.692633761189138
+4.913535762578249 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.692633761189138
+4.938535762950778 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.185554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.692633761189138
+Start Processing Time stamp: 4963535763
+$$$$$$$$$$$$$$$$$$$$$ 0.4454312324523926$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+98.60000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7172346115112305$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+91.75999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4963535763 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4438657760620117$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6283435821533203 seconds.
+{'0': 0.06937119675456407} {'0': 0.06937119675456407} {'0': 98.60000000000001, 'empty': 98.60000000000001, 'full': 91.75999999999999} {0: 202}
+4.963535763323307 seconds in game passed.
+At 4.963535763323307 seconds, saving state-action tuples.
+Action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.06937119675456407
+Current reward: 0.35399627913307774
+Current mitigation activation: 0
+#############################
+Total reward: 2.0466300403222157
+4.988535763695836 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.0466300403222157
+5.013535764068365 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.0466300403222157
+5.038535764440894 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.264792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.0466300403222157
+Start Processing Time stamp: 5063535764
+$$$$$$$$$$$$$$$$$$$$$ 0.43262672424316406$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+104.16
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6921494007110596$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+92.98000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5063535764 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.5579111576080322$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.7059431076049805 seconds.
+{'0': 0.10733486943164341} {'0': 0.10733486943164341} {'0': 104.16, 'empty': 104.16, 'full': 92.98000000000002} {0: 202}
+5.063535764813423 seconds in game passed.
+At 5.063535764813423 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.10733486943164341
+Current reward: 0.3459821363041742
+Current mitigation activation: 0
+#############################
+Total reward: 2.3926121766263897
+5.088535765185952 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.3926121766263897
+5.113535765558481 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.3926121766263897
+5.13853576593101 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.205241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.3926121766263897
+Start Processing Time stamp: 5163535766
+$$$$$$$$$$$$$$$$$$$$$ 0.3874990940093994$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+105.57999999999998
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.5864207744598389$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+91.72000000000006
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5163535766 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.38989806175231934$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.3861188888549805 seconds.
+{'0': 0.13127486266338256} {'0': 0.13127486266338256} {'0': 105.57999999999998, 'empty': 105.57999999999998, 'full': 91.72000000000006} {0: 202}
+5.163535766303539 seconds in game passed.
+At 5.163535766303539 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.13127486266338256
+Current reward: 0.3479887674172406
+Current mitigation activation: 0
+#############################
+Total reward: 2.7406009440436305
+5.188535766676068 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.7406009440436305
+5.213535767048597 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.7406009440436305
+5.238535767421126 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.105241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.7406009440436305
+Start Processing Time stamp: 5263535767
+$$$$$$$$$$$$$$$$$$$$$ 0.3597402572631836$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+108.34000000000005
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.4915015697479248$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+89.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5263535767 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3645203113555908$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.2382066249847412 seconds.
+{'0': 0.1770352593686545} {'0': 0.1770352593686545} {'0': 108.34000000000005, 'empty': 108.34000000000005, 'full': 89.16000000000001} {0: 202}
+5.263535767793655 seconds in game passed.
+At 5.263535767793655 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.1770352593686545
+Current reward: 0.32726015813571074
+Current mitigation activation: 0
+#############################
+Total reward: 3.067861102179341
+5.288535768166184 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.067861102179341
+5.3135357685387135 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.067861102179341
+5.3385357689112425 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.005241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.067861102179341
+Start Processing Time stamp: 5363535769
+$$$$$$$$$$$$$$$$$$$$$ 0.3466224670410156$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+110.88000000000005
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.46212196350097656$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+88.23999999999998
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5363535769 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4720282554626465$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.3029999732971191 seconds.
+{'0': 0.20418470418470475} {'0': 0.20418470418470475} {'0': 110.88000000000005, 'empty': 110.88000000000005, 'full': 88.23999999999998} {0: 202}
+5.3635357692837715 seconds in game passed.
+At 5.3635357692837715 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.20418470418470475
+Current reward: 0.31993307178363883
+Current mitigation activation: 0
+#############################
+Total reward: 3.38779417396298
+5.3885357696563005 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.38779417396298
+5.41353577002883 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.38779417396298
+5.438535770401359 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.094759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.38779417396298
+Start Processing Time stamp: 5463535770
+$$$$$$$$$$$$$$$$$$$$$ 0.28713059425354004$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+114.82000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.37857842445373535$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+95.26000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5463535770 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.29395103454589844$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9815285205841064 seconds.
+{'0': 0.17035359693433189} {'0': 0.17035359693433189} {'0': 114.82000000000001, 'empty': 114.82000000000001, 'full': 95.26000000000002} {0: 202}
+5.463535770773888 seconds in game passed.
+At 5.463535770773888 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.17035359693433189
+Current reward: 0.3772320379793206
+Current mitigation activation: 0
+#############################
+Total reward: 3.765026211942301
+5.488535771146417 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.765026211942301
+5.513535771518946 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.765026211942301
+5.538535771891475 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.194759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.765026211942301
+Start Processing Time stamp: 5563535772
+$$$$$$$$$$$$$$$$$$$$$ 0.3106522560119629$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+122.72000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.4022343158721924$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+104.43999999999998
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5563535772 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.31346702575683594$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0485904216766357 seconds.
+{'0': 0.1489569752281619} {'0': 0.1489569752281619} {'0': 122.72000000000001, 'empty': 122.72000000000001, 'full': 104.43999999999998} {0: 202}
+5.563535772264004 seconds in game passed.
+At 5.563535772264004 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.1489569752281619
+Current reward: 0.4213658457710642
+Current mitigation activation: 0
+#############################
+Total reward: 4.186392057713365
+5.588535772636533 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.186392057713365
+5.613535773009062 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.186392057713365
+5.638535773381591 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.170377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.186392057713365
+Start Processing Time stamp: 5663535773
+$$$$$$$$$$$$$$$$$$$$$ 0.31925082206726074$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+123.00000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.41062378883361816$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+108.40000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5663535773 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.31873083114624023$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.071084976196289 seconds.
+{'0': 0.11869918699186996} {'0': 0.11869918699186996} {'0': 123.00000000000003, 'empty': 123.00000000000003, 'full': 108.40000000000002} {0: 202}
+5.66353577375412 seconds in game passed.
+At 5.66353577375412 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.11869918699186996
+Current reward: 0.47792472726575075
+Current mitigation activation: 0
+#############################
+Total reward: 4.664316784979116
+5.688535774126649 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.664316784979116
+5.713535774499178 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.664316784979116
+5.738535774871707 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.136910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.664316784979116
+Start Processing Time stamp: 5763535775
+$$$$$$$$$$$$$$$$$$$$$ 0.4307398796081543$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+123.28000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.435272216796875$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+110.92
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5763535775 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3217344284057617$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.2099406719207764 seconds.
+{'0': 0.10025957170668406} {'0': 0.10025957170668406} {'0': 123.28000000000002, 'empty': 123.28000000000002, 'full': 110.92} {0: 202}
+5.763535775244236 seconds in game passed.
+At 5.763535775244236 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.10025957170668406
+Current reward: 0.5078251164763009
+Current mitigation activation: 0
+#############################
+Total reward: 5.172141901455417
+5.788535775616765 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.172141901455417
+5.813535775989294 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.172141901455417
+5.838535776361823 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.036910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.172141901455417
+Start Processing Time stamp: 5863535776
+$$$$$$$$$$$$$$$$$$$$$ 0.3108334541320801$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+122.27999999999999
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.42044806480407715$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+108.90000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5863535776 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.30959200859069824$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0678942203521729 seconds.
+{'0': 0.10942100098135389} {'0': 0.10942100098135389} {'0': 122.27999999999999, 'empty': 122.27999999999999, 'full': 108.90000000000003} {0: 202}
+5.863535776734352 seconds in game passed.
+At 5.863535776734352 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.10942100098135389
+Current reward: 0.4962013593693537
+Current mitigation activation: 0
+#############################
+Total reward: 5.668343260824771
+5.888535777106881 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.668343260824771
+5.91353577747941 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.668343260824771
+5.938535777851939 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.063090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.668343260824771
+Start Processing Time stamp: 5963535778
+$$$$$$$$$$$$$$$$$$$$$ 0.3069608211517334$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+123.32
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.41160082817077637$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+109.72000000000004
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5963535778 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.308854341506958$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0489428043365479 seconds.
+{'0': 0.11028219266947739} {'0': 0.11028219266947739} {'0': 123.32, 'empty': 123.32, 'full': 109.72000000000004} {0: 202}
+5.963535778224468 seconds in game passed.
+At 5.963535778224468 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.11028219266947739
+Current reward: 0.4943638741629842
+Current mitigation activation: 0
+#############################
+Total reward: 6.162707134987755
+5.988535778596997 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.162707134987755
+6.013535778969526 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.162707134987755
+6.038535779342055 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.163090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.162707134987755
+Start Processing Time stamp: 6063535779
+$$$$$$$$$$$$$$$$$$$$$ 0.3088212013244629$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+123.74000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.4026453495025635$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+109.5
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6063535779 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.30971598625183105$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.042750597000122 seconds.
+{'0': 0.11508000646516897} {'0': 0.11508000646516897} {'0': 123.74000000000001, 'empty': 123.74000000000001, 'full': 109.5} {0: 202}
+6.063535779714584 seconds in game passed.
+At 6.063535779714584 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.11508000646516897
+Current reward: 0.48530885995713974
+Current mitigation activation: 0
+#############################
+Total reward: 6.648015994944895
+6.088535780087113 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.648015994944895
+6.113535780459642 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.648015994944895
+6.138535780832171 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.125021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.648015994944895
+Start Processing Time stamp: 6163535781
+$$$$$$$$$$$$$$$$$$$$$ 0.31714677810668945$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+122.38000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.3956577777862549$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+105.04000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6163535781 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4391899108886719$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.1740174293518066 seconds.
+{'0': 0.1416898185978101} {'0': 0.1416898185978101} {'0': 122.38000000000002, 'empty': 122.38000000000002, 'full': 105.04000000000002} {0: 202}
+6.1635357812047005 seconds in game passed.
+At 6.1635357812047005 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.1416898185978101
+Current reward: 0.44892561899685424
+Current mitigation activation: 0
+#############################
+Total reward: 7.09694161394175
+6.1885357815772295 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.09694161394175
+6.2135357819497585 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.09694161394175
+6.238535782322288 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.025021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.09694161394175
+Start Processing Time stamp: 6263535782
+$$$$$$$$$$$$$$$$$$$$$ 0.32636213302612305$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+126.22000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.40452122688293457$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+106.20000000000007
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6263535782 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.32474446296691895$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.077451229095459 seconds.
+{'0': 0.15861194739343962} {'0': 0.15861194739343962} {'0': 126.22000000000003, 'empty': 126.22000000000003, 'full': 106.20000000000007} {0: 202}
+6.263535782694817 seconds in game passed.
+At 6.263535782694817 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.15861194739343962
+Current reward: 0.44575672932262594
+Current mitigation activation: 0
+#############################
+Total reward: 7.542698343264376
+6.288535783067346 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.542698343264376
+6.313535783439875 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.542698343264376
+6.338535783812404 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.055345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.542698343264376
+Start Processing Time stamp: 6363535784
+$$$$$$$$$$$$$$$$$$$$$ 0.3189432621002197$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+130.56000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.35475897789001465$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+104.34000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6363535784 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.31534361839294434$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0111911296844482 seconds.
+{'0': 0.200827205882353} {'0': 0.200827205882353} {'0': 130.56000000000003, 'empty': 130.56000000000003, 'full': 104.34000000000002} {0: 202}
+6.363535784184933 seconds in game passed.
+At 6.363535784184933 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.200827205882353
+Current reward: 0.41495458590259116
+Current mitigation activation: 0
+#############################
+Total reward: 7.957652929166967
+6.388535784557462 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.957652929166967
+6.413535784929991 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.957652929166967
+6.43853578530252 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.056663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.957652929166967
+Start Processing Time stamp: 6463535785
+$$$$$$$$$$$$$$$$$$$$$ 0.30794715881347656$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+132.72000000000006
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.31008195877075195$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+102.68000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6463535785 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.31324052810668945$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9572896957397461 seconds.
+{'0': 0.22634116937914422} {'0': 0.22634116937914422} {'0': 132.72000000000006, 'empty': 132.72000000000006, 'full': 102.68000000000002} {0: 202}
+6.463535785675049 seconds in game passed.
+At 6.463535785675049 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.22634116937914422
+Current reward: 0.3988142323505197
+Current mitigation activation: 0
+#############################
+Total reward: 8.356467161517486
+6.488535786047578 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.356467161517486
+6.513535786420107 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.356467161517486
+6.538535786792636 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.356467161517486
+Start Processing Time stamp: 6563535787
+$$$$$$$$$$$$$$$$$$$$$ 0.2923445701599121$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+133.14000000000007
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.28547215461730957$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+99.67999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6563535787 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.2822000980377197$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.8911261558532715 seconds.
+{'0': 0.2513144058885388} {'0': 0.2513144058885388} {'0': 133.14000000000007, 'empty': 133.14000000000007, 'full': 99.67999999999999} {0: 202}
+6.563535787165165 seconds in game passed.
+At 6.563535787165165 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2513144058885388
+Current reward: 0.37868997573594193
+Current mitigation activation: 0
+#############################
+Total reward: 8.735157137253427
+6.588535787537694 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.735157137253427
+6.613535787910223 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.735157137253427
+6.638535788282752 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.027792, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.735157137253427
+Start Processing Time stamp: 6663535788
+$$$$$$$$$$$$$$$$$$$$$ 0.37757062911987305$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+139.22000000000008
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.23296236991882324$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+104.82000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6663535788 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.25953173637390137$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.8922178745269775 seconds.
+{'0': 0.24709093521045858} {'0': 0.24709093521045858} {'0': 139.22000000000008, 'empty': 139.22000000000008, 'full': 104.82000000000002} {0: 202}
+6.663535788655281 seconds in game passed.
+At 6.663535788655281 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.24709093521045858
+Current reward: 0.400567398527312
+Current mitigation activation: 0
+#############################
+Total reward: 9.135724535780739
+6.68853578902781 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.135724535780739
+6.713535789400339 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.135724535780739
+6.738535789772868 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.022521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.135724535780739
+Start Processing Time stamp: 6763535790
+$$$$$$$$$$$$$$$$$$$$$ 0.24341988563537598$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+140.56
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.20489144325256348$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+100.70000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6763535790 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.24361205101013184$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.7133443355560303 seconds.
+{'0': 0.28357996585088197} {'0': 0.28357996585088197} {'0': 140.56, 'empty': 140.56, 'full': 100.70000000000003} {0: 202}
+6.763535790145397 seconds in game passed.
+At 6.763535790145397 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.28357996585088197
+Current reward: 0.35532899847195065
+Current mitigation activation: 0
+#############################
+Total reward: 9.49105353425269
+6.788535790517926 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.49105353425269
+6.813535790890455 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.49105353425269
+6.838535791262984 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.008733, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.49105353425269
+Start Processing Time stamp: 6863535791
+$$$$$$$$$$$$$$$$$$$$$ 0.22407937049865723$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+145.56000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.19107270240783691$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+104.32000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6863535791 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.22765851020812988$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6641664505004883 seconds.
+{'0': 0.2833195932948612} {'0': 0.2833195932948612} {'0': 145.56000000000003, 'empty': 145.56000000000003, 'full': 104.32000000000002} {0: 202}
+6.863535791635513 seconds in game passed.
+At 6.863535791635513 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2833195932948612
+Current reward: 0.36796767224550714
+Current mitigation activation: 0
+#############################
+Total reward: 9.859021206498197
+6.888535792008042 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.859021206498197
+6.913535792380571 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.859021206498197
+6.9385357927531 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.026827, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.859021206498197
+Start Processing Time stamp: 6963535793
+$$$$$$$$$$$$$$$$$$$$$ 0.2153780460357666$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+146.51999999999998
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.18858671188354492$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+110.01999999999995
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6963535793 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.2171170711517334$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6421966552734375 seconds.
+{'0': 0.24911274911274933} {'0': 0.24911274911274933} {'0': 146.51999999999998, 'empty': 146.51999999999998, 'full': 110.01999999999995} {0: 202}
+6.963535793125629 seconds in game passed.
+At 6.963535793125629 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.24911274911274933
+Current reward: 0.43977710633025335
+Current mitigation activation: 0
+#############################
+Total reward: 10.298798312828449
+6.9885357934981585 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.298798312828449
+7.0135357938706875 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.298798312828449
+7.0385357942432165 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.017863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.298798312828449
+Start Processing Time stamp: 7063535794
+$$$$$$$$$$$$$$$$$$$$$ 0.2150869369506836$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+148.4
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.15089845657348633$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+107.53999999999998
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7063535794 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.21348023414611816$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6080260276794434 seconds.
+{'0': 0.27533692722371983} {'0': 0.27533692722371983} {'0': 148.4, 'empty': 148.4, 'full': 107.53999999999998} {0: 202}
+7.0635357946157455 seconds in game passed.
+At 7.0635357946157455 seconds, saving state-action tuples.
+Mitigation action: 1
+Action: VehicleControl(throttle=0.900000, steer=-0.001956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.001956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.27533692722371983
+Current reward: 0.40585747953376367
+Current mitigation activation: 1
+#############################
+Total reward: 10.704655792362212
+7.088535794988275 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.001956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.001956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.704655792362212
+7.113535795360804 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.001956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.001956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.704655792362212
+7.138535795733333 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.001956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.001956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.704655792362212
+Start Processing Time stamp: 7163535796
+$$$$$$$$$$$$$$$$$$$$$ 0.20464706420898438$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+151.58
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.14785432815551758$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+106.22
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7163535796 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.32575082778930664$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6999473571777344 seconds.
+{'0': 0.2992479218894314} {'0': 0.2992479218894314} {'0': 151.58, 'empty': 151.58, 'full': 106.22} {0: 202}
+7.163535796105862 seconds in game passed.
+At 7.163535796105862 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 1
+Action: VehicleControl(throttle=0.900000, steer=-0.020548, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.020548, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2992479218894314
+Current reward: 0.37258790781639894
+Current mitigation activation: 1
+#############################
+Total reward: 11.077243700178611
+7.188535796478391 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.020548, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.020548, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.077243700178611
+7.21353579685092 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.020548, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.020548, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.077243700178611
+7.238535797223449 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.020548, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.020548, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.077243700178611
+Start Processing Time stamp: 7263535797
+$$$$$$$$$$$$$$$$$$$$$ 0.20340728759765625$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+151.20000000000007
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.14758062362670898$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+109.34
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7263535797 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.20802974700927734$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.5808203220367432 seconds.
+{'0': 0.2768518518518522} {'0': 0.2768518518518522} {'0': 151.20000000000007, 'empty': 151.20000000000007, 'full': 109.34} {0: 202}
+7.263535797595978 seconds in game passed.
+At 7.263535797595978 seconds, saving state-action tuples.
+Mitigation action: 1
+Action: VehicleControl(throttle=0.900000, steer=-0.016338, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.016338, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2768518518518522
+Current reward: 0.41370369666712875
+Current mitigation activation: 1
+#############################
+Total reward: 11.49094739684574
+7.288535797968507 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.016338, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.016338, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.49094739684574
+7.313535798341036 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.016338, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.016338, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.49094739684574
+7.338535798713565 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.016338, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.016338, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.49094739684574
+Start Processing Time stamp: 7363535799
+$$$$$$$$$$$$$$$$$$$$$ 0.22192120552062988$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+146.50000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.16875624656677246$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+108.5
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7363535799 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.21352767944335938$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6262743473052979 seconds.
+{'0': 0.2593856655290104} {'0': 0.2593856655290104} {'0': 146.50000000000003, 'empty': 146.50000000000003, 'full': 108.5} {0: 202}
+7.363535799086094 seconds in game passed.
+At 7.363535799086094 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 1
+Action: VehicleControl(throttle=0.900000, steer=0.001313, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001313, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2593856655290104
+Current reward: 0.4263250674425752
+Current mitigation activation: 1
+#############################
+Total reward: 11.917272464288315
+7.388535799458623 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.001313, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001313, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.917272464288315
+7.413535799831152 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.001313, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001313, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.917272464288315
+7.438535800203681 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.001313, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001313, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.917272464288315
+Start Processing Time stamp: 7463535800
+$$$$$$$$$$$$$$$$$$$$$ 0.23060178756713867$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+141.28
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.17587566375732422$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+101.47999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7463535800 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.22931981086730957$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6575338840484619 seconds.
+{'0': 0.28171007927519826} {'0': 0.28171007927519826} {'0': 141.28, 'empty': 141.28, 'full': 101.47999999999999} {0: 202}
+7.46353580057621 seconds in game passed.
+At 7.46353580057621 seconds, saving state-action tuples.
+Mitigation action: 1
+Action: VehicleControl(throttle=0.900000, steer=0.012058, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.012058, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.28171007927519826
+Current reward: 0.3606496241955268
+Current mitigation activation: 1
+#############################
+Total reward: 12.277922088483841
+7.488535800948739 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.012058, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.012058, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.277922088483841
+7.513535801321268 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.012058, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.012058, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.277922088483841
+7.538535801693797 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.012058, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.012058, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.277922088483841
+Start Processing Time stamp: 7563535802
+$$$$$$$$$$$$$$$$$$$$$ 0.28969526290893555$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+133.4
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.21998357772827148$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+96.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7563535802 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.2897675037384033$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.8215329647064209 seconds.
+{'0': 0.2791604197901049} {'0': 0.2791604197901049} {'0': 133.4, 'empty': 133.4, 'full': 96.16000000000001} {0: 202}
+7.563535802066326 seconds in game passed.
+At 7.563535802066326 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 1
+Action: VehicleControl(throttle=0.900000, steer=0.009093, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.009093, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2791604197901049
+Current reward: 0.3344662994812368
+Current mitigation activation: 1
+#############################
+Total reward: 12.612388387965078
+7.588535802438855 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.009093, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.009093, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.612388387965078
+7.613535802811384 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.009093, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.009093, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.612388387965078
+7.638535803183913 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=0.009093, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.009093, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.612388387965078
+Start Processing Time stamp: 7663535803
+$$$$$$$$$$$$$$$$$$$$$ 0.31525444984436035$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+131.52000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.2552213668823242$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+93.78000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7663535803 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3147094249725342$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9071207046508789 seconds.
+{'0': 0.2869525547445255} {'0': 0.2869525547445255} {'0': 131.52000000000004, 'empty': 131.52000000000004, 'full': 93.78000000000003} {0: 202}
+7.663535803556442 seconds in game passed.
+At 7.663535803556442 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2869525547445255
+Current reward: 0.29137728173337596
+Current mitigation activation: 0
+#############################
+Total reward: 12.903765669698455
+7.688535803928971 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.903765669698455
+7.7135358043015 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.903765669698455
+7.738535804674029 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.903765669698455
+Start Processing Time stamp: 7763535805
+$$$$$$$$$$$$$$$$$$$$$ 0.463162899017334$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+121.78
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.27630066871643066$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+82.57999999999997
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7763535805 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3353307247161865$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0970664024353027 seconds.
+{'0': 0.3218919362785353} {'0': 0.3218919362785353} {'0': 121.78, 'empty': 121.78, 'full': 82.57999999999997} {0: 202}
+7.763535805046558 seconds in game passed.
+At 7.763535805046558 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.3218919362785353
+Current reward: 0.21954923481625915
+Current mitigation activation: 0
+#############################
+Total reward: 13.123314904514714
+7.788535805419087 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.123314904514714
+7.813535805791616 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.123314904514714
+7.8385358061641455 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.123314904514714
+Start Processing Time stamp: 7863535806
+$$$$$$$$$$$$$$$$$$$$$ 0.3196747303009033$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+116.66000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.28098154067993164$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+79.76
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7863535806 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3231050968170166$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9454612731933594 seconds.
+{'0': 0.3163037887879309} {'0': 0.3163037887879309} {'0': 116.66000000000004, 'empty': 116.66000000000004, 'full': 79.76} {0: 202}
+7.8635358065366745 seconds in game passed.
+At 7.8635358065366745 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.3163037887879309
+Current reward: 0.21900919642464475
+Current mitigation activation: 0
+#############################
+Total reward: 13.34232410093936
+7.8885358069092035 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.34232410093936
+7.913535807281733 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.34232410093936
+7.938535807654262 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.34232410093936
+Start Processing Time stamp: 7963535808
+$$$$$$$$$$$$$$$$$$$$$ 0.3256402015686035$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+116.76000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.28337526321411133$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+80.52
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7963535808 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.32388734817504883$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9546215534210205 seconds.
+{'0': 0.31038026721479983} {'0': 0.31038026721479983} {'0': 116.76000000000003, 'empty': 116.76000000000003, 'full': 80.52} {0: 202}
+7.963535808026791 seconds in game passed.
+At 7.963535808026791 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.31038026721479983
+Current reward: 0.22572734490872284
+Current mitigation activation: 0
+#############################
+Total reward: 13.568051445848083
+7.98853580839932 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.568051445848083
+8.013535808771849 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.568051445848083
+8.038535809144378 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.568051445848083
+Start Processing Time stamp: 8063535809
+$$$$$$$$$$$$$$$$$$$$$ 0.3245244026184082$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+116.64000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.27398228645324707$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+80.79999999999998
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8063535809 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.32491540908813477$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9454033374786377 seconds.
+{'0': 0.30727023319615954} {'0': 0.30727023319615954} {'0': 116.64000000000004, 'empty': 116.64000000000004, 'full': 80.79999999999998} {0: 202}
+8.063535809516907 seconds in game passed.
+At 8.063535809516907 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.30727023319615954
+Current reward: 0.22904758867796804
+Current mitigation activation: 0
+#############################
+Total reward: 13.79709903452605
+8.088535809889436 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.79709903452605
+8.113535810261965 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.79709903452605
+8.138535810634494 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.79709903452605
+Start Processing Time stamp: 8163535811
+$$$$$$$$$$$$$$$$$$$$$ 0.32683873176574707$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+116.64000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.4066963195800781$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+82.13999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8163535811 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.33954858779907227$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.095205307006836 seconds.
+{'0': 0.2957818930041156} {'0': 0.2957818930041156} {'0': 116.64000000000004, 'empty': 116.64000000000004, 'full': 82.13999999999999} {0: 202}
+8.163535811007023 seconds in game passed.
+At 8.163535811007023 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2957818930041156
+Current reward: 0.24231944628381147
+Current mitigation activation: 0
+#############################
+Total reward: 14.039418480809863
+8.188535811379552 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.039418480809863
+8.213535811752081 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.039418480809863
+8.23853581212461 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.039418480809863
+Start Processing Time stamp: 8263535812
+$$$$$$$$$$$$$$$$$$$$$ 0.32410168647766113$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+115.58
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.2792215347290039$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+81.87999999999997
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8263535812 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3212006092071533$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9466485977172852 seconds.
+{'0': 0.2915729364942034} {'0': 0.2915729364942034} {'0': 115.58, 'empty': 115.58, 'full': 81.87999999999997} {0: 202}
+8.263535812497139 seconds in game passed.
+At 8.263535812497139 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2915729364942034
+Current reward: 0.2350177457887607
+Current mitigation activation: 0
+#############################
+Total reward: 14.274436226598624
+8.288535812869668 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.274436226598624
+8.313535813242197 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.274436226598624
+8.338535813614726 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.274436226598624
+Start Processing Time stamp: 8363535813
+$$$$$$$$$$$$$$$$$$$$$ 0.43581604957580566$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+111.00000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.3859999179840088$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+75.67999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8363535813 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.43407297134399414$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.2781224250793457 seconds.
+{'0': 0.3181981981981985} {'0': 0.3181981981981985} {'0': 111.00000000000004, 'empty': 111.00000000000004, 'full': 75.67999999999999} {0: 202}
+8.363535813987255 seconds in game passed.
+At 8.363535813987255 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.3181981981981985
+Current reward: 0.1892686194756805
+Current mitigation activation: 0
+#############################
+Total reward: 14.463704846074304
+8.388535814359784 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.463704846074304
+8.413535814732313 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.463704846074304
+8.438535815104842 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.463704846074304
+Start Processing Time stamp: 8463535815
+$$$$$$$$$$$$$$$$$$$$$ 0.4187173843383789$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+109.04000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.3859066963195801$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+75.60000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8463535815 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4226803779602051$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.2489869594573975 seconds.
+{'0': 0.30667644900953783} {'0': 0.30667644900953783} {'0': 109.04000000000002, 'empty': 109.04000000000002, 'full': 75.60000000000001} {0: 202}
+8.463535815477371 seconds in game passed.
+At 8.463535815477371 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.30667644900953783
+Current reward: 0.19649728573410533
+Current mitigation activation: 0
+#############################
+Total reward: 14.66020213180841
+8.4885358158499 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.66020213180841
+8.51353581622243 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.66020213180841
+8.538535816594958 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000468, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.66020213180841
+Start Processing Time stamp: 8563535816
+$$$$$$$$$$$$$$$$$$$$$ 0.5476551055908203$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+111.00000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.3967010974884033$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+77.92
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8563535816 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4377481937408447$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4128291606903076 seconds.
+{'0': 0.29801801801801825} {'0': 0.29801801801801825} {'0': 111.00000000000004, 'empty': 111.00000000000004, 'full': 77.92} {0: 202}
+8.563535816967487 seconds in game passed.
+At 8.563535816967487 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.29801801801801825
+Current reward: 0.20846372531318175
+Current mitigation activation: 0
+#############################
+Total reward: 14.868665857121592
+8.588535817340016 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.868665857121592
+8.613535817712545 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.868665857121592
+8.638535818085074 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.868665857121592
+Start Processing Time stamp: 8663535818
+$$$$$$$$$$$$$$$$$$$$$ 0.42591309547424316$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+111.00000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.3911473751068115$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+78.26
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8663535818 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4176464080810547$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.2708704471588135 seconds.
+{'0': 0.29495495495495516} {'0': 0.29495495495495516} {'0': 111.00000000000004, 'empty': 111.00000000000004, 'full': 78.26} {0: 202}
+8.663535818457603 seconds in game passed.
+At 8.663535818457603 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.29495495495495516
+Current reward: 0.21903303825274295
+Current mitigation activation: 0
+#############################
+Total reward: 15.087698895374334
+8.688535818830132 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.087698895374334
+8.713535819202662 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.087698895374334
+8.73853581957519 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000200, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.087698895374334
+Start Processing Time stamp: 8763535819
+$$$$$$$$$$$$$$$$$$$$$ 0.32169675827026367$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+115.58
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.28223204612731934$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+84.53999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8763535819 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.3211660385131836$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9471068382263184 seconds.
+{'0': 0.2685585741477765} {'0': 0.2685585741477765} {'0': 115.58, 'empty': 115.58, 'full': 84.53999999999999} {0: 202}
+8.76353581994772 seconds in game passed.
+At 8.76353581994772 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2685585741477765
+Current reward: 0.2580338039367615
+Current mitigation activation: 0
+#############################
+Total reward: 15.345732699311096
+8.788535820320249 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.345732699311096
+8.813535820692778 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.345732699311096
+8.838535821065307 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.345732699311096
+Start Processing Time stamp: 8863535821
+$$$$$$$$$$$$$$$$$$$$$ 0.32515645027160645$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+116.76000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.29718732833862305$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+87.3
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8863535821 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.331188440322876$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9754035472869873 seconds.
+{'0': 0.2523124357656734} {'0': 0.2523124357656734} {'0': 116.76000000000003, 'empty': 116.76000000000003, 'full': 87.3} {0: 202}
+8.863535821437836 seconds in game passed.
+At 8.863535821437836 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2523124357656734
+Current reward: 0.28907209419488994
+Current mitigation activation: 0
+#############################
+Total reward: 15.634804793505985
+8.888535821810365 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.634804793505985
+8.913535822182894 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.634804793505985
+8.938535822555423 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.634804793505985
+Start Processing Time stamp: 8963535822
+$$$$$$$$$$$$$$$$$$$$$ 0.3361330032348633$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+121.78
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.3128650188446045$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+94.12000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8963535822 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.4624605178833008$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.1335346698760986 seconds.
+{'0': 0.2271308917720477} {'0': 0.2271308917720477} {'0': 121.78, 'empty': 121.78, 'full': 94.12000000000003} {0: 202}
+8.963535822927952 seconds in game passed.
+At 8.963535822927952 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2271308917720477
+Current reward: 0.3334630592363754
+Current mitigation activation: 0
+#############################
+Total reward: 15.968267852742361
+8.98853582330048 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.968267852742361
+9.01353582367301 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.968267852742361
+9.038535824045539 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 15.968267852742361
+Start Processing Time stamp: 9063535824
+$$$$$$$$$$$$$$$$$$$$$ 0.31829833984375$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+122.38000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.310915470123291$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+96.48000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9063535824 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.31800198554992676$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9690110683441162 seconds.
+{'0': 0.2116358882170288} {'0': 0.2116358882170288} {'0': 122.38000000000002, 'empty': 122.38000000000002, 'full': 96.48000000000003} {0: 202}
+9.063535824418068 seconds in game passed.
+At 9.063535824418068 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2116358882170288
+Current reward: 0.36860166597756205
+Current mitigation activation: 0
+#############################
+Total reward: 16.336869518719922
+9.088535824790597 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.336869518719922
+9.113535825163126 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.336869518719922
+9.138535825535655 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.336869518719922
+Start Processing Time stamp: 9163535825
+$$$$$$$$$$$$$$$$$$$$$ 0.32415246963500977$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+128.42000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.32874226570129395$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+104.98
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9163535825 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.32762622833251953$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0024900436401367 seconds.
+{'0': 0.18252608627939598} {'0': 0.18252608627939598} {'0': 128.42000000000004, 'empty': 128.42000000000004, 'full': 104.98} {0: 202}
+9.163535825908184 seconds in game passed.
+At 9.163535825908184 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.18252608627939598
+Current reward: 0.4237579795635953
+Current mitigation activation: 0
+#############################
+Total reward: 16.76062749828352
+9.188535826280713 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.76062749828352
+9.213535826653242 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.76062749828352
+9.238535827025771 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000156, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.76062749828352
+Start Processing Time stamp: 9263535827
+$$$$$$$$$$$$$$$$$$$$$ 0.31603002548217773$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+131.34000000000006
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.25040745735168457$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+102.78
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9263535827 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.31499409675598145$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.903771162033081 seconds.
+{'0': 0.21745089081772534} {'0': 0.21745089081772534} {'0': 131.34000000000006, 'empty': 131.34000000000006, 'full': 102.78} {0: 202}
+9.2635358273983 seconds in game passed.
+At 9.2635358273983 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.21745089081772534
+Current reward: 0.3930635843070899
+Current mitigation activation: 0
+#############################
+Total reward: 17.15369108259061
+9.28853582777083 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.15369108259061
+9.313535828143358 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.15369108259061
+9.338535828515887 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000022, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.15369108259061
+Start Processing Time stamp: 9363535828
+$$$$$$$$$$$$$$$$$$$$$ 0.29198193550109863$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+132.18000000000006
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.2204267978668213$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+107.44000000000004
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9363535828 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.41777825355529785$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9520988464355469 seconds.
+{'0': 0.18716901195339697} {'0': 0.18716901195339697} {'0': 132.18000000000006, 'empty': 132.18000000000006, 'full': 107.44000000000004} {0: 202}
+9.363535828888416 seconds in game passed.
+At 9.363535828888416 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.18716901195339697
+Current reward: 0.45265725391713957
+Current mitigation activation: 0
+#############################
+Total reward: 17.606348336507747
+9.388535829260945 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.606348336507747
+9.413535829633474 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.606348336507747
+9.438535830006003 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.606348336507747
+Start Processing Time stamp: 9463535830
+$$$$$$$$$$$$$$$$$$$$$ 0.2882649898529053$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+132.98000000000008
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.1307833194732666$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+94.96000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9463535830 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.2914915084838867$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.7320394515991211 seconds.
+{'0': 0.2859076552865096} {'0': 0.2859076552865096} {'0': 132.98000000000008, 'empty': 132.98000000000008, 'full': 94.96000000000001} {0: 202}
+9.463535830378532 seconds in game passed.
+At 9.463535830378532 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2859076552865096
+Current reward: 0.3215854239181191
+Current mitigation activation: 0
+#############################
+Total reward: 17.927933760425866
+9.488535830751061 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.927933760425866
+9.51353583112359 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.927933760425866
+9.53853583149612 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.927933760425866
+Start Processing Time stamp: 9563535831
+$$$$$$$$$$$$$$$$$$$$$ 0.25763821601867676$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+138.34
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.12056231498718262$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+108.66000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9563535831 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.25780415534973145$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6622726917266846 seconds.
+{'0': 0.21454387740349848} {'0': 0.21454387740349848} {'0': 138.34, 'empty': 138.34, 'full': 108.66000000000003} {0: 202}
+9.563535831868649 seconds in game passed.
+At 9.563535831868649 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.21454387740349848
+Current reward: 0.444282462125914
+Current mitigation activation: 0
+#############################
+Total reward: 18.37221622255178
+9.588535832241178 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.37221622255178
+9.613535832613707 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.37221622255178
+9.638535832986236 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.37221622255178
+Start Processing Time stamp: 9663535833
+$$$$$$$$$$$$$$$$$$$$$ 0.24260973930358887$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+139.0800000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.11080336570739746$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+113.88000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9663535833 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.24746370315551758$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6228866577148438 seconds.
+{'0': 0.1811906816220885} {'0': 0.1811906816220885} {'0': 139.0800000000001, 'empty': 139.0800000000001, 'full': 113.88000000000001} {0: 202}
+9.663535833358765 seconds in game passed.
+At 9.663535833358765 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.1811906816220885
+Current reward: 0.5132122448090202
+Current mitigation activation: 0
+#############################
+Total reward: 18.8854284673608
+9.688535833731294 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.8854284673608
+9.713535834103823 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.8854284673608
+9.738535834476352 seconds in game passed.
+Action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000005, brake=0.300000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.8854284673608
+Start Processing Time stamp: 9763535834
+$$$$$$$$$$$$$$$$$$$$$ 0.23782587051391602$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+139.0800000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_9763535834] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.0008597373962402344$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9763535834 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.2408292293548584$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.5010881423950195 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 139.0800000000001, 'empty': 139.0800000000001, 'full': 0.0} {0: 202}
+9.76353583484888 seconds in game passed.
+At 9.76353583484888 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 1.0
+Current reward: -0.8151499945221383
+Current mitigation activation: 0
+#############################
+Total reward: 18.070278472838663
+9.78853583522141 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.070278472838663
+9.813535835593939 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.070278472838663
+9.838535835966468 seconds in game passed.
+Action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.070278472838663
+Start Processing Time stamp: 9863535836
+$$$$$$$$$$$$$$$$$$$$$ 0.2586691379547119$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+139.67999999999998
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_9863535836] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.0008065700531005859$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9863535836 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.37926292419433594$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6611709594726562 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 139.67999999999998, 'empty': 139.67999999999998, 'full': 0.0} {0: 202}
+9.863535836338997 seconds in game passed.
+At 9.863535836338997 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 1.0
+Current reward: -0.7991913025885226
+Current mitigation activation: 0
+#############################
+Total reward: 17.27108717025014
+9.888535836711526 seconds in game passed.
+Action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.27108717025014
+9.913535837084055 seconds in game passed.
+Action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.27108717025014
+9.938535837456584 seconds in game passed.
+Action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.240731, steer=-0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.27108717025014
+Start Processing Time stamp: 9963535837
+$$$$$$$$$$$$$$$$$$$$$ 0.2545511722564697$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+139.67999999999998
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_9963535837] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.0007932186126708984$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 9963535837 is 202.
+$$$$$$$$$$$$$$$$$$$$$ 0.25617289543151855$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.5327415466308594 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 139.67999999999998, 'empty': 139.67999999999998, 'full': 0.0} {0: 202}
+9.963535837829113 seconds in game passed.
+At 9.963535837829113 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: VehicleControl(throttle=0.900000, steer=0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Resetting ego-vehicle!
+#############################
+Current risk: 1.0
+Current reward: -0.7967963527907345
+Current mitigation activation: 0
+#############################
+Total reward: 16.474290817459405
+Post-processing after stepping
+Simulation done, stopping the scenario
+Stopping the route
+
+========= Results of RouteScenario_0 (repetition 0) ------ [91mFAILURE[0m =========
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-11-25 00:22:18 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-11-25 00:24:34 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 135.78s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 7.05s               │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.052               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ FAILURE │ 26.03 % │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ SUCCESS │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ FAILURE │ 1 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ SUCCESS │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+Simulation saved.
+Registering the global statistics
+================= Finish episode 0 =================
+Episode: 0, reward: 16.47, average_reward: 16.474290817459405 
+
+Saving mitigation results to //media/sheng/data4/projects/DiverseEnv/auto//mitigationsweep_results_lead_cutin_rip_smart/SINGLE_AGENT_fi_lead_cutin_00007/fi_lead_cutin_data

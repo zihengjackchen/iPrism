@@ -1,0 +1,3563 @@
+New episode load state dicts.
+
+creating control dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_logs/routes_fi_route_highway-1115_004212-fi_ghost_cutin_logs-single_ctl.csv
+
+creating ego trajectory dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_logs/routes_fi_route_highway-1115_004212-fi_ghost_cutin_logs-single_traj.csv
+
+creating cvip dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_logs/routes_fi_route_highway-1115_004212-fi_ghost_cutin_logs-single_cvip.csv
+
+creating network points dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_logs/routes_fi_route_highway-1115_004212-fi_ghost_cutin_logs-single_points.csv
+
+creating pid delta dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_logs/routes_fi_route_highway-1115_004212-fi_ghost_cutin_logs-single_piddelta.csv
+
+creating unclipped control dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_logs/routes_fi_route_highway-1115_004212-fi_ghost_cutin_logs-single_unclip_ctl.csv
+
+done creating dump files.
+Positional uncertainty is not enabled for this run.
+Prediction type: CVCTR
+Prepare for stepping
+
+[1m========= Preparing RouteScenario_0 (repetition 0) =========
+> Setting up the agent[0m
+Loading the world
+Save to //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_data/route_highway.xml_fi_ghost_cutin.json.pkl
+Exclude list: [17, 23]
+Location(x=192.362411, y=-86.262680, z=0.700000) Rotation(pitch=0.000000, yaw=89.330902, roll=0.000000)
+Base scenario time out after: 36.333333333333336
+Replacing key distance_same_lane's value from 15 to 10.
+Replacing key distance_lane_change's value from 11 to 6.
+Replacing key speed_lane_change's value from 13.5 to 15.
+Config for GhostCutIn scenario is {'first_vehicle_location': 0, 'first_vehicle_speed': 200, 'event_trigger_distance': 4, 'distance_lane_change': 6, 'speed_lane_change': 15, 'distance_same_lane': 10}
+2.2782664485275745 seconds in game passed.
+Action: tensor([[[0.0035, 0.5919],
+         [0.0026, 0.3309],
+         [0.0024, 0.2348],
+         [0.0016, 0.1822]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003324, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.3032664489001036 seconds in game passed.
+Action: tensor([[[0.0035, 0.5919],
+         [0.0026, 0.3309],
+         [0.0024, 0.2348],
+         [0.0016, 0.1822]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002810, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.3282664492726326 seconds in game passed.
+Action: tensor([[[0.0035, 0.5919],
+         [0.0026, 0.3309],
+         [0.0024, 0.2348],
+         [0.0016, 0.1822]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002844, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.3532664496451616 seconds in game passed.
+Action: tensor([[[0.0035, 0.5919],
+         [0.0026, 0.3309],
+         [0.0024, 0.2348],
+         [0.0016, 0.1822]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002879, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.3782664500176907 seconds in game passed.
+Action: tensor([[[0.0035, 0.5919],
+         [0.0026, 0.3309],
+         [0.0024, 0.2348],
+         [0.0016, 0.1822]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002913, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+2.4032664503902197 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0055, 0.5913],
+         [0.0029, 0.3229],
+         [0.0028, 0.2229],
+         [0.0024, 0.1689]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003969, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.4282664507627487 seconds in game passed.
+Action: tensor([[[0.0055, 0.5913],
+         [0.0029, 0.3229],
+         [0.0028, 0.2229],
+         [0.0024, 0.1689]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003845, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.4532664511352777 seconds in game passed.
+Action: tensor([[[0.0055, 0.5913],
+         [0.0029, 0.3229],
+         [0.0028, 0.2229],
+         [0.0024, 0.1689]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003890, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.4782664515078068 seconds in game passed.
+Action: tensor([[[0.0055, 0.5913],
+         [0.0029, 0.3229],
+         [0.0028, 0.2229],
+         [0.0024, 0.1689]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003935, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+2.503266451880336 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0048, 0.5950],
+         [0.0022, 0.3243],
+         [0.0018, 0.2237],
+         [0.0014, 0.1695]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003160, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.528266452252865 seconds in game passed.
+Action: tensor([[[0.0048, 0.5950],
+         [0.0022, 0.3243],
+         [0.0018, 0.2237],
+         [0.0014, 0.1695]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003331, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.553266452625394 seconds in game passed.
+Action: tensor([[[0.0048, 0.5950],
+         [0.0022, 0.3243],
+         [0.0018, 0.2237],
+         [0.0014, 0.1695]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003368, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.578266452997923 seconds in game passed.
+Action: tensor([[[0.0048, 0.5950],
+         [0.0022, 0.3243],
+         [0.0018, 0.2237],
+         [0.0014, 0.1695]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003404, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+2.603266453370452 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0035, 0.5932],
+         [0.0015, 0.3236],
+         [0.0012, 0.2232],
+         [0.0007, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002447, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 5.5134413525390814e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.628266453742981 seconds in game passed.
+Action: tensor([[[0.0035, 0.5932],
+         [0.0015, 0.3236],
+         [0.0012, 0.2232],
+         [0.0007, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002637, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.65326645411551 seconds in game passed.
+Action: tensor([[[0.0035, 0.5932],
+         [0.0015, 0.3236],
+         [0.0012, 0.2232],
+         [0.0007, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.678266454488039 seconds in game passed.
+Action: tensor([[[0.0035, 0.5932],
+         [0.0015, 0.3236],
+         [0.0012, 0.2232],
+         [0.0007, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002689, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+2.703266454860568 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0028, 0.5917],
+         [0.0015, 0.3227],
+         [0.0012, 0.2224],
+         [0.0007, 0.1683]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 5.500325018928188e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.728266455233097 seconds in game passed.
+Action: tensor([[[0.0028, 0.5917],
+         [0.0015, 0.3227],
+         [0.0012, 0.2224],
+         [0.0007, 0.1683]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002456, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.753266455605626 seconds in game passed.
+Action: tensor([[[0.0028, 0.5917],
+         [0.0015, 0.3227],
+         [0.0012, 0.2224],
+         [0.0007, 0.1683]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002478, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.778266455978155 seconds in game passed.
+Action: tensor([[[0.0028, 0.5917],
+         [0.0015, 0.3227],
+         [0.0012, 0.2224],
+         [0.0007, 0.1683]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002501, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+2.803266456350684 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[2.4568e-03, 5.9063e-01],
+         [1.3480e-03, 3.2235e-01],
+         [1.1214e-03, 2.2211e-01],
+         [5.7633e-04, 1.6811e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002302, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 3.636705603973527e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.828266456723213 seconds in game passed.
+Action: tensor([[[2.4568e-03, 5.9063e-01],
+         [1.3480e-03, 3.2235e-01],
+         [1.1214e-03, 2.2211e-01],
+         [5.7633e-04, 1.6811e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002359, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.8532664570957422 seconds in game passed.
+Action: tensor([[[2.4568e-03, 5.9063e-01],
+         [1.3480e-03, 3.2235e-01],
+         [1.1214e-03, 2.2211e-01],
+         [5.7633e-04, 1.6811e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002380, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.8782664574682713 seconds in game passed.
+Action: tensor([[[2.4568e-03, 5.9063e-01],
+         [1.3480e-03, 3.2235e-01],
+         [1.1214e-03, 2.2211e-01],
+         [5.7633e-04, 1.6811e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002400, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: 20297.16684299258
+2.9032664578408003 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0023, 0.5895],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 2.6203783366597982e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.9282664582133293 seconds in game passed.
+Action: tensor([[[0.0023, 0.5895],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002493, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.9532664585858583 seconds in game passed.
+Action: tensor([[[0.0023, 0.5895],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002514, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.9782664589583874 seconds in game passed.
+Action: tensor([[[0.0023, 0.5895],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002535, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: 89360.71016465861
+3.0032664593309164 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0020, 0.5892],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002466, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 6.818116288998224e-06
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.0282664597034454 seconds in game passed.
+Action: tensor([[[0.0020, 0.5892],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002501, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.0532664600759745 seconds in game passed.
+Action: tensor([[[0.0020, 0.5892],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.0782664604485035 seconds in game passed.
+Action: tensor([[[0.0020, 0.5892],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002541, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.1032664608210325 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0022, 0.5888],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002700, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.1282664611935616 seconds in game passed.
+Action: tensor([[[0.0022, 0.5888],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002699, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.1532664615660906 seconds in game passed.
+Action: tensor([[[0.0022, 0.5888],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002720, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.1782664619386196 seconds in game passed.
+Action: tensor([[[0.0022, 0.5888],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002742, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.2032664623111486 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0021, 0.5883],
+         [0.0017, 0.3216],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002773, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.2282664626836777 seconds in game passed.
+Action: tensor([[[0.0021, 0.5883],
+         [0.0017, 0.3216],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002793, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.2532664630562067 seconds in game passed.
+Action: tensor([[[0.0021, 0.5883],
+         [0.0017, 0.3216],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002814, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.2782664634287357 seconds in game passed.
+Action: tensor([[[0.0021, 0.5883],
+         [0.0017, 0.3216],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002802, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.3032664638012648 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0020, 0.5889],
+         [0.0016, 0.3218],
+         [0.0014, 0.2217],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002649, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.328266464173794 seconds in game passed.
+Action: tensor([[[0.0020, 0.5889],
+         [0.0016, 0.3218],
+         [0.0014, 0.2217],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002658, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.353266464546323 seconds in game passed.
+Action: tensor([[[0.0020, 0.5889],
+         [0.0016, 0.3218],
+         [0.0014, 0.2217],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002644, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.378266464918852 seconds in game passed.
+Action: tensor([[[0.0020, 0.5889],
+         [0.0016, 0.3218],
+         [0.0014, 0.2217],
+         [0.0007, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.403266465291381 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0019, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002691, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.42826646566391 seconds in game passed.
+Action: tensor([[[0.0019, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002653, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.453266466036439 seconds in game passed.
+Action: tensor([[[0.0019, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002629, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.478266466408968 seconds in game passed.
+Action: tensor([[[0.0019, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002605, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: 89360.6593486434
+3.503266466781497 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002480, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 6.8181162889922514e-06
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.528266467154026 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.553266467526555 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002466, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.578266467899084 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002449, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.603266468271613 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002504, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.628266468644142 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002488, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.653266469016671 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002483, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.6782664693892 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002477, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.7032664697617292 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0017, 0.5879],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002358, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.7282664701342583 seconds in game passed.
+Action: tensor([[[0.0017, 0.5879],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.7532664705067873 seconds in game passed.
+Action: tensor([[[0.0017, 0.5879],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002371, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.7782664708793163 seconds in game passed.
+Action: tensor([[[0.0017, 0.5879],
+         [0.0016, 0.3213],
+         [0.0015, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002367, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.8032664712518454 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0019, 0.3211],
+         [0.0018, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002576, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.8282664716243744 seconds in game passed.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0019, 0.3211],
+         [0.0018, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002543, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.8532664719969034 seconds in game passed.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0019, 0.3211],
+         [0.0018, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002544, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.8782664723694324 seconds in game passed.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0019, 0.3211],
+         [0.0018, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002545, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+3.9032664727419615 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0015, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002261, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.9282664731144905 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0015, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002305, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.9532664734870195 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0015, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002303, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.9782664738595486 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0015, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002301, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.003266474232078 seconds in game passed.
+At 4.003266474232078 seconds, saving state-action tuples.
+Action: tensor([[[0.0018, 0.5871],
+         [0.0018, 0.3210],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002489, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.028266474604607 seconds in game passed.
+Action: tensor([[[0.0018, 0.5871],
+         [0.0018, 0.3210],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002458, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.053266474977136 seconds in game passed.
+Action: tensor([[[0.0018, 0.5871],
+         [0.0018, 0.3210],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002459, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.078266475349665 seconds in game passed.
+Action: tensor([[[0.0018, 0.5871],
+         [0.0018, 0.3210],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002459, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.103266475722194 seconds in game passed.
+At 4.103266475722194 seconds, saving state-action tuples.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002285, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.128266476094723 seconds in game passed.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002311, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.153266476467252 seconds in game passed.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002308, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.178266476839781 seconds in game passed.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0008, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002305, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.20326647721231 seconds in game passed.
+At 4.20326647721231 seconds, saving state-action tuples.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0016, 0.3211],
+         [0.0016, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002349, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.228266477584839 seconds in game passed.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0016, 0.3211],
+         [0.0016, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002339, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.253266477957368 seconds in game passed.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0016, 0.3211],
+         [0.0016, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002336, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.278266478329897 seconds in game passed.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0016, 0.3211],
+         [0.0016, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002334, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.303266478702426 seconds in game passed.
+At 4.303266478702426 seconds, saving state-action tuples.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002298, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.328266479074955 seconds in game passed.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002302, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.353266479447484 seconds in game passed.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002301, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.378266479820013 seconds in game passed.
+Action: tensor([[[0.0017, 0.5875],
+         [0.0016, 0.3211],
+         [0.0015, 0.2213],
+         [0.0009, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002300, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.403266480192542 seconds in game passed.
+At 4.403266480192542 seconds, saving state-action tuples.
+Action: tensor([[[0.0017, 0.5871],
+         [0.0017, 0.3210],
+         [0.0017, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.428266480565071 seconds in game passed.
+Action: tensor([[[0.0017, 0.5871],
+         [0.0017, 0.3210],
+         [0.0017, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002404, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.4532664809376 seconds in game passed.
+Action: tensor([[[0.0017, 0.5871],
+         [0.0017, 0.3210],
+         [0.0017, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002403, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.478266481310129 seconds in game passed.
+Action: tensor([[[0.0017, 0.5871],
+         [0.0017, 0.3210],
+         [0.0017, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002402, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.503266481682658 seconds in game passed.
+At 4.503266481682658 seconds, saving state-action tuples.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0017, 0.3210],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002388, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.528266482055187 seconds in game passed.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0017, 0.3210],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002391, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.553266482427716 seconds in game passed.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0017, 0.3210],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002391, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.578266482800245 seconds in game passed.
+Action: tensor([[[0.0018, 0.5873],
+         [0.0017, 0.3210],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002391, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.603266483172774 seconds in game passed.
+At 4.603266483172774 seconds, saving state-action tuples.
+Action: tensor([[[0.0016, 0.5868],
+         [0.0016, 0.3209],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002298, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.628266483545303 seconds in game passed.
+Action: tensor([[[0.0016, 0.5868],
+         [0.0016, 0.3209],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002312, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.653266483917832 seconds in game passed.
+Action: tensor([[[0.0016, 0.5868],
+         [0.0016, 0.3209],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002310, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.678266484290361 seconds in game passed.
+Action: tensor([[[0.0016, 0.5868],
+         [0.0016, 0.3209],
+         [0.0016, 0.2212],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002309, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
++++++++++++++: inf
+4.70326648466289 seconds in game passed.
+At 4.70326648466289 seconds, saving state-action tuples.
+Action: tensor([[[0.0018, 0.5868],
+         [0.0016, 0.3210],
+         [0.0015, 0.2211],
+         [0.0008, 0.1673]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002359, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.06602266588708589
+Current mitigation activation: 0
+#############################
+Total reward: 0.06602266588708589
+4.7282664850354195 seconds in game passed.
+Action: tensor([[[0.0018, 0.5868],
+         [0.0016, 0.3210],
+         [0.0015, 0.2211],
+         [0.0008, 0.1673]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002351, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.06602266588708589
+4.7532664854079485 seconds in game passed.
+Action: tensor([[[0.0018, 0.5868],
+         [0.0016, 0.3210],
+         [0.0015, 0.2211],
+         [0.0008, 0.1673]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002351, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.06602266588708589
+4.7782664857804775 seconds in game passed.
+Action: tensor([[[0.0018, 0.5868],
+         [0.0016, 0.3210],
+         [0.0015, 0.2211],
+         [0.0008, 0.1673]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002352, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.06602266588708589
++++++++++++++: inf
+4.8032664861530066 seconds in game passed.
+At 4.8032664861530066 seconds, saving state-action tuples.
+Action: tensor([[[1.4218e-03, 5.8604e-01],
+         [1.1449e-03, 3.2066e-01],
+         [1.0115e-03, 2.2100e-01],
+         [3.5939e-04, 1.6729e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001859, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.2485170261106222
+Current mitigation activation: 0
+#############################
+Total reward: 0.3145396919977081
+4.828266486525536 seconds in game passed.
+Action: tensor([[[1.4218e-03, 5.8604e-01],
+         [1.1449e-03, 3.2066e-01],
+         [1.0115e-03, 2.2100e-01],
+         [3.5939e-04, 1.6729e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001933, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.3145396919977081
+4.853266486898065 seconds in game passed.
+Action: tensor([[[1.4218e-03, 5.8604e-01],
+         [1.1449e-03, 3.2066e-01],
+         [1.0115e-03, 2.2100e-01],
+         [3.5939e-04, 1.6729e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001926, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.3145396919977081
+4.878266487270594 seconds in game passed.
+Action: tensor([[[1.4218e-03, 5.8604e-01],
+         [1.1449e-03, 3.2066e-01],
+         [1.0115e-03, 2.2100e-01],
+         [3.5939e-04, 1.6729e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001919, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.3145396919977081
++++++++++++++: inf
+4.903266487643123 seconds in game passed.
+At 4.903266487643123 seconds, saving state-action tuples.
+Action: tensor([[[0.0017, 0.5839],
+         [0.0013, 0.3201],
+         [0.0014, 0.2208],
+         [0.0011, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002159, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.40760825864174777
+Current mitigation activation: 0
+#############################
+Total reward: 0.7221479506394559
+4.928266488015652 seconds in game passed.
+Action: tensor([[[0.0017, 0.5839],
+         [0.0013, 0.3201],
+         [0.0014, 0.2208],
+         [0.0011, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.7221479506394559
+4.953266488388181 seconds in game passed.
+Action: tensor([[[0.0017, 0.5839],
+         [0.0013, 0.3201],
+         [0.0014, 0.2208],
+         [0.0011, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002116, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.7221479506394559
+4.97826648876071 seconds in game passed.
+Action: tensor([[[0.0017, 0.5839],
+         [0.0013, 0.3201],
+         [0.0014, 0.2208],
+         [0.0011, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002114, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.7221479506394559
++++++++++++++: inf
+5.003266489133239 seconds in game passed.
+At 5.003266489133239 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0016, 0.5811],
+         [0.0015, 0.3194],
+         [0.0017, 0.2205],
+         [0.0015, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.5416192717651775
+Current mitigation activation: 0
+#############################
+Total reward: 1.2637672224046335
+5.028266489505768 seconds in game passed.
+Action: tensor([[[0.0016, 0.5811],
+         [0.0015, 0.3194],
+         [0.0017, 0.2205],
+         [0.0015, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002206, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.2637672224046335
+5.053266489878297 seconds in game passed.
+Action: tensor([[[0.0016, 0.5811],
+         [0.0015, 0.3194],
+         [0.0017, 0.2205],
+         [0.0015, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002203, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.2637672224046335
+5.078266490250826 seconds in game passed.
+Action: tensor([[[0.0016, 0.5811],
+         [0.0015, 0.3194],
+         [0.0017, 0.2205],
+         [0.0015, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002201, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.2637672224046335
++++++++++++++: inf
+5.103266490623355 seconds in game passed.
+At 5.103266490623355 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0023, 0.5851],
+         [0.0023, 0.3209],
+         [0.0027, 0.2210],
+         [0.0026, 0.1671]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003088, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.6535766068045812
+Current mitigation activation: 0
+#############################
+Total reward: 1.9173438292092146
+5.128266490995884 seconds in game passed.
+Action: tensor([[[0.0023, 0.5851],
+         [0.0023, 0.3209],
+         [0.0027, 0.2210],
+         [0.0026, 0.1671]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002950, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.9173438292092146
+5.153266491368413 seconds in game passed.
+Action: tensor([[[0.0023, 0.5851],
+         [0.0023, 0.3209],
+         [0.0027, 0.2210],
+         [0.0026, 0.1671]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002959, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.9173438292092146
+5.178266491740942 seconds in game passed.
+Action: tensor([[[0.0023, 0.5851],
+         [0.0023, 0.3209],
+         [0.0027, 0.2210],
+         [0.0026, 0.1671]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002967, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.9173438292092146
++++++++++++++: inf
+5.203266492113471 seconds in game passed.
+At 5.203266492113471 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0018, 0.5884],
+         [0.0018, 0.3215],
+         [0.0020, 0.2209],
+         [0.0018, 0.1670]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002379, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.7480162555166024
+Current mitigation activation: 0
+#############################
+Total reward: 2.665360084725817
+5.228266492486 seconds in game passed.
+Action: tensor([[[0.0018, 0.5884],
+         [0.0018, 0.3215],
+         [0.0020, 0.2209],
+         [0.0018, 0.1670]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002480, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.665360084725817
+5.253266492858529 seconds in game passed.
+Action: tensor([[[0.0018, 0.5884],
+         [0.0018, 0.3215],
+         [0.0020, 0.2209],
+         [0.0018, 0.1670]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.665360084725817
+5.278266493231058 seconds in game passed.
+Action: tensor([[[0.0018, 0.5884],
+         [0.0018, 0.3215],
+         [0.0020, 0.2209],
+         [0.0018, 0.1670]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002484, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.665360084725817
++++++++++++++: inf
+5.303266493603587 seconds in game passed.
+At 5.303266493603587 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 6.0946e-06,  5.8832e-01],
+         [-4.2059e-05,  3.2175e-01],
+         [ 3.1948e-05,  2.2102e-01],
+         [-3.7546e-04,  1.6700e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000397, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.8290662894709695
+Current mitigation activation: 0
+#############################
+Total reward: 3.4944263741967867
+5.328266493976116 seconds in game passed.
+Action: tensor([[[ 6.0946e-06,  5.8832e-01],
+         [-4.2059e-05,  3.2175e-01],
+         [ 3.1948e-05,  2.2102e-01],
+         [-3.7546e-04,  1.6700e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000723, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.4944263741967867
+5.353266494348645 seconds in game passed.
+Action: tensor([[[ 6.0946e-06,  5.8832e-01],
+         [-4.2059e-05,  3.2175e-01],
+         [ 3.1948e-05,  2.2102e-01],
+         [-3.7546e-04,  1.6700e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000704, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.4944263741967867
+5.378266494721174 seconds in game passed.
+Action: tensor([[[ 6.0946e-06,  5.8832e-01],
+         [-4.2059e-05,  3.2175e-01],
+         [ 3.1948e-05,  2.2102e-01],
+         [-3.7546e-04,  1.6700e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000685, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.4944263741967867
++++++++++++++: inf
+5.403266495093703 seconds in game passed.
+At 5.403266495093703 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 2.9723e-04,  5.8918e-01],
+         [-2.6560e-04,  3.2118e-01],
+         [-2.1082e-04,  2.2087e-01],
+         [-4.5525e-04,  1.6697e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000617, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.8996361861755311
+Current mitigation activation: 0
+#############################
+Total reward: 4.394062560372317
+5.428266495466232 seconds in game passed.
+Action: tensor([[[ 2.9723e-04,  5.8918e-01],
+         [-2.6560e-04,  3.2118e-01],
+         [-2.1082e-04,  2.2087e-01],
+         [-4.5525e-04,  1.6697e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000603, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.394062560372317
+5.453266495838761 seconds in game passed.
+Action: tensor([[[ 2.9723e-04,  5.8918e-01],
+         [-2.6560e-04,  3.2118e-01],
+         [-2.1082e-04,  2.2087e-01],
+         [-4.5525e-04,  1.6697e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.394062560372317
+5.47826649621129 seconds in game passed.
+Action: tensor([[[ 2.9723e-04,  5.8918e-01],
+         [-2.6560e-04,  3.2118e-01],
+         [-2.1082e-04,  2.2087e-01],
+         [-4.5525e-04,  1.6697e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000562, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.394062560372317
++++++++++++++: inf
+5.503266496583819 seconds in game passed.
+At 5.503266496583819 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-4.3546e-04,  5.9109e-01],
+         [-1.0572e-03,  3.2137e-01],
+         [-9.1863e-04,  2.2094e-01],
+         [-1.0592e-03,  1.6699e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000334, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 0.9622091699719221
+Current mitigation activation: 0
+#############################
+Total reward: 5.35627173034424
+5.528266496956348 seconds in game passed.
+Action: tensor([[[-4.3546e-04,  5.9109e-01],
+         [-1.0572e-03,  3.2137e-01],
+         [-9.1863e-04,  2.2094e-01],
+         [-1.0592e-03,  1.6699e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000220, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.35627173034424
+5.5532664973288774 seconds in game passed.
+Action: tensor([[[-4.3546e-04,  5.9109e-01],
+         [-1.0572e-03,  3.2137e-01],
+         [-9.1863e-04,  2.2094e-01],
+         [-1.0592e-03,  1.6699e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000249, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.35627173034424
+5.5782664977014065 seconds in game passed.
+Action: tensor([[[-4.3546e-04,  5.9109e-01],
+         [-1.0572e-03,  3.2137e-01],
+         [-9.1863e-04,  2.2094e-01],
+         [-1.0592e-03,  1.6699e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000279, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.35627173034424
++++++++++++++: inf
+5.6032664980739355 seconds in game passed.
+At 5.6032664980739355 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 7.5518e-04,  5.8994e-01],
+         [-3.7596e-04,  3.2143e-01],
+         [-2.5791e-04,  2.2100e-01],
+         [-3.3995e-04,  1.6710e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000669, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.0188227843752387
+Current mitigation activation: 0
+#############################
+Total reward: 6.375094514719478
+5.6282664984464645 seconds in game passed.
+Action: tensor([[[ 7.5518e-04,  5.8994e-01],
+         [-3.7596e-04,  3.2143e-01],
+         [-2.5791e-04,  2.2100e-01],
+         [-3.3995e-04,  1.6710e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000489, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.375094514719478
+5.653266498818994 seconds in game passed.
+Action: tensor([[[ 7.5518e-04,  5.8994e-01],
+         [-3.7596e-04,  3.2143e-01],
+         [-2.5791e-04,  2.2100e-01],
+         [-3.3995e-04,  1.6710e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000470, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.375094514719478
+5.678266499191523 seconds in game passed.
+Action: tensor([[[ 7.5518e-04,  5.8994e-01],
+         [-3.7596e-04,  3.2143e-01],
+         [-2.5791e-04,  2.2100e-01],
+         [-3.3995e-04,  1.6710e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000451, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.375094514719478
++++++++++++++: inf
+5.703266499564052 seconds in game passed.
+At 5.703266499564052 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0018, 0.5881],
+         [0.0010, 0.3211],
+         [0.0015, 0.2215],
+         [0.0018, 0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001880, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.0710565707323911
+Current mitigation activation: 0
+#############################
+Total reward: 7.44615108545187
+5.728266499936581 seconds in game passed.
+Action: tensor([[[0.0018, 0.5881],
+         [0.0010, 0.3211],
+         [0.0015, 0.2215],
+         [0.0018, 0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001636, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.44615108545187
+5.75326650030911 seconds in game passed.
+Action: tensor([[[0.0018, 0.5881],
+         [0.0010, 0.3211],
+         [0.0015, 0.2215],
+         [0.0018, 0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001632, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.44615108545187
+5.778266500681639 seconds in game passed.
+Action: tensor([[[0.0018, 0.5881],
+         [0.0010, 0.3211],
+         [0.0015, 0.2215],
+         [0.0018, 0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001628, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.44615108545187
++++++++++++++: inf
+5.803266501054168 seconds in game passed.
+At 5.803266501054168 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[1.2592e-03, 5.8981e-01],
+         [8.6191e-04, 3.2207e-01],
+         [7.3575e-04, 2.2275e-01],
+         [3.7809e-04, 1.6873e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001291, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.1199797434448182
+Current mitigation activation: 0
+#############################
+Total reward: 8.566130828896688
+5.828266501426697 seconds in game passed.
+Action: tensor([[[1.2592e-03, 5.8981e-01],
+         [8.6191e-04, 3.2207e-01],
+         [7.3575e-04, 2.2275e-01],
+         [3.7809e-04, 1.6873e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001344, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.566130828896688
+5.853266501799226 seconds in game passed.
+Action: tensor([[[1.2592e-03, 5.8981e-01],
+         [8.6191e-04, 3.2207e-01],
+         [7.3575e-04, 2.2275e-01],
+         [3.7809e-04, 1.6873e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001341, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.566130828896688
+5.878266502171755 seconds in game passed.
+Action: tensor([[[1.2592e-03, 5.8981e-01],
+         [8.6191e-04, 3.2207e-01],
+         [7.3575e-04, 2.2275e-01],
+         [3.7809e-04, 1.6873e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001339, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.566130828896688
++++++++++++++: inf
+5.903266502544284 seconds in game passed.
+At 5.903266502544284 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0016, 0.5848],
+         [0.0020, 0.3192],
+         [0.0019, 0.2209],
+         [0.0016, 0.1674]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002263, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.166371182608977
+Current mitigation activation: 0
+#############################
+Total reward: 9.732502011505664
+5.928266502916813 seconds in game passed.
+Action: tensor([[[0.0016, 0.5848],
+         [0.0020, 0.3192],
+         [0.0019, 0.2209],
+         [0.0016, 0.1674]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002114, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.732502011505664
+5.953266503289342 seconds in game passed.
+Action: tensor([[[0.0016, 0.5848],
+         [0.0020, 0.3192],
+         [0.0019, 0.2209],
+         [0.0016, 0.1674]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002119, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.732502011505664
+5.978266503661871 seconds in game passed.
+Action: tensor([[[0.0016, 0.5848],
+         [0.0020, 0.3192],
+         [0.0019, 0.2209],
+         [0.0016, 0.1674]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002123, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.732502011505664
++++++++++++++: inf
+6.0032665040344 seconds in game passed.
+At 6.0032665040344 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0014, 0.5928],
+         [0.0008, 0.3212],
+         [0.0008, 0.2209],
+         [0.0007, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001210, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.2107701583057746
+Current mitigation activation: 0
+#############################
+Total reward: 10.943272169811438
+6.028266504406929 seconds in game passed.
+Action: tensor([[[0.0014, 0.5928],
+         [0.0008, 0.3212],
+         [0.0008, 0.2209],
+         [0.0007, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001354, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.943272169811438
+6.053266504779458 seconds in game passed.
+Action: tensor([[[0.0014, 0.5928],
+         [0.0008, 0.3212],
+         [0.0008, 0.2209],
+         [0.0007, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001348, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.943272169811438
+6.078266505151987 seconds in game passed.
+Action: tensor([[[0.0014, 0.5928],
+         [0.0008, 0.3212],
+         [0.0008, 0.2209],
+         [0.0007, 0.1669]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001342, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.943272169811438
++++++++++++++: inf
+6.103266505524516 seconds in game passed.
+At 6.103266505524516 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0016, 0.5912],
+         [0.0015, 0.3211],
+         [0.0016, 0.2205],
+         [0.0014, 0.1666]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001938, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.2534810344728986
+Current mitigation activation: 0
+#############################
+Total reward: 12.196753204284336
+6.128266505897045 seconds in game passed.
+Action: tensor([[[0.0016, 0.5912],
+         [0.0015, 0.3211],
+         [0.0016, 0.2205],
+         [0.0014, 0.1666]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001828, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.196753204284336
+6.153266506269574 seconds in game passed.
+Action: tensor([[[0.0016, 0.5912],
+         [0.0015, 0.3211],
+         [0.0016, 0.2205],
+         [0.0014, 0.1666]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001819, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.196753204284336
+6.178266506642103 seconds in game passed.
+Action: tensor([[[0.0016, 0.5912],
+         [0.0015, 0.3211],
+         [0.0016, 0.2205],
+         [0.0014, 0.1666]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001810, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 12.196753204284336
++++++++++++++: inf
+6.203266507014632 seconds in game passed.
+At 6.203266507014632 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[1.0493e-03, 5.8995e-01],
+         [6.3148e-04, 3.2038e-01],
+         [6.1247e-04, 2.1993e-01],
+         [3.0578e-04, 1.6601e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000926, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.279943520682703
+Current mitigation activation: 0
+#############################
+Total reward: 13.47669672496704
+6.228266507387161 seconds in game passed.
+Action: tensor([[[1.0493e-03, 5.8995e-01],
+         [6.3148e-04, 3.2038e-01],
+         [6.1247e-04, 2.1993e-01],
+         [3.0578e-04, 1.6601e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001059, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.47669672496704
+6.25326650775969 seconds in game passed.
+Action: tensor([[[1.0493e-03, 5.8995e-01],
+         [6.3148e-04, 3.2038e-01],
+         [6.1247e-04, 2.1993e-01],
+         [3.0578e-04, 1.6601e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001047, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.47669672496704
+6.278266508132219 seconds in game passed.
+Action: tensor([[[1.0493e-03, 5.8995e-01],
+         [6.3148e-04, 3.2038e-01],
+         [6.1247e-04, 2.1993e-01],
+         [3.0578e-04, 1.6601e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001035, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 13.47669672496704
++++++++++++++: inf
+6.303266508504748 seconds in game passed.
+At 6.303266508504748 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 5.0927e-04,  5.9105e-01],
+         [-2.4556e-04,  3.2045e-01],
+         [-4.3763e-04,  2.1969e-01],
+         [-8.8933e-04,  1.6626e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000184, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.2784812109596588
+Current mitigation activation: 0
+#############################
+Total reward: 14.7551779359267
+6.328266508877277 seconds in game passed.
+Action: tensor([[[ 5.0927e-04,  5.9105e-01],
+         [-2.4556e-04,  3.2045e-01],
+         [-4.3763e-04,  2.1969e-01],
+         [-8.8933e-04,  1.6626e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000327, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.7551779359267
+6.353266509249806 seconds in game passed.
+Action: tensor([[[ 5.0927e-04,  5.9105e-01],
+         [-2.4556e-04,  3.2045e-01],
+         [-4.3763e-04,  2.1969e-01],
+         [-8.8933e-04,  1.6626e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000327, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.7551779359267
+6.378266509622335 seconds in game passed.
+Action: tensor([[[ 5.0927e-04,  5.9105e-01],
+         [-2.4556e-04,  3.2045e-01],
+         [-4.3763e-04,  2.1969e-01],
+         [-8.8933e-04,  1.6626e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000328, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 14.7551779359267
++++++++++++++: inf
+6.4032665099948645 seconds in game passed.
+At 6.4032665099948645 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0008,  0.5878],
+         [-0.0020,  0.3198],
+         [-0.0026,  0.2193],
+         [-0.0032,  0.1658]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001487, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.2767190469041756
+Current mitigation activation: 0
+#############################
+Total reward: 16.031896982830876
+6.4282665103673935 seconds in game passed.
+Action: tensor([[[-0.0008,  0.5878],
+         [-0.0020,  0.3198],
+         [-0.0026,  0.2193],
+         [-0.0032,  0.1658]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001206, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.031896982830876
+6.4532665107399225 seconds in game passed.
+Action: tensor([[[-0.0008,  0.5878],
+         [-0.0020,  0.3198],
+         [-0.0026,  0.2193],
+         [-0.0032,  0.1658]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001223, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.031896982830876
+6.4782665111124516 seconds in game passed.
+Action: tensor([[[-0.0008,  0.5878],
+         [-0.0020,  0.3198],
+         [-0.0026,  0.2193],
+         [-0.0032,  0.1658]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001241, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 16.031896982830876
++++++++++++++: inf
+6.503266511484981 seconds in game passed.
+At 6.503266511484981 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0011,  0.5909],
+         [-0.0026,  0.3205],
+         [-0.0030,  0.2198],
+         [-0.0033,  0.1660]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001785, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.2749244441121885
+Current mitigation activation: 0
+#############################
+Total reward: 17.306821426943063
+6.52826651185751 seconds in game passed.
+Action: tensor([[[-0.0011,  0.5909],
+         [-0.0026,  0.3205],
+         [-0.0030,  0.2198],
+         [-0.0033,  0.1660]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001711, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.306821426943063
+6.553266512230039 seconds in game passed.
+Action: tensor([[[-0.0011,  0.5909],
+         [-0.0026,  0.3205],
+         [-0.0030,  0.2198],
+         [-0.0033,  0.1660]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001725, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.306821426943063
+6.578266512602568 seconds in game passed.
+Action: tensor([[[-0.0011,  0.5909],
+         [-0.0026,  0.3205],
+         [-0.0030,  0.2198],
+         [-0.0033,  0.1660]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001739, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 17.306821426943063
++++++++++++++: inf
+6.603266512975097 seconds in game passed.
+At 6.603266512975097 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 6.0670e-05,  5.9001e-01],
+         [-9.0292e-04,  3.2111e-01],
+         [-1.0587e-03,  2.2065e-01],
+         [-1.3391e-03,  1.6677e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000073, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.2730963865094416
+Current mitigation activation: 0
+#############################
+Total reward: 18.579917813452504
+6.628266513347626 seconds in game passed.
+Action: tensor([[[ 6.0670e-05,  5.9001e-01],
+         [-9.0292e-04,  3.2111e-01],
+         [-1.0587e-03,  2.2065e-01],
+         [-1.3391e-03,  1.6677e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000359, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.579917813452504
+6.653266513720155 seconds in game passed.
+Action: tensor([[[ 6.0670e-05,  5.9001e-01],
+         [-9.0292e-04,  3.2111e-01],
+         [-1.0587e-03,  2.2065e-01],
+         [-1.3391e-03,  1.6677e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000366, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.579917813452504
+6.678266514092684 seconds in game passed.
+Action: tensor([[[ 6.0670e-05,  5.9001e-01],
+         [-9.0292e-04,  3.2111e-01],
+         [-1.0587e-03,  2.2065e-01],
+         [-1.3391e-03,  1.6677e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000373, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 18.579917813452504
++++++++++++++: inf
+6.703266514465213 seconds in game passed.
+At 6.703266514465213 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 1.3882e-03,  5.9052e-01],
+         [ 1.8556e-04,  3.2136e-01],
+         [ 2.1064e-04,  2.2089e-01],
+         [-6.0633e-05,  1.6694e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000936, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.2883942429399684
+Current mitigation activation: 0
+#############################
+Total reward: 19.868312056392472
+6.728266514837742 seconds in game passed.
+Action: tensor([[[ 1.3882e-03,  5.9052e-01],
+         [ 1.8556e-04,  3.2136e-01],
+         [ 2.1064e-04,  2.2089e-01],
+         [-6.0633e-05,  1.6694e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000708, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 19.868312056392472
+6.753266515210271 seconds in game passed.
+Action: tensor([[[ 1.3882e-03,  5.9052e-01],
+         [ 1.8556e-04,  3.2136e-01],
+         [ 2.1064e-04,  2.2089e-01],
+         [-6.0633e-05,  1.6694e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000700, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 19.868312056392472
+6.7782665155828 seconds in game passed.
+Action: tensor([[[ 1.3882e-03,  5.9052e-01],
+         [ 1.8556e-04,  3.2136e-01],
+         [ 2.1064e-04,  2.2089e-01],
+         [-6.0633e-05,  1.6694e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000692, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 19.868312056392472
++++++++++++++: inf
+6.803266515955329 seconds in game passed.
+At 6.803266515955329 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0028, 0.5909],
+         [0.0023, 0.3219],
+         [0.0018, 0.2215],
+         [0.0007, 0.1677]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002834, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.350311076648474
+Current mitigation activation: 0
+#############################
+Total reward: 21.218623133040946
+6.828266516327858 seconds in game passed.
+Action: tensor([[[0.0028, 0.5909],
+         [0.0023, 0.3219],
+         [0.0018, 0.2215],
+         [0.0007, 0.1677]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002497, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 21.218623133040946
+6.853266516700387 seconds in game passed.
+Action: tensor([[[0.0028, 0.5909],
+         [0.0023, 0.3219],
+         [0.0018, 0.2215],
+         [0.0007, 0.1677]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002515, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 21.218623133040946
+6.878266517072916 seconds in game passed.
+Action: tensor([[[0.0028, 0.5909],
+         [0.0023, 0.3219],
+         [0.0018, 0.2215],
+         [0.0007, 0.1677]]])
+agent 0 action: VehicleControl(throttle=0.854813, steer=0.002532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 21.218623133040946
++++++++++++++: inf
+6.903266517445445 seconds in game passed.
+At 6.903266517445445 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 2.1144e-03,  5.9183e-01],
+         [ 1.0220e-03,  3.2208e-01],
+         [ 3.4174e-04,  2.2149e-01],
+         [-8.2673e-04,  1.6790e-01]]])
+agent 0 action: VehicleControl(throttle=0.806246, steer=0.001299, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4066996488004346
+Current mitigation activation: 0
+#############################
+Total reward: 22.62532278184138
+6.928266517817974 seconds in game passed.
+Action: tensor([[[ 2.1144e-03,  5.9183e-01],
+         [ 1.0220e-03,  3.2208e-01],
+         [ 3.4174e-04,  2.2149e-01],
+         [-8.2673e-04,  1.6790e-01]]])
+agent 0 action: VehicleControl(throttle=0.756735, steer=0.001499, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 22.62532278184138
+6.953266518190503 seconds in game passed.
+Action: tensor([[[ 2.1144e-03,  5.9183e-01],
+         [ 1.0220e-03,  3.2208e-01],
+         [ 3.4174e-04,  2.2149e-01],
+         [-8.2673e-04,  1.6790e-01]]])
+agent 0 action: VehicleControl(throttle=0.708823, steer=0.001494, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 22.62532278184138
+6.978266518563032 seconds in game passed.
+Action: tensor([[[ 2.1144e-03,  5.9183e-01],
+         [ 1.0220e-03,  3.2208e-01],
+         [ 3.4174e-04,  2.2149e-01],
+         [-8.2673e-04,  1.6790e-01]]])
+agent 0 action: VehicleControl(throttle=0.662647, steer=0.001489, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 22.62532278184138
++++++++++++++: inf
+7.003266518935561 seconds in game passed.
+At 7.003266518935561 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 3.3386e-04,  5.9657e-01],
+         [-5.5721e-04,  3.2311e-01],
+         [-1.4402e-03,  2.2112e-01],
+         [-2.7261e-03,  1.6769e-01]]])
+agent 0 action: VehicleControl(throttle=0.632289, steer=-0.000380, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4565137456785564
+Current mitigation activation: 0
+#############################
+Total reward: 24.081836527519936
+7.02826651930809 seconds in game passed.
+Action: tensor([[[ 3.3386e-04,  5.9657e-01],
+         [-5.5721e-04,  3.2311e-01],
+         [-1.4402e-03,  2.2112e-01],
+         [-2.7261e-03,  1.6769e-01]]])
+agent 0 action: VehicleControl(throttle=0.589022, steer=-0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 24.081836527519936
+7.053266519680619 seconds in game passed.
+Action: tensor([[[ 3.3386e-04,  5.9657e-01],
+         [-5.5721e-04,  3.2311e-01],
+         [-1.4402e-03,  2.2112e-01],
+         [-2.7261e-03,  1.6769e-01]]])
+agent 0 action: VehicleControl(throttle=0.549756, steer=-0.000100, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 24.081836527519936
+7.078266520053148 seconds in game passed.
+Action: tensor([[[ 3.3386e-04,  5.9657e-01],
+         [-5.5721e-04,  3.2311e-01],
+         [-1.4402e-03,  2.2112e-01],
+         [-2.7261e-03,  1.6769e-01]]])
+agent 0 action: VehicleControl(throttle=0.513121, steer=-0.000115, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 24.081836527519936
++++++++++++++: inf
+7.103266520425677 seconds in game passed.
+At 7.103266520425677 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-8.0258e-05,  5.9911e-01],
+         [-1.0730e-03,  3.2450e-01],
+         [-1.9886e-03,  2.2232e-01],
+         [-3.4196e-03,  1.6863e-01]]])
+agent 0 action: VehicleControl(throttle=0.455552, steer=-0.000681, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4972977192983403
+Current mitigation activation: 0
+#############################
+Total reward: 25.579134246818278
+7.128266520798206 seconds in game passed.
+Action: tensor([[[-8.0258e-05,  5.9911e-01],
+         [-1.0730e-03,  3.2450e-01],
+         [-1.9886e-03,  2.2232e-01],
+         [-3.4196e-03,  1.6863e-01]]])
+agent 0 action: VehicleControl(throttle=0.427151, steer=-0.000618, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 25.579134246818278
+7.153266521170735 seconds in game passed.
+Action: tensor([[[-8.0258e-05,  5.9911e-01],
+         [-1.0730e-03,  3.2450e-01],
+         [-1.9886e-03,  2.2232e-01],
+         [-3.4196e-03,  1.6863e-01]]])
+agent 0 action: VehicleControl(throttle=0.398902, steer=-0.000644, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 25.579134246818278
+7.178266521543264 seconds in game passed.
+Action: tensor([[[-8.0258e-05,  5.9911e-01],
+         [-1.0730e-03,  3.2450e-01],
+         [-1.9886e-03,  2.2232e-01],
+         [-3.4196e-03,  1.6863e-01]]])
+agent 0 action: VehicleControl(throttle=0.373604, steer=-0.000671, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 25.579134246818278
++++++++++++++: inf
+7.203266521915793 seconds in game passed.
+At 7.203266521915793 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0039,  0.6090],
+         [-0.0061,  0.3266],
+         [-0.0077,  0.2221],
+         [-0.0092,  0.1684]]])
+agent 0 action: VehicleControl(throttle=0.379081, steer=-0.005961, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.525068449728035
+Current mitigation activation: 0
+#############################
+Total reward: 27.104202696546313
+7.2282665222883224 seconds in game passed.
+Action: tensor([[[-0.0039,  0.6090],
+         [-0.0061,  0.3266],
+         [-0.0077,  0.2221],
+         [-0.0092,  0.1684]]])
+agent 0 action: VehicleControl(throttle=0.356784, steer=-0.005163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 27.104202696546313
+7.2532665226608515 seconds in game passed.
+Action: tensor([[[-0.0039,  0.6090],
+         [-0.0061,  0.3266],
+         [-0.0077,  0.2221],
+         [-0.0092,  0.1684]]])
+agent 0 action: VehicleControl(throttle=0.340252, steer=-0.005235, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 27.104202696546313
+7.2782665230333805 seconds in game passed.
+Action: tensor([[[-0.0039,  0.6090],
+         [-0.0061,  0.3266],
+         [-0.0077,  0.2221],
+         [-0.0092,  0.1684]]])
+agent 0 action: VehicleControl(throttle=0.326107, steer=-0.005307, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 27.104202696546313
++++++++++++++: inf
+7.3032665234059095 seconds in game passed.
+At 7.3032665234059095 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0030,  0.6080],
+         [-0.0052,  0.3266],
+         [-0.0064,  0.2225],
+         [-0.0074,  0.1686]]])
+agent 0 action: VehicleControl(throttle=0.304206, steer=-0.004342, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.5378908790404118
+Current mitigation activation: 0
+#############################
+Total reward: 28.642093575586724
+7.328266523778439 seconds in game passed.
+Action: tensor([[[-0.0030,  0.6080],
+         [-0.0052,  0.3266],
+         [-0.0064,  0.2225],
+         [-0.0074,  0.1686]]])
+agent 0 action: VehicleControl(throttle=0.295571, steer=-0.004564, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 28.642093575586724
+7.353266524150968 seconds in game passed.
+Action: tensor([[[-0.0030,  0.6080],
+         [-0.0052,  0.3266],
+         [-0.0064,  0.2225],
+         [-0.0074,  0.1686]]])
+agent 0 action: VehicleControl(throttle=0.288015, steer=-0.004616, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 28.642093575586724
+7.378266524523497 seconds in game passed.
+Action: tensor([[[-0.0030,  0.6080],
+         [-0.0052,  0.3266],
+         [-0.0064,  0.2225],
+         [-0.0074,  0.1686]]])
+agent 0 action: VehicleControl(throttle=0.282509, steer=-0.004669, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 28.642093575586724
++++++++++++++: inf
+7.403266524896026 seconds in game passed.
+At 7.403266524896026 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0020,  0.5975],
+         [-0.0040,  0.3240],
+         [-0.0047,  0.2220],
+         [-0.0052,  0.1681]]])
+agent 0 action: VehicleControl(throttle=0.260132, steer=-0.003383, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.5376826838067905
+Current mitigation activation: 0
+#############################
+Total reward: 30.179776259393513
+7.428266525268555 seconds in game passed.
+Action: tensor([[[-0.0020,  0.5975],
+         [-0.0040,  0.3240],
+         [-0.0047,  0.2220],
+         [-0.0052,  0.1681]]])
+agent 0 action: VehicleControl(throttle=0.260032, steer=-0.003621, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 30.179776259393513
+7.453266525641084 seconds in game passed.
+Action: tensor([[[-0.0020,  0.5975],
+         [-0.0040,  0.3240],
+         [-0.0047,  0.2220],
+         [-0.0052,  0.1681]]])
+agent 0 action: VehicleControl(throttle=0.259486, steer=-0.003641, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 30.179776259393513
+7.478266526013613 seconds in game passed.
+Action: tensor([[[-0.0020,  0.5975],
+         [-0.0040,  0.3240],
+         [-0.0047,  0.2220],
+         [-0.0052,  0.1681]]])
+agent 0 action: VehicleControl(throttle=0.260470, steer=-0.003661, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 30.179776259393513
++++++++++++++: inf
+7.503266526386142 seconds in game passed.
+At 7.503266526386142 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0009,  0.5936],
+         [-0.0028,  0.3228],
+         [-0.0033,  0.2215],
+         [-0.0039,  0.1674]]])
+agent 0 action: VehicleControl(throttle=0.266593, steer=-0.002387, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.5277358392030131
+Current mitigation activation: 0
+#############################
+Total reward: 31.707512098596528
+7.528266526758671 seconds in game passed.
+Action: tensor([[[-0.0009,  0.5936],
+         [-0.0028,  0.3228],
+         [-0.0033,  0.2215],
+         [-0.0039,  0.1674]]])
+agent 0 action: VehicleControl(throttle=0.269597, steer=-0.002601, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 31.707512098596528
+7.5532665271312 seconds in game passed.
+Action: tensor([[[-0.0009,  0.5936],
+         [-0.0028,  0.3228],
+         [-0.0033,  0.2215],
+         [-0.0039,  0.1674]]])
+agent 0 action: VehicleControl(throttle=0.273977, steer=-0.002602, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 31.707512098596528
+7.578266527503729 seconds in game passed.
+Action: tensor([[[-0.0009,  0.5936],
+         [-0.0028,  0.3228],
+         [-0.0033,  0.2215],
+         [-0.0039,  0.1674]]])
+agent 0 action: VehicleControl(throttle=0.279151, steer=-0.002604, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 31.707512098596528
++++++++++++++: inf
+7.603266527876258 seconds in game passed.
+At 7.603266527876258 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 0.0009,  0.6017],
+         [-0.0014,  0.3244],
+         [-0.0030,  0.2215],
+         [-0.0049,  0.1677]]])
+agent 0 action: VehicleControl(throttle=0.315312, steer=-0.000874, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.511260044225171
+Current mitigation activation: 0
+#############################
+Total reward: 33.2187721428217
+7.628266528248787 seconds in game passed.
+Action: tensor([[[ 0.0009,  0.6017],
+         [-0.0014,  0.3244],
+         [-0.0030,  0.2215],
+         [-0.0049,  0.1677]]])
+agent 0 action: VehicleControl(throttle=0.319202, steer=-0.001163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 33.2187721428217
+7.653266528621316 seconds in game passed.
+Action: tensor([[[ 0.0009,  0.6017],
+         [-0.0014,  0.3244],
+         [-0.0030,  0.2215],
+         [-0.0049,  0.1677]]])
+agent 0 action: VehicleControl(throttle=0.326957, steer=-0.001164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 33.2187721428217
+7.678266528993845 seconds in game passed.
+Action: tensor([[[ 0.0009,  0.6017],
+         [-0.0014,  0.3244],
+         [-0.0030,  0.2215],
+         [-0.0049,  0.1677]]])
+agent 0 action: VehicleControl(throttle=0.335426, steer=-0.001165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 33.2187721428217
++++++++++++++: inf
+7.703266529366374 seconds in game passed.
+At 7.703266529366374 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 3.0079e-04,  6.0070e-01],
+         [-6.4796e-04,  3.2360e-01],
+         [-1.3733e-03,  2.2131e-01],
+         [-2.7923e-03,  1.6718e-01]]])
+agent 0 action: VehicleControl(throttle=0.362488, steer=-0.000828, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4916180228443314
+Current mitigation activation: 0
+#############################
+Total reward: 34.71039016566603
+7.728266529738903 seconds in game passed.
+Action: tensor([[[ 3.0079e-04,  6.0070e-01],
+         [-6.4796e-04,  3.2360e-01],
+         [-1.3733e-03,  2.2131e-01],
+         [-2.7923e-03,  1.6718e-01]]])
+agent 0 action: VehicleControl(throttle=0.370552, steer=-0.000897, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 34.71039016566603
+7.753266530111432 seconds in game passed.
+Action: tensor([[[ 3.0079e-04,  6.0070e-01],
+         [-6.4796e-04,  3.2360e-01],
+         [-1.3733e-03,  2.2131e-01],
+         [-2.7923e-03,  1.6718e-01]]])
+agent 0 action: VehicleControl(throttle=0.380936, steer=-0.000907, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 34.71039016566603
+7.778266530483961 seconds in game passed.
+Action: tensor([[[ 3.0079e-04,  6.0070e-01],
+         [-6.4796e-04,  3.2360e-01],
+         [-1.3733e-03,  2.2131e-01],
+         [-2.7923e-03,  1.6718e-01]]])
+agent 0 action: VehicleControl(throttle=0.391527, steer=-0.000918, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 34.71039016566603
++++++++++++++: inf
+7.80326653085649 seconds in game passed.
+At 7.80326653085649 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 2.8340e-03,  5.9944e-01],
+         [-5.3320e-04,  3.2594e-01],
+         [-1.5410e-03,  2.2427e-01],
+         [-3.0362e-03,  1.7037e-01]]])
+agent 0 action: VehicleControl(throttle=0.301833, steer=0.000149, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4721631608018564
+Current mitigation activation: 0
+#############################
+Total reward: 36.18255332646788
+7.828266531229019 seconds in game passed.
+Action: tensor([[[ 2.8340e-03,  5.9944e-01],
+         [-5.3320e-04,  3.2594e-01],
+         [-1.5410e-03,  2.2427e-01],
+         [-3.0362e-03,  1.7037e-01]]])
+agent 0 action: VehicleControl(throttle=0.322432, steer=-0.000054, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 36.18255332646788
+7.853266531601548 seconds in game passed.
+Action: tensor([[[ 2.8340e-03,  5.9944e-01],
+         [-5.3320e-04,  3.2594e-01],
+         [-1.5410e-03,  2.2427e-01],
+         [-3.0362e-03,  1.7037e-01]]])
+agent 0 action: VehicleControl(throttle=0.332755, steer=-0.000076, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 36.18255332646788
+7.878266531974077 seconds in game passed.
+Action: tensor([[[ 2.8340e-03,  5.9944e-01],
+         [-5.3320e-04,  3.2594e-01],
+         [-1.5410e-03,  2.2427e-01],
+         [-3.0362e-03,  1.7037e-01]]])
+agent 0 action: VehicleControl(throttle=0.344145, steer=-0.000098, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 36.18255332646788
++++++++++++++: inf
+7.903266532346606 seconds in game passed.
+At 7.903266532346606 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 1.3427e-04,  6.0148e-01],
+         [-1.1021e-03,  3.2597e-01],
+         [-1.6090e-03,  2.2287e-01],
+         [-2.6261e-03,  1.6920e-01]]])
+agent 0 action: VehicleControl(throttle=0.377208, steer=-0.001606, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4547289974340354
+Current mitigation activation: 0
+#############################
+Total reward: 37.63728232390192
+7.928266532719135 seconds in game passed.
+Action: tensor([[[ 1.3427e-04,  6.0148e-01],
+         [-1.1021e-03,  3.2597e-01],
+         [-1.6090e-03,  2.2287e-01],
+         [-2.6261e-03,  1.6920e-01]]])
+agent 0 action: VehicleControl(throttle=0.387843, steer=-0.001383, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 37.63728232390192
+7.953266533091664 seconds in game passed.
+Action: tensor([[[ 1.3427e-04,  6.0148e-01],
+         [-1.1021e-03,  3.2597e-01],
+         [-1.6090e-03,  2.2287e-01],
+         [-2.6261e-03,  1.6920e-01]]])
+agent 0 action: VehicleControl(throttle=0.401065, steer=-0.001407, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 37.63728232390192
+7.978266533464193 seconds in game passed.
+Action: tensor([[[ 1.3427e-04,  6.0148e-01],
+         [-1.1021e-03,  3.2597e-01],
+         [-1.6090e-03,  2.2287e-01],
+         [-2.6261e-03,  1.6920e-01]]])
+agent 0 action: VehicleControl(throttle=0.414364, steer=-0.001431, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 37.63728232390192
++++++++++++++: inf
+8.003266533836722 seconds in game passed.
+At 8.003266533836722 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0013,  0.6048],
+         [-0.0040,  0.3273],
+         [-0.0050,  0.2237],
+         [-0.0061,  0.1699]]])
+agent 0 action: VehicleControl(throttle=0.415599, steer=-0.004137, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.438097276720048
+Current mitigation activation: 0
+#############################
+Total reward: 39.07537960062197
+8.028266534209251 seconds in game passed.
+Action: tensor([[[-0.0013,  0.6048],
+         [-0.0040,  0.3273],
+         [-0.0050,  0.2237],
+         [-0.0061,  0.1699]]])
+agent 0 action: VehicleControl(throttle=0.429806, steer=-0.003724, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 39.07537960062197
+8.05326653458178 seconds in game passed.
+Action: tensor([[[-0.0013,  0.6048],
+         [-0.0040,  0.3273],
+         [-0.0050,  0.2237],
+         [-0.0061,  0.1699]]])
+agent 0 action: VehicleControl(throttle=0.442617, steer=-0.003757, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 39.07537960062197
+8.07826653495431 seconds in game passed.
+Action: tensor([[[-0.0013,  0.6048],
+         [-0.0040,  0.3273],
+         [-0.0050,  0.2237],
+         [-0.0061,  0.1699]]])
+agent 0 action: VehicleControl(throttle=0.455284, steer=-0.003790, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 39.07537960062197
++++++++++++++: inf
+8.103266535326838 seconds in game passed.
+At 8.103266535326838 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0021,  0.6053],
+         [-0.0052,  0.3265],
+         [-0.0059,  0.2229],
+         [-0.0065,  0.1693]]])
+agent 0 action: VehicleControl(throttle=0.500676, steer=-0.005017, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.423536084423413
+Current mitigation activation: 0
+#############################
+Total reward: 40.49891568504538
+8.128266535699368 seconds in game passed.
+Action: tensor([[[-0.0021,  0.6053],
+         [-0.0052,  0.3265],
+         [-0.0059,  0.2229],
+         [-0.0065,  0.1693]]])
+agent 0 action: VehicleControl(throttle=0.509889, steer=-0.004859, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 40.49891568504538
+8.153266536071897 seconds in game passed.
+Action: tensor([[[-0.0021,  0.6053],
+         [-0.0052,  0.3265],
+         [-0.0059,  0.2229],
+         [-0.0065,  0.1693]]])
+agent 0 action: VehicleControl(throttle=0.522034, steer=-0.004898, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 40.49891568504538
+8.178266536444426 seconds in game passed.
+Action: tensor([[[-0.0021,  0.6053],
+         [-0.0052,  0.3265],
+         [-0.0059,  0.2229],
+         [-0.0065,  0.1693]]])
+agent 0 action: VehicleControl(throttle=0.533308, steer=-0.004938, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 40.49891568504538
++++++++++++++: inf
+8.203266536816955 seconds in game passed.
+At 8.203266536816955 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-4.7843e-04,  6.0000e-01],
+         [-2.3275e-03,  3.2496e-01],
+         [-2.9556e-03,  2.2215e-01],
+         [-3.6367e-03,  1.6881e-01]]])
+agent 0 action: VehicleControl(throttle=0.544165, steer=-0.002169, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4124110217125796
+Current mitigation activation: 0
+#############################
+Total reward: 41.91132670675796
+8.228266537189484 seconds in game passed.
+Action: tensor([[[-4.7843e-04,  6.0000e-01],
+         [-2.3275e-03,  3.2496e-01],
+         [-2.9556e-03,  2.2215e-01],
+         [-3.6367e-03,  1.6881e-01]]])
+agent 0 action: VehicleControl(throttle=0.551080, steer=-0.002580, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 41.91132670675796
+8.253266537562013 seconds in game passed.
+Action: tensor([[[-4.7843e-04,  6.0000e-01],
+         [-2.3275e-03,  3.2496e-01],
+         [-2.9556e-03,  2.2215e-01],
+         [-3.6367e-03,  1.6881e-01]]])
+agent 0 action: VehicleControl(throttle=0.557555, steer=-0.002537, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 41.91132670675796
+8.278266537934542 seconds in game passed.
+Action: tensor([[[-4.7843e-04,  6.0000e-01],
+         [-2.3275e-03,  3.2496e-01],
+         [-2.9556e-03,  2.2215e-01],
+         [-3.6367e-03,  1.6881e-01]]])
+agent 0 action: VehicleControl(throttle=0.564061, steer=-0.002494, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 41.91132670675796
++++++++++++++: inf
+8.30326653830707 seconds in game passed.
+At 8.30326653830707 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 0.0098,  0.6398],
+         [-0.0007,  0.3454],
+         [-0.0025,  0.2359],
+         [-0.0034,  0.1789]]])
+agent 0 action: VehicleControl(throttle=0.261755, steer=0.002832, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4072579276914736
+Current mitigation activation: 0
+#############################
+Total reward: 43.31858463444944
+8.3282665386796 seconds in game passed.
+Action: tensor([[[ 0.0098,  0.6398],
+         [-0.0007,  0.3454],
+         [-0.0025,  0.2359],
+         [-0.0034,  0.1789]]])
+agent 0 action: VehicleControl(throttle=0.297738, steer=0.002046, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 43.31858463444944
+8.353266539052129 seconds in game passed.
+Action: tensor([[[ 0.0098,  0.6398],
+         [-0.0007,  0.3454],
+         [-0.0025,  0.2359],
+         [-0.0034,  0.1789]]])
+agent 0 action: VehicleControl(throttle=0.300984, steer=0.002133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 43.31858463444944
+8.378266539424658 seconds in game passed.
+Action: tensor([[[ 0.0098,  0.6398],
+         [-0.0007,  0.3454],
+         [-0.0025,  0.2359],
+         [-0.0034,  0.1789]]])
+agent 0 action: VehicleControl(throttle=0.304173, steer=0.002220, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 43.31858463444944
++++++++++++++: inf
+8.403266539797187 seconds in game passed.
+At 8.403266539797187 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0168, 0.6453],
+         [0.0037, 0.3511],
+         [0.0022, 0.2410],
+         [0.0013, 0.1832]]])
+agent 0 action: VehicleControl(throttle=0.174973, steer=0.008411, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4051693403921315
+Current mitigation activation: 0
+#############################
+Total reward: 44.72375397484157
+8.428266540169716 seconds in game passed.
+Action: tensor([[[0.0168, 0.6453],
+         [0.0037, 0.3511],
+         [0.0022, 0.2410],
+         [0.0013, 0.1832]]])
+agent 0 action: VehicleControl(throttle=0.190797, steer=0.007539, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 44.72375397484157
+8.453266540542245 seconds in game passed.
+Action: tensor([[[0.0168, 0.6453],
+         [0.0037, 0.3511],
+         [0.0022, 0.2410],
+         [0.0013, 0.1832]]])
+agent 0 action: VehicleControl(throttle=0.192545, steer=0.007675, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 44.72375397484157
+8.478266540914774 seconds in game passed.
+Action: tensor([[[0.0168, 0.6453],
+         [0.0037, 0.3511],
+         [0.0022, 0.2410],
+         [0.0013, 0.1832]]])
+agent 0 action: VehicleControl(throttle=0.194123, steer=0.007812, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 44.72375397484157
++++++++++++++: inf
+8.503266541287303 seconds in game passed.
+At 8.503266541287303 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[5.2797e-03, 5.9941e-01],
+         [1.6657e-03, 3.2400e-01],
+         [1.0305e-03, 2.2238e-01],
+         [1.7788e-04, 1.6901e-01]]])
+agent 0 action: VehicleControl(throttle=0.666068, steer=0.001760, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4030488363771818
+Current mitigation activation: 0
+#############################
+Total reward: 46.12680281121875
+8.528266541659832 seconds in game passed.
+Action: tensor([[[5.2797e-03, 5.9941e-01],
+         [1.6657e-03, 3.2400e-01],
+         [1.0305e-03, 2.2238e-01],
+         [1.7788e-04, 1.6901e-01]]])
+agent 0 action: VehicleControl(throttle=0.622642, steer=0.002838, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 46.12680281121875
+8.553266542032361 seconds in game passed.
+Action: tensor([[[5.2797e-03, 5.9941e-01],
+         [1.6657e-03, 3.2400e-01],
+         [1.0305e-03, 2.2238e-01],
+         [1.7788e-04, 1.6901e-01]]])
+agent 0 action: VehicleControl(throttle=0.628885, steer=0.002898, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 46.12680281121875
+8.57826654240489 seconds in game passed.
+Action: tensor([[[5.2797e-03, 5.9941e-01],
+         [1.6657e-03, 3.2400e-01],
+         [1.0305e-03, 2.2238e-01],
+         [1.7788e-04, 1.6901e-01]]])
+agent 0 action: VehicleControl(throttle=0.634971, steer=0.002958, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 46.12680281121875
++++++++++++++: inf
+8.603266542777419 seconds in game passed.
+At 8.603266542777419 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 3.6037e-03,  5.9425e-01],
+         [-9.3587e-05,  3.2344e-01],
+         [-6.6174e-04,  2.2250e-01],
+         [-1.2657e-03,  1.6909e-01]]])
+agent 0 action: VehicleControl(throttle=0.604936, steer=0.001042, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4009457417424451
+Current mitigation activation: 0
+#############################
+Total reward: 47.5277485529612
+8.628266543149948 seconds in game passed.
+Action: tensor([[[ 3.6037e-03,  5.9425e-01],
+         [-9.3587e-05,  3.2344e-01],
+         [-6.6174e-04,  2.2250e-01],
+         [-1.2657e-03,  1.6909e-01]]])
+agent 0 action: VehicleControl(throttle=0.613724, steer=0.001386, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 47.5277485529612
+8.653266543522477 seconds in game passed.
+Action: tensor([[[ 3.6037e-03,  5.9425e-01],
+         [-9.3587e-05,  3.2344e-01],
+         [-6.6174e-04,  2.2250e-01],
+         [-1.2657e-03,  1.6909e-01]]])
+agent 0 action: VehicleControl(throttle=0.618554, steer=0.001407, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 47.5277485529612
+8.678266543895006 seconds in game passed.
+Action: tensor([[[ 3.6037e-03,  5.9425e-01],
+         [-9.3587e-05,  3.2344e-01],
+         [-6.6174e-04,  2.2250e-01],
+         [-1.2657e-03,  1.6909e-01]]])
+agent 0 action: VehicleControl(throttle=0.623208, steer=0.001429, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 47.5277485529612
++++++++++++++: inf
+8.703266544267535 seconds in game passed.
+At 8.703266544267535 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 2.1134e-04,  5.9657e-01],
+         [-8.4206e-04,  3.2299e-01],
+         [-1.0482e-03,  2.2174e-01],
+         [-1.2981e-03,  1.6840e-01]]])
+agent 0 action: VehicleControl(throttle=0.669856, steer=-0.000462, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.3988852559824718
+Current mitigation activation: 0
+#############################
+Total reward: 48.92663380894367
+8.728266544640064 seconds in game passed.
+Action: tensor([[[ 2.1134e-04,  5.9657e-01],
+         [-8.4206e-04,  3.2299e-01],
+         [-1.0482e-03,  2.2174e-01],
+         [-1.2981e-03,  1.6840e-01]]])
+agent 0 action: VehicleControl(throttle=0.669941, steer=-0.000149, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 48.92663380894367
+8.753266545012593 seconds in game passed.
+Action: tensor([[[ 2.1134e-04,  5.9657e-01],
+         [-8.4206e-04,  3.2299e-01],
+         [-1.0482e-03,  2.2174e-01],
+         [-1.2981e-03,  1.6840e-01]]])
+agent 0 action: VehicleControl(throttle=0.654141, steer=-0.000150, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 48.92663380894367
+8.778266545385122 seconds in game passed.
+Action: tensor([[[ 2.1134e-04,  5.9657e-01],
+         [-8.4206e-04,  3.2299e-01],
+         [-1.0482e-03,  2.2174e-01],
+         [-1.2981e-03,  1.6840e-01]]])
+agent 0 action: VehicleControl(throttle=0.641666, steer=-0.000152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 48.92663380894367
++++++++++++++: inf
+8.803266545757651 seconds in game passed.
+At 8.803266545757651 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0024,  0.6094],
+         [-0.0036,  0.3270],
+         [-0.0037,  0.2227],
+         [-0.0039,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.617567, steer=-0.003256, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4040120035251766
+Current mitigation activation: 0
+#############################
+Total reward: 50.330645812468845
+8.82826654613018 seconds in game passed.
+Action: tensor([[[-0.0024,  0.6094],
+         [-0.0036,  0.3270],
+         [-0.0037,  0.2227],
+         [-0.0039,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.607378, steer=-0.002791, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 50.330645812468845
+8.85326654650271 seconds in game passed.
+Action: tensor([[[-0.0024,  0.6094],
+         [-0.0036,  0.3270],
+         [-0.0037,  0.2227],
+         [-0.0039,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.596046, steer=-0.002836, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 50.330645812468845
+8.878266546875238 seconds in game passed.
+Action: tensor([[[-0.0024,  0.6094],
+         [-0.0036,  0.3270],
+         [-0.0037,  0.2227],
+         [-0.0039,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.584981, steer=-0.002881, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 50.330645812468845
++++++++++++++: inf
+8.903266547247767 seconds in game passed.
+At 8.903266547247767 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0048,  0.6113],
+         [-0.0065,  0.3283],
+         [-0.0069,  0.2239],
+         [-0.0073,  0.1700]]])
+agent 0 action: VehicleControl(throttle=0.547633, steer=-0.005965, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4215809218510171
+Current mitigation activation: 0
+#############################
+Total reward: 51.75222673431986
+8.928266547620296 seconds in game passed.
+Action: tensor([[[-0.0048,  0.6113],
+         [-0.0065,  0.3283],
+         [-0.0069,  0.2239],
+         [-0.0073,  0.1700]]])
+agent 0 action: VehicleControl(throttle=0.539396, steer=-0.005522, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 51.75222673431986
+8.953266547992826 seconds in game passed.
+Action: tensor([[[-0.0048,  0.6113],
+         [-0.0065,  0.3283],
+         [-0.0069,  0.2239],
+         [-0.0073,  0.1700]]])
+agent 0 action: VehicleControl(throttle=0.528775, steer=-0.005583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 51.75222673431986
+8.978266548365355 seconds in game passed.
+Action: tensor([[[-0.0048,  0.6113],
+         [-0.0065,  0.3283],
+         [-0.0069,  0.2239],
+         [-0.0073,  0.1700]]])
+agent 0 action: VehicleControl(throttle=0.518677, steer=-0.005644, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 51.75222673431986
++++++++++++++: inf
+9.003266548737884 seconds in game passed.
+At 9.003266548737884 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0017,  0.5990],
+         [-0.0027,  0.3244],
+         [-0.0030,  0.2227],
+         [-0.0033,  0.1698]]])
+agent 0 action: VehicleControl(throttle=0.520491, steer=-0.001667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4364532046790015
+Current mitigation activation: 0
+#############################
+Total reward: 53.18867993899887
+9.028266549110413 seconds in game passed.
+Action: tensor([[[-0.0017,  0.5990],
+         [-0.0027,  0.3244],
+         [-0.0030,  0.2227],
+         [-0.0033,  0.1698]]])
+agent 0 action: VehicleControl(throttle=0.510407, steer=-0.002321, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 53.18867993899887
+9.053266549482942 seconds in game passed.
+Action: tensor([[[-0.0017,  0.5990],
+         [-0.0027,  0.3244],
+         [-0.0030,  0.2227],
+         [-0.0033,  0.1698]]])
+agent 0 action: VehicleControl(throttle=0.501935, steer=-0.002313, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 53.18867993899887
+9.07826654985547 seconds in game passed.
+Action: tensor([[[-0.0017,  0.5990],
+         [-0.0027,  0.3244],
+         [-0.0030,  0.2227],
+         [-0.0033,  0.1698]]])
+agent 0 action: VehicleControl(throttle=0.493809, steer=-0.002305, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 53.18867993899887
++++++++++++++: inf
+9.103266550228 seconds in game passed.
+At 9.103266550228 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 3.2283e-03,  6.0828e-01],
+         [ 1.2130e-03,  3.2983e-01],
+         [ 6.0666e-04,  2.2607e-01],
+         [-2.9596e-04,  1.7200e-01]]])
+agent 0 action: VehicleControl(throttle=0.387885, steer=0.002571, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4477610556369322
+Current mitigation activation: 0
+#############################
+Total reward: 54.6364409946358
+9.128266550600529 seconds in game passed.
+Action: tensor([[[ 3.2283e-03,  6.0828e-01],
+         [ 1.2130e-03,  3.2983e-01],
+         [ 6.0666e-04,  2.2607e-01],
+         [-2.9596e-04,  1.7200e-01]]])
+agent 0 action: VehicleControl(throttle=0.389402, steer=0.001840, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 54.6364409946358
+9.153266550973058 seconds in game passed.
+Action: tensor([[[ 3.2283e-03,  6.0828e-01],
+         [ 1.2130e-03,  3.2983e-01],
+         [ 6.0666e-04,  2.2607e-01],
+         [-2.9596e-04,  1.7200e-01]]])
+agent 0 action: VehicleControl(throttle=0.381209, steer=0.001911, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 54.6364409946358
+9.178266551345587 seconds in game passed.
+Action: tensor([[[ 3.2283e-03,  6.0828e-01],
+         [ 1.2130e-03,  3.2983e-01],
+         [ 6.0666e-04,  2.2607e-01],
+         [-2.9596e-04,  1.7200e-01]]])
+agent 0 action: VehicleControl(throttle=0.374211, steer=0.001981, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 54.6364409946358
++++++++++++++: inf
+9.203266551718116 seconds in game passed.
+At 9.203266551718116 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0077, 0.6344],
+         [0.0034, 0.3535],
+         [0.0028, 0.2472],
+         [0.0019, 0.1909]]])
+agent 0 action: VehicleControl(throttle=0.141323, steer=0.005497, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4557643105390663
+Current mitigation activation: 0
+#############################
+Total reward: 56.092205305174865
+9.228266552090645 seconds in game passed.
+Action: tensor([[[0.0077, 0.6344],
+         [0.0034, 0.3535],
+         [0.0028, 0.2472],
+         [0.0019, 0.1909]]])
+agent 0 action: VehicleControl(throttle=0.160273, steer=0.005002, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 56.092205305174865
+9.253266552463174 seconds in game passed.
+Action: tensor([[[0.0077, 0.6344],
+         [0.0034, 0.3535],
+         [0.0028, 0.2472],
+         [0.0019, 0.1909]]])
+agent 0 action: VehicleControl(throttle=0.154775, steer=0.005080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 56.092205305174865
+9.278266552835703 seconds in game passed.
+Action: tensor([[[0.0077, 0.6344],
+         [0.0034, 0.3535],
+         [0.0028, 0.2472],
+         [0.0019, 0.1909]]])
+agent 0 action: VehicleControl(throttle=0.149256, steer=0.005158, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 56.092205305174865
++++++++++++++: inf
+9.303266553208232 seconds in game passed.
+At 9.303266553208232 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0069, 0.6168],
+         [0.0030, 0.3396],
+         [0.0021, 0.2361],
+         [0.0012, 0.1821]]])
+agent 0 action: VehicleControl(throttle=0.147126, steer=0.004492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4586027116545912
+Current mitigation activation: 0
+#############################
+Total reward: 57.55080801682946
+9.328266553580761 seconds in game passed.
+Action: tensor([[[0.0069, 0.6168],
+         [0.0030, 0.3396],
+         [0.0021, 0.2361],
+         [0.0012, 0.1821]]])
+agent 0 action: VehicleControl(throttle=0.144976, steer=0.004622, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 57.55080801682946
+9.35326655395329 seconds in game passed.
+Action: tensor([[[0.0069, 0.6168],
+         [0.0030, 0.3396],
+         [0.0021, 0.2361],
+         [0.0012, 0.1821]]])
+agent 0 action: VehicleControl(throttle=0.142806, steer=0.004638, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 57.55080801682946
+9.378266554325819 seconds in game passed.
+Action: tensor([[[0.0069, 0.6168],
+         [0.0030, 0.3396],
+         [0.0021, 0.2361],
+         [0.0012, 0.1821]]])
+agent 0 action: VehicleControl(throttle=0.140614, steer=0.004654, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 57.55080801682946
++++++++++++++: inf
+9.403266554698348 seconds in game passed.
+At 9.403266554698348 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 6.6797e-03,  6.1928e-01],
+         [ 1.4477e-03,  3.3694e-01],
+         [ 5.0189e-04,  2.3258e-01],
+         [-3.1996e-04,  1.7843e-01]]])
+agent 0 action: VehicleControl(throttle=0.262094, steer=0.003387, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4533028888406814
+Current mitigation activation: 0
+#############################
+Total reward: 59.00411090567014
+9.428266555070877 seconds in game passed.
+Action: tensor([[[ 6.6797e-03,  6.1928e-01],
+         [ 1.4477e-03,  3.3694e-01],
+         [ 5.0189e-04,  2.3258e-01],
+         [-3.1996e-04,  1.7843e-01]]])
+agent 0 action: VehicleControl(throttle=0.260078, steer=0.003529, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 59.00411090567014
+9.453266555443406 seconds in game passed.
+Action: tensor([[[ 6.6797e-03,  6.1928e-01],
+         [ 1.4477e-03,  3.3694e-01],
+         [ 5.0189e-04,  2.3258e-01],
+         [-3.1996e-04,  1.7843e-01]]])
+agent 0 action: VehicleControl(throttle=0.270524, steer=0.003469, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 59.00411090567014
+9.478266555815935 seconds in game passed.
+Action: tensor([[[ 6.6797e-03,  6.1928e-01],
+         [ 1.4477e-03,  3.3694e-01],
+         [ 5.0189e-04,  2.3258e-01],
+         [-3.1996e-04,  1.7843e-01]]])
+agent 0 action: VehicleControl(throttle=0.280622, steer=0.003410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 59.00411090567014
++++++++++++++: inf
+9.503266556188464 seconds in game passed.
+At 9.503266556188464 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 0.0009,  0.6156],
+         [-0.0018,  0.3332],
+         [-0.0025,  0.2288],
+         [-0.0033,  0.1752]]])
+agent 0 action: VehicleControl(throttle=0.378643, steer=-0.001265, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.442512870270513
+Current mitigation activation: 0
+#############################
+Total reward: 60.44662377594065
+9.528266556560993 seconds in game passed.
+Action: tensor([[[ 0.0009,  0.6156],
+         [-0.0018,  0.3332],
+         [-0.0025,  0.2288],
+         [-0.0033,  0.1752]]])
+agent 0 action: VehicleControl(throttle=0.374142, steer=-0.000537, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 60.44662377594065
+9.553266556933522 seconds in game passed.
+Action: tensor([[[ 0.0009,  0.6156],
+         [-0.0018,  0.3332],
+         [-0.0025,  0.2288],
+         [-0.0033,  0.1752]]])
+agent 0 action: VehicleControl(throttle=0.379041, steer=-0.000581, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 60.44662377594065
+9.578266557306051 seconds in game passed.
+Action: tensor([[[ 0.0009,  0.6156],
+         [-0.0018,  0.3332],
+         [-0.0025,  0.2288],
+         [-0.0033,  0.1752]]])
+agent 0 action: VehicleControl(throttle=0.382929, steer=-0.000625, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 60.44662377594065
++++++++++++++: inf
+9.60326655767858 seconds in game passed.
+At 9.60326655767858 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0033,  0.6171],
+         [-0.0052,  0.3309],
+         [-0.0060,  0.2250],
+         [-0.0070,  0.1715]]])
+agent 0 action: VehicleControl(throttle=0.482920, steer=-0.004885, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4318694774150589
+Current mitigation activation: 0
+#############################
+Total reward: 61.87849325335571
+9.62826655805111 seconds in game passed.
+Action: tensor([[[-0.0033,  0.6171],
+         [-0.0052,  0.3309],
+         [-0.0060,  0.2250],
+         [-0.0070,  0.1715]]])
+agent 0 action: VehicleControl(throttle=0.476595, steer=-0.004254, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 61.87849325335571
+9.653266558423638 seconds in game passed.
+Action: tensor([[[-0.0033,  0.6171],
+         [-0.0052,  0.3309],
+         [-0.0060,  0.2250],
+         [-0.0070,  0.1715]]])
+agent 0 action: VehicleControl(throttle=0.479716, steer=-0.004321, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 61.87849325335571
+9.678266558796167 seconds in game passed.
+Action: tensor([[[-0.0033,  0.6171],
+         [-0.0052,  0.3309],
+         [-0.0060,  0.2250],
+         [-0.0070,  0.1715]]])
+agent 0 action: VehicleControl(throttle=0.481513, steer=-0.004389, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 61.87849325335571
++++++++++++++: inf
+9.703266559168696 seconds in game passed.
+At 9.703266559168696 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0073,  0.6256],
+         [-0.0115,  0.3322],
+         [-0.0130,  0.2249],
+         [-0.0141,  0.1716]]])
+agent 0 action: VehicleControl(throttle=0.521885, steer=-0.010659, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4249917548142021
+Current mitigation activation: 0
+#############################
+Total reward: 63.30348500816991
+9.728266559541225 seconds in game passed.
+Action: tensor([[[-0.0073,  0.6256],
+         [-0.0115,  0.3322],
+         [-0.0130,  0.2249],
+         [-0.0141,  0.1716]]])
+agent 0 action: VehicleControl(throttle=0.517527, steer=-0.009744, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 63.30348500816991
+9.753266559913754 seconds in game passed.
+Action: tensor([[[-0.0073,  0.6256],
+         [-0.0115,  0.3322],
+         [-0.0130,  0.2249],
+         [-0.0141,  0.1716]]])
+agent 0 action: VehicleControl(throttle=0.516870, steer=-0.009856, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 63.30348500816991
+9.778266560286283 seconds in game passed.
+Action: tensor([[[-0.0073,  0.6256],
+         [-0.0115,  0.3322],
+         [-0.0130,  0.2249],
+         [-0.0141,  0.1716]]])
+agent 0 action: VehicleControl(throttle=0.515392, steer=-0.009968, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 63.30348500816991
++++++++++++++: inf
+9.803266560658813 seconds in game passed.
+At 9.803266560658813 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0027,  0.6148],
+         [-0.0046,  0.3293],
+         [-0.0050,  0.2241],
+         [-0.0048,  0.1708]]])
+agent 0 action: VehicleControl(throttle=0.506603, steer=-0.003136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4229008312654918
+Current mitigation activation: 0
+#############################
+Total reward: 64.7263858394354
+9.828266561031342 seconds in game passed.
+Action: tensor([[[-0.0027,  0.6148],
+         [-0.0046,  0.3293],
+         [-0.0050,  0.2241],
+         [-0.0048,  0.1708]]])
+agent 0 action: VehicleControl(throttle=0.504936, steer=-0.004285, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 64.7263858394354
+9.85326656140387 seconds in game passed.
+Action: tensor([[[-0.0027,  0.6148],
+         [-0.0046,  0.3293],
+         [-0.0050,  0.2241],
+         [-0.0048,  0.1708]]])
+agent 0 action: VehicleControl(throttle=0.502181, steer=-0.004294, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 64.7263858394354
+9.8782665617764 seconds in game passed.
+Action: tensor([[[-0.0027,  0.6148],
+         [-0.0046,  0.3293],
+         [-0.0050,  0.2241],
+         [-0.0048,  0.1708]]])
+agent 0 action: VehicleControl(throttle=0.499262, steer=-0.004303, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 64.7263858394354
++++++++++++++: inf
+9.903266562148929 seconds in game passed.
+At 9.903266562148929 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0007,  0.6029],
+         [-0.0025,  0.3258],
+         [-0.0031,  0.2227],
+         [-0.0035,  0.1690]]])
+agent 0 action: VehicleControl(throttle=0.498927, steer=-0.001909, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4247110732989667
+Current mitigation activation: 0
+#############################
+Total reward: 66.15109691273436
+9.928266562521458 seconds in game passed.
+Action: tensor([[[-0.0007,  0.6029],
+         [-0.0025,  0.3258],
+         [-0.0031,  0.2227],
+         [-0.0035,  0.1690]]])
+agent 0 action: VehicleControl(throttle=0.495880, steer=-0.002253, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 66.15109691273436
+9.953266562893987 seconds in game passed.
+Action: tensor([[[-0.0007,  0.6029],
+         [-0.0025,  0.3258],
+         [-0.0031,  0.2227],
+         [-0.0035,  0.1690]]])
+agent 0 action: VehicleControl(throttle=0.493053, steer=-0.002205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 66.15109691273436
+9.978266563266516 seconds in game passed.
+Action: tensor([[[-0.0007,  0.6029],
+         [-0.0025,  0.3258],
+         [-0.0031,  0.2227],
+         [-0.0035,  0.1690]]])
+agent 0 action: VehicleControl(throttle=0.490217, steer=-0.002158, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 66.15109691273436
++++++++++++++: inf
+10.003266563639045 seconds in game passed.
+At 10.003266563639045 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 2.8536e-03,  6.2086e-01],
+         [ 3.4542e-04,  3.3116e-01],
+         [-2.0276e-04,  2.2571e-01],
+         [-6.8751e-04,  1.7163e-01]]])
+agent 0 action: VehicleControl(throttle=0.481152, steer=0.001341, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4283654137574504
+Current mitigation activation: 0
+#############################
+Total reward: 67.57946232649181
+10.028266564011574 seconds in game passed.
+Action: tensor([[[ 2.8536e-03,  6.2086e-01],
+         [ 3.4542e-04,  3.3116e-01],
+         [-2.0276e-04,  2.2571e-01],
+         [-6.8751e-04,  1.7163e-01]]])
+agent 0 action: VehicleControl(throttle=0.478847, steer=0.000806, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 67.57946232649181
+10.053266564384103 seconds in game passed.
+Action: tensor([[[ 2.8536e-03,  6.2086e-01],
+         [ 3.4542e-04,  3.3116e-01],
+         [-2.0276e-04,  2.2571e-01],
+         [-6.8751e-04,  1.7163e-01]]])
+agent 0 action: VehicleControl(throttle=0.475989, steer=0.000848, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 67.57946232649181
+10.078266564756632 seconds in game passed.
+Action: tensor([[[ 2.8536e-03,  6.2086e-01],
+         [ 3.4542e-04,  3.3116e-01],
+         [-2.0276e-04,  2.2571e-01],
+         [-6.8751e-04,  1.7163e-01]]])
+agent 0 action: VehicleControl(throttle=0.473260, steer=0.000890, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 67.57946232649181
++++++++++++++: inf
+10.10326656512916 seconds in game passed.
+At 10.10326656512916 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[1.1421e-03, 6.0919e-01],
+         [5.9596e-04, 3.2664e-01],
+         [6.1803e-04, 2.2272e-01],
+         [4.0312e-04, 1.6898e-01]]])
+agent 0 action: VehicleControl(throttle=0.514843, steer=0.000390, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4324841365170302
+Current mitigation activation: 0
+#############################
+Total reward: 69.01194646300884
+10.12826656550169 seconds in game passed.
+Action: tensor([[[1.1421e-03, 6.0919e-01],
+         [5.9596e-04, 3.2664e-01],
+         [6.1803e-04, 2.2272e-01],
+         [4.0312e-04, 1.6898e-01]]])
+agent 0 action: VehicleControl(throttle=0.509378, steer=0.000457, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 69.01194646300884
+10.153266565874219 seconds in game passed.
+Action: tensor([[[1.1421e-03, 6.0919e-01],
+         [5.9596e-04, 3.2664e-01],
+         [6.1803e-04, 2.2272e-01],
+         [4.0312e-04, 1.6898e-01]]])
+agent 0 action: VehicleControl(throttle=0.508488, steer=0.000444, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 69.01194646300884
+10.178266566246748 seconds in game passed.
+Action: tensor([[[1.1421e-03, 6.0919e-01],
+         [5.9596e-04, 3.2664e-01],
+         [6.1803e-04, 2.2272e-01],
+         [4.0312e-04, 1.6898e-01]]])
+agent 0 action: VehicleControl(throttle=0.507340, steer=0.000431, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 69.01194646300884
++++++++++++++: inf
+10.203266566619277 seconds in game passed.
+At 10.203266566619277 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0024, 0.6134],
+         [0.0014, 0.3272],
+         [0.0019, 0.2227],
+         [0.0022, 0.1686]]])
+agent 0 action: VehicleControl(throttle=0.532086, steer=0.001481, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4364579871969392
+Current mitigation activation: 0
+#############################
+Total reward: 70.44840445020579
+10.228266566991806 seconds in game passed.
+Action: tensor([[[0.0024, 0.6134],
+         [0.0014, 0.3272],
+         [0.0019, 0.2227],
+         [0.0022, 0.1686]]])
+agent 0 action: VehicleControl(throttle=0.530894, steer=0.001262, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 70.44840445020579
+10.253266567364335 seconds in game passed.
+Action: tensor([[[0.0024, 0.6134],
+         [0.0014, 0.3272],
+         [0.0019, 0.2227],
+         [0.0022, 0.1686]]])
+agent 0 action: VehicleControl(throttle=0.531991, steer=0.001224, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 70.44840445020579
+10.278266567736864 seconds in game passed.
+Action: tensor([[[0.0024, 0.6134],
+         [0.0014, 0.3272],
+         [0.0019, 0.2227],
+         [0.0022, 0.1686]]])
+agent 0 action: VehicleControl(throttle=0.532745, steer=0.001187, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 70.44840445020579
++++++++++++++: inf
+10.303266568109393 seconds in game passed.
+At 10.303266568109393 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[4.1142e-04, 5.9883e-01],
+         [6.0262e-04, 3.2309e-01],
+         [9.4878e-04, 2.2102e-01],
+         [9.6304e-04, 1.6767e-01]]])
+agent 0 action: VehicleControl(throttle=0.530081, steer=-0.000229, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4409583166680298
+Current mitigation activation: 0
+#############################
+Total reward: 71.88936276687382
+10.328266568481922 seconds in game passed.
+Action: tensor([[[4.1142e-04, 5.9883e-01],
+         [6.0262e-04, 3.2309e-01],
+         [9.4878e-04, 2.2102e-01],
+         [9.6304e-04, 1.6767e-01]]])
+agent 0 action: VehicleControl(throttle=0.530628, steer=-0.000046, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 71.88936276687382
+10.353266568854451 seconds in game passed.
+Action: tensor([[[4.1142e-04, 5.9883e-01],
+         [6.0262e-04, 3.2309e-01],
+         [9.4878e-04, 2.2102e-01],
+         [9.6304e-04, 1.6767e-01]]])
+agent 0 action: VehicleControl(throttle=0.530635, steer=-0.000091, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 71.88936276687382
+10.37826656922698 seconds in game passed.
+Action: tensor([[[4.1142e-04, 5.9883e-01],
+         [6.0262e-04, 3.2309e-01],
+         [9.4878e-04, 2.2102e-01],
+         [9.6304e-04, 1.6767e-01]]])
+agent 0 action: VehicleControl(throttle=0.530475, steer=-0.000136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 71.88936276687382
++++++++++++++: inf
+10.40326656959951 seconds in game passed.
+At 10.40326656959951 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[ 2.9467e-05,  6.0473e-01],
+         [-4.4428e-04,  3.2609e-01],
+         [-8.4415e-05,  2.2322e-01],
+         [ 1.2572e-04,  1.6997e-01]]])
+agent 0 action: VehicleControl(throttle=0.480905, steer=-0.001092, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4464316456617585
+Current mitigation activation: 0
+#############################
+Total reward: 73.33579441253558
+10.428266569972038 seconds in game passed.
+Action: tensor([[[ 2.9467e-05,  6.0473e-01],
+         [-4.4428e-04,  3.2609e-01],
+         [-8.4415e-05,  2.2322e-01],
+         [ 1.2572e-04,  1.6997e-01]]])
+agent 0 action: VehicleControl(throttle=0.483541, steer=-0.000982, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 73.33579441253558
+10.453266570344567 seconds in game passed.
+Action: tensor([[[ 2.9467e-05,  6.0473e-01],
+         [-4.4428e-04,  3.2609e-01],
+         [-8.4415e-05,  2.2322e-01],
+         [ 1.2572e-04,  1.6997e-01]]])
+agent 0 action: VehicleControl(throttle=0.481002, steer=-0.001024, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 73.33579441253558
+10.478266570717096 seconds in game passed.
+Action: tensor([[[ 2.9467e-05,  6.0473e-01],
+         [-4.4428e-04,  3.2609e-01],
+         [-8.4415e-05,  2.2322e-01],
+         [ 1.2572e-04,  1.6997e-01]]])
+agent 0 action: VehicleControl(throttle=0.478674, steer=-0.001065, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 73.33579441253558
++++++++++++++: inf
+10.503266571089625 seconds in game passed.
+At 10.503266571089625 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0011, 0.5968],
+         [0.0012, 0.3222],
+         [0.0020, 0.2205],
+         [0.0027, 0.1675]]])
+agent 0 action: VehicleControl(throttle=0.533184, steer=0.000601, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4523725753603185
+Current mitigation activation: 0
+#############################
+Total reward: 74.78816698789589
+10.528266571462154 seconds in game passed.
+Action: tensor([[[0.0011, 0.5968],
+         [0.0012, 0.3222],
+         [0.0020, 0.2205],
+         [0.0027, 0.1675]]])
+agent 0 action: VehicleControl(throttle=0.524536, steer=0.000351, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 74.78816698789589
+10.553266571834683 seconds in game passed.
+Action: tensor([[[0.0011, 0.5968],
+         [0.0012, 0.3222],
+         [0.0020, 0.2205],
+         [0.0027, 0.1675]]])
+agent 0 action: VehicleControl(throttle=0.521929, steer=0.000374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 74.78816698789589
+10.578266572207212 seconds in game passed.
+Action: tensor([[[0.0011, 0.5968],
+         [0.0012, 0.3222],
+         [0.0020, 0.2205],
+         [0.0027, 0.1675]]])
+agent 0 action: VehicleControl(throttle=0.518905, steer=0.000398, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 74.78816698789589
++++++++++++++: inf
+10.603266572579741 seconds in game passed.
+At 10.603266572579741 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0021, 0.5970],
+         [0.0030, 0.3230],
+         [0.0038, 0.2212],
+         [0.0041, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.488386, steer=0.002153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.457597532475277
+Current mitigation activation: 0
+#############################
+Total reward: 76.24576452037117
+10.62826657295227 seconds in game passed.
+Action: tensor([[[0.0021, 0.5970],
+         [0.0030, 0.3230],
+         [0.0038, 0.2212],
+         [0.0041, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.486345, steer=0.001959, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 76.24576452037117
+10.6532665733248 seconds in game passed.
+Action: tensor([[[0.0021, 0.5970],
+         [0.0030, 0.3230],
+         [0.0038, 0.2212],
+         [0.0041, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.481467, steer=0.002044, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 76.24576452037117
+10.678266573697329 seconds in game passed.
+Action: tensor([[[0.0021, 0.5970],
+         [0.0030, 0.3230],
+         [0.0038, 0.2212],
+         [0.0041, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.476730, steer=0.002128, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 76.24576452037117
++++++++++++++: inf
+10.703266574069858 seconds in game passed.
+At 10.703266574069858 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0014, 0.6176],
+         [0.0013, 0.3339],
+         [0.0016, 0.2287],
+         [0.0013, 0.1744]]])
+agent 0 action: VehicleControl(throttle=0.295115, steer=0.000783, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4628340345049877
+Current mitigation activation: 0
+#############################
+Total reward: 77.70859855487616
+10.728266574442387 seconds in game passed.
+Action: tensor([[[0.0014, 0.6176],
+         [0.0013, 0.3339],
+         [0.0016, 0.2287],
+         [0.0013, 0.1744]]])
+agent 0 action: VehicleControl(throttle=0.306965, steer=0.001163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 77.70859855487616
+10.753266574814916 seconds in game passed.
+Action: tensor([[[0.0014, 0.6176],
+         [0.0013, 0.3339],
+         [0.0016, 0.2287],
+         [0.0013, 0.1744]]])
+agent 0 action: VehicleControl(throttle=0.300612, steer=0.001296, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 77.70859855487616
+10.778266575187445 seconds in game passed.
+Action: tensor([[[0.0014, 0.6176],
+         [0.0013, 0.3339],
+         [0.0016, 0.2287],
+         [0.0013, 0.1744]]])
+agent 0 action: VehicleControl(throttle=0.295930, steer=0.001429, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 77.70859855487616
++++++++++++++: inf
+10.803266575559974 seconds in game passed.
+At 10.803266575559974 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0035, 0.6150],
+         [0.0018, 0.3284],
+         [0.0019, 0.2247],
+         [0.0020, 0.1708]]])
+agent 0 action: VehicleControl(throttle=0.462393, steer=0.002662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4670263394499972
+Current mitigation activation: 0
+#############################
+Total reward: 79.17562489432616
+10.828266575932503 seconds in game passed.
+Action: tensor([[[0.0035, 0.6150],
+         [0.0018, 0.3284],
+         [0.0019, 0.2247],
+         [0.0020, 0.1708]]])
+agent 0 action: VehicleControl(throttle=0.444067, steer=0.002543, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 79.17562489432616
+10.853266576305032 seconds in game passed.
+Action: tensor([[[0.0035, 0.6150],
+         [0.0018, 0.3284],
+         [0.0019, 0.2247],
+         [0.0020, 0.1708]]])
+agent 0 action: VehicleControl(throttle=0.444495, steer=0.002617, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 79.17562489432616
+10.87826657667756 seconds in game passed.
+Action: tensor([[[0.0035, 0.6150],
+         [0.0018, 0.3284],
+         [0.0019, 0.2247],
+         [0.0020, 0.1708]]])
+agent 0 action: VehicleControl(throttle=0.444484, steer=0.002691, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 79.17562489432616
++++++++++++++: inf
+10.90326657705009 seconds in game passed.
+At 10.90326657705009 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[1.7064e-03, 6.1043e-01],
+         [4.2260e-04, 3.2504e-01],
+         [4.8957e-04, 2.2167e-01],
+         [2.2165e-04, 1.6785e-01]]])
+agent 0 action: VehicleControl(throttle=0.518851, steer=0.001019, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.466868477405774
+Current mitigation activation: 0
+#############################
+Total reward: 80.64249337173193
+10.928266577422619 seconds in game passed.
+Action: tensor([[[1.7064e-03, 6.1043e-01],
+         [4.2260e-04, 3.2504e-01],
+         [4.8957e-04, 2.2167e-01],
+         [2.2165e-04, 1.6785e-01]]])
+agent 0 action: VehicleControl(throttle=0.511161, steer=0.001335, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 80.64249337173193
+10.953266577795148 seconds in game passed.
+Action: tensor([[[1.7064e-03, 6.1043e-01],
+         [4.2260e-04, 3.2504e-01],
+         [4.8957e-04, 2.2167e-01],
+         [2.2165e-04, 1.6785e-01]]])
+agent 0 action: VehicleControl(throttle=0.510970, steer=0.001367, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 80.64249337173193
+10.978266578167677 seconds in game passed.
+Action: tensor([[[1.7064e-03, 6.1043e-01],
+         [4.2260e-04, 3.2504e-01],
+         [4.8957e-04, 2.2167e-01],
+         [2.2165e-04, 1.6785e-01]]])
+agent 0 action: VehicleControl(throttle=0.509980, steer=0.001398, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 80.64249337173193
++++++++++++++: inf
+11.003266578540206 seconds in game passed.
+At 11.003266578540206 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[1.5688e-03, 6.0794e-01],
+         [5.0224e-04, 3.2476e-01],
+         [7.2579e-04, 2.2181e-01],
+         [6.0886e-04, 1.6810e-01]]])
+agent 0 action: VehicleControl(throttle=0.492686, steer=0.001400, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4661870924322817
+Current mitigation activation: 0
+#############################
+Total reward: 82.10868046416421
+11.028266578912735 seconds in game passed.
+Action: tensor([[[1.5688e-03, 6.0794e-01],
+         [5.0224e-04, 3.2476e-01],
+         [7.2579e-04, 2.2181e-01],
+         [6.0886e-04, 1.6810e-01]]])
+agent 0 action: VehicleControl(throttle=0.492271, steer=0.001395, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 82.10868046416421
+11.053266579285264 seconds in game passed.
+Action: tensor([[[1.5688e-03, 6.0794e-01],
+         [5.0224e-04, 3.2476e-01],
+         [7.2579e-04, 2.2181e-01],
+         [6.0886e-04, 1.6810e-01]]])
+agent 0 action: VehicleControl(throttle=0.489855, steer=0.001391, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 82.10868046416421
+11.078266579657793 seconds in game passed.
+Action: tensor([[[1.5688e-03, 6.0794e-01],
+         [5.0224e-04, 3.2476e-01],
+         [7.2579e-04, 2.2181e-01],
+         [6.0886e-04, 1.6810e-01]]])
+agent 0 action: VehicleControl(throttle=0.487283, steer=0.001387, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 82.10868046416421
++++++++++++++: inf
+11.103266580030322 seconds in game passed.
+At 11.103266580030322 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[3.8294e-04, 6.1911e-01],
+         [4.6514e-04, 3.2743e-01],
+         [8.0875e-04, 2.2375e-01],
+         [6.2431e-04, 1.7034e-01]]])
+agent 0 action: VehicleControl(throttle=0.501988, steer=0.000892, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4680315670687265
+Current mitigation activation: 0
+#############################
+Total reward: 83.57671203123293
+11.128266580402851 seconds in game passed.
+Action: tensor([[[3.8294e-04, 6.1911e-01],
+         [4.6514e-04, 3.2743e-01],
+         [8.0875e-04, 2.2375e-01],
+         [6.2431e-04, 1.7034e-01]]])
+agent 0 action: VehicleControl(throttle=0.497013, steer=0.000970, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 83.57671203123293
+11.15326658077538 seconds in game passed.
+Action: tensor([[[3.8294e-04, 6.1911e-01],
+         [4.6514e-04, 3.2743e-01],
+         [8.0875e-04, 2.2375e-01],
+         [6.2431e-04, 1.7034e-01]]])
+agent 0 action: VehicleControl(throttle=0.493830, steer=0.000965, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 83.57671203123293
+11.17826658114791 seconds in game passed.
+Action: tensor([[[3.8294e-04, 6.1911e-01],
+         [4.6514e-04, 3.2743e-01],
+         [8.0875e-04, 2.2375e-01],
+         [6.2431e-04, 1.7034e-01]]])
+agent 0 action: VehicleControl(throttle=0.490482, steer=0.000961, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 83.57671203123293
++++++++++++++: inf
+11.203266581520438 seconds in game passed.
+At 11.203266581520438 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0010,  0.6214],
+         [-0.0015,  0.3266],
+         [-0.0017,  0.2221],
+         [-0.0026,  0.1687]]])
+agent 0 action: VehicleControl(throttle=0.543050, steer=-0.001035, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4711608397564526
+Current mitigation activation: 0
+#############################
+Total reward: 85.04787287098938
+11.228266581892967 seconds in game passed.
+Action: tensor([[[-0.0010,  0.6214],
+         [-0.0015,  0.3266],
+         [-0.0017,  0.2221],
+         [-0.0026,  0.1687]]])
+agent 0 action: VehicleControl(throttle=0.533984, steer=-0.000744, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 85.04787287098938
+11.253266582265496 seconds in game passed.
+Action: tensor([[[-0.0010,  0.6214],
+         [-0.0015,  0.3266],
+         [-0.0017,  0.2221],
+         [-0.0026,  0.1687]]])
+agent 0 action: VehicleControl(throttle=0.530725, steer=-0.000780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 85.04787287098938
+11.278266582638025 seconds in game passed.
+Action: tensor([[[-0.0010,  0.6214],
+         [-0.0015,  0.3266],
+         [-0.0017,  0.2221],
+         [-0.0026,  0.1687]]])
+agent 0 action: VehicleControl(throttle=0.527009, steer=-0.000815, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 85.04787287098938
++++++++++++++: inf
+11.303266583010554 seconds in game passed.
+At 11.303266583010554 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0011,  0.6254],
+         [-0.0010,  0.3277],
+         [-0.0009,  0.2229],
+         [-0.0015,  0.1695]]])
+agent 0 action: VehicleControl(throttle=0.520898, steer=-0.000522, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4749373212008532
+Current mitigation activation: 0
+#############################
+Total reward: 86.52281019219024
+11.328266583383083 seconds in game passed.
+Action: tensor([[[-0.0011,  0.6254],
+         [-0.0010,  0.3277],
+         [-0.0009,  0.2229],
+         [-0.0015,  0.1695]]])
+agent 0 action: VehicleControl(throttle=0.516979, steer=-0.000592, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 86.52281019219024
+11.353266583755612 seconds in game passed.
+Action: tensor([[[-0.0011,  0.6254],
+         [-0.0010,  0.3277],
+         [-0.0009,  0.2229],
+         [-0.0015,  0.1695]]])
+agent 0 action: VehicleControl(throttle=0.512712, steer=-0.000611, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 86.52281019219024
+11.378266584128141 seconds in game passed.
+Action: tensor([[[-0.0011,  0.6254],
+         [-0.0010,  0.3277],
+         [-0.0009,  0.2229],
+         [-0.0015,  0.1695]]])
+agent 0 action: VehicleControl(throttle=0.508399, steer=-0.000629, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 86.52281019219024
++++++++++++++: inf
+11.40326658450067 seconds in game passed.
+At 11.40326658450067 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0012,  0.6105],
+         [-0.0017,  0.3243],
+         [-0.0014,  0.2221],
+         [-0.0017,  0.1688]]])
+agent 0 action: VehicleControl(throttle=0.477372, steer=-0.001188, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4798152181955628
+Current mitigation activation: 0
+#############################
+Total reward: 88.0026254103858
+11.4282665848732 seconds in game passed.
+Action: tensor([[[-0.0012,  0.6105],
+         [-0.0017,  0.3243],
+         [-0.0014,  0.2221],
+         [-0.0017,  0.1688]]])
+agent 0 action: VehicleControl(throttle=0.476206, steer=-0.001112, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 88.0026254103858
+11.453266585245728 seconds in game passed.
+Action: tensor([[[-0.0012,  0.6105],
+         [-0.0017,  0.3243],
+         [-0.0014,  0.2221],
+         [-0.0017,  0.1688]]])
+agent 0 action: VehicleControl(throttle=0.472300, steer=-0.001127, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 88.0026254103858
+11.478266585618258 seconds in game passed.
+Action: tensor([[[-0.0012,  0.6105],
+         [-0.0017,  0.3243],
+         [-0.0014,  0.2221],
+         [-0.0017,  0.1688]]])
+agent 0 action: VehicleControl(throttle=0.468720, steer=-0.001141, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 88.0026254103858
++++++++++++++: inf
+11.503266585990787 seconds in game passed.
+At 11.503266585990787 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[-0.0024,  0.6182],
+         [-0.0024,  0.3271],
+         [-0.0024,  0.2230],
+         [-0.0032,  0.1694]]])
+agent 0 action: VehicleControl(throttle=0.440521, steer=-0.002147, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.484958777064769
+Current mitigation activation: 0
+#############################
+Total reward: 89.48758418745058
+11.528266586363316 seconds in game passed.
+Action: tensor([[[-0.0024,  0.6182],
+         [-0.0024,  0.3271],
+         [-0.0024,  0.2230],
+         [-0.0032,  0.1694]]])
+agent 0 action: VehicleControl(throttle=0.439126, steer=-0.002028, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 89.48758418745058
+11.553266586735845 seconds in game passed.
+Action: tensor([[[-0.0024,  0.6182],
+         [-0.0024,  0.3271],
+         [-0.0024,  0.2230],
+         [-0.0032,  0.1694]]])
+agent 0 action: VehicleControl(throttle=0.435485, steer=-0.002070, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 89.48758418745058
+11.578266587108374 seconds in game passed.
+Action: tensor([[[-0.0024,  0.6182],
+         [-0.0024,  0.3271],
+         [-0.0024,  0.2230],
+         [-0.0032,  0.1694]]])
+agent 0 action: VehicleControl(throttle=0.432302, steer=-0.002112, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 89.48758418745058
++++++++++++++: inf
+11.603266587480903 seconds in game passed.
+At 11.603266587480903 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0034, 0.6218],
+         [0.0045, 0.3271],
+         [0.0055, 0.2228],
+         [0.0054, 0.1696]]])
+agent 0 action: VehicleControl(throttle=0.466790, steer=0.005250, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4890735213784199
+Current mitigation activation: 0
+#############################
+Total reward: 90.976657708829
+11.628266587853432 seconds in game passed.
+Action: tensor([[[0.0034, 0.6218],
+         [0.0045, 0.3271],
+         [0.0055, 0.2228],
+         [0.0054, 0.1696]]])
+agent 0 action: VehicleControl(throttle=0.461135, steer=0.004043, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 90.976657708829
+11.65326658822596 seconds in game passed.
+Action: tensor([[[0.0034, 0.6218],
+         [0.0045, 0.3271],
+         [0.0055, 0.2228],
+         [0.0054, 0.1696]]])
+agent 0 action: VehicleControl(throttle=0.459681, steer=0.004061, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 90.976657708829
+11.67826658859849 seconds in game passed.
+Action: tensor([[[0.0034, 0.6218],
+         [0.0045, 0.3271],
+         [0.0055, 0.2228],
+         [0.0054, 0.1696]]])
+agent 0 action: VehicleControl(throttle=0.458167, steer=0.004078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 90.976657708829
++++++++++++++: inf
+11.703266588971019 seconds in game passed.
+At 11.703266588971019 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0047, 0.6284],
+         [0.0046, 0.3371],
+         [0.0048, 0.2329],
+         [0.0044, 0.1788]]])
+agent 0 action: VehicleControl(throttle=0.170966, steer=0.004663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.491595841107492
+Current mitigation activation: 0
+#############################
+Total reward: 92.46825354993649
+11.728266589343548 seconds in game passed.
+Action: tensor([[[0.0047, 0.6284],
+         [0.0046, 0.3371],
+         [0.0048, 0.2329],
+         [0.0044, 0.1788]]])
+agent 0 action: VehicleControl(throttle=0.198833, steer=0.004610, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 92.46825354993649
+11.753266589716077 seconds in game passed.
+Action: tensor([[[0.0047, 0.6284],
+         [0.0046, 0.3371],
+         [0.0048, 0.2329],
+         [0.0044, 0.1788]]])
+agent 0 action: VehicleControl(throttle=0.196636, steer=0.004649, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 92.46825354993649
+11.778266590088606 seconds in game passed.
+Action: tensor([[[0.0047, 0.6284],
+         [0.0046, 0.3371],
+         [0.0048, 0.2329],
+         [0.0044, 0.1788]]])
+agent 0 action: VehicleControl(throttle=0.196606, steer=0.004687, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 92.46825354993649
++++++++++++++: inf
+11.803266590461135 seconds in game passed.
+At 11.803266590461135 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0041, 0.6841],
+         [0.0102, 0.4165],
+         [0.0146, 0.3077],
+         [0.0176, 0.2439]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.008575, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4929601632813887
+Current mitigation activation: 0
+#############################
+Total reward: 93.96121371321789
+11.828266590833664 seconds in game passed.
+Action: tensor([[[0.0041, 0.6841],
+         [0.0102, 0.4165],
+         [0.0146, 0.3077],
+         [0.0176, 0.2439]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.008005, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 93.96121371321789
+11.853266591206193 seconds in game passed.
+Action: tensor([[[0.0041, 0.6841],
+         [0.0102, 0.4165],
+         [0.0146, 0.3077],
+         [0.0176, 0.2439]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.008071, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 93.96121371321789
+11.878266591578722 seconds in game passed.
+Action: tensor([[[0.0041, 0.6841],
+         [0.0102, 0.4165],
+         [0.0146, 0.3077],
+         [0.0176, 0.2439]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.008137, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 93.96121371321789
++++++++++++++: inf
+11.903266591951251 seconds in game passed.
+At 11.903266591951251 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[6.1780e-04, 7.0138e-01],
+         [8.9741e-04, 4.2758e-01],
+         [1.3969e-03, 3.1509e-01],
+         [2.7946e-03, 2.4989e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000000, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4849453569177433
+Current mitigation activation: 0
+#############################
+Total reward: 95.44615907013564
+11.92826659232378 seconds in game passed.
+Action: tensor([[[6.1780e-04, 7.0138e-01],
+         [8.9741e-04, 4.2758e-01],
+         [1.3969e-03, 3.1509e-01],
+         [2.7946e-03, 2.4989e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001355, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 95.44615907013564
+11.953266592696309 seconds in game passed.
+Action: tensor([[[6.1780e-04, 7.0138e-01],
+         [8.9741e-04, 4.2758e-01],
+         [1.3969e-03, 3.1509e-01],
+         [2.7946e-03, 2.4989e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001354, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 95.44615907013564
+11.978266593068838 seconds in game passed.
+Action: tensor([[[6.1780e-04, 7.0138e-01],
+         [8.9741e-04, 4.2758e-01],
+         [1.3969e-03, 3.1509e-01],
+         [2.7946e-03, 2.4989e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001354, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 95.44615907013564
++++++++++++++: inf
+12.003266593441367 seconds in game passed.
+At 12.003266593441367 seconds, saving state-action tuples.
+Mitigation action constant threshold: 0
+Action: tensor([[[0.0098, 0.7910],
+         [0.0100, 0.4759],
+         [0.0073, 0.3364],
+         [0.0054, 0.2506]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.012086, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 10.0
+Current reward: 1.4329188034053937
+Current mitigation activation: 0
+#############################
+Total reward: 96.87907787354104
+12.028266593813896 seconds in game passed.
+Action: tensor([[[0.0098, 0.7910],
+         [0.0100, 0.4759],
+         [0.0073, 0.3364],
+         [0.0054, 0.2506]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.010425, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Resetting ego-vehicle!
+Total reward: 96.87907787354104
+Post-processing after stepping
+Simulation done, stopping the scenario
+Stopping the route
+
+========= Results of RouteScenario_0 (repetition 0) ------ [91mFAILURE[0m =========
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-11-15 00:42:20 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-11-15 00:42:58 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 38.66s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 9.78s               │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.253               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ FAILURE │ 46.64 % │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ SUCCESS │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ FAILURE │ 1 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ SUCCESS │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+Simulation saved.
+Registering the global statistics
+================= Finish episode 0 =================
+Episode: 0, reward: 96.88, average_reward: 96.87907787354104 
+
+Saving mitigation results to //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_ghost_cutin_acc_only_lbc_ttc/SINGLE_AGENT_fi_ghost_cutin_00006/fi_ghost_cutin_data

@@ -1,0 +1,32 @@
+/home/sheng/.local/lib/python3.8/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3190.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/sheng/.local/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/sheng/.local/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/carla_sim_datautils.py:210: RuntimeWarning: invalid value encountered in arccos
+  angle = np.arccos(dot_product)
+/home/sheng/projects/DiverseEnv/carladataset/carla-sim/bev_planning_sim/generate_risk_traj_poly_single_timestamp_simfunction.py:687: ShapelyDeprecationWarning: The 'cascaded_union()' function is deprecated. Use 'unary_union()' instead.
+  lanePolygonUnioned = cascaded_union(lanePolygons)
+/home/sheng/projects/DiverseEnv/carladataset/carla-sim/bev_planning_sim/generate_risk_traj_poly_single_timestamp_simfunction.py:135: RuntimeWarning: invalid value encountered in sqrt
+  area = np.sqrt(s * (s - a_b) * (s - b_c) * (s - c_a))
+/home/sheng/projects/DiverseEnv/carladataset/carla-sim/bev_planning_sim/generate_risk_traj_poly_single_timestamp_simfunction.py:158: ShapelyDeprecationWarning: The 'cascaded_union()' function is deprecated. Use 'unary_union()' instead.
+  return cascaded_union(triangles)
+/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/scenarios/scenario_manager.py:437: RuntimeWarning: invalid value encountered in true_divide
+  unit_vector_1 = ego_vector / np.linalg.norm(ego_vector)
+/home/sheng/projects/DiverseEnv/carladataset/carla-sim/bev_planning_sim/generate_risk_traj_poly_single_timestamp_simfunction.py:138: RuntimeWarning: divide by zero encountered in true_divide
+  circum_r = a_b * b_c * c_a / (4.0 * area)
+Traceback (most recent call last):
+  File "/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/mitigation_inference_driver.py", line 63, in <module>
+    main()
+  File "/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/mitigation_inference_driver.py", line 38, in main
+    dqn_lbc.inference_loop_standalone_process(total_episodes=1, mitigation=params.mitigation_mode, mitigation_configs={
+  File "/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/mitigation_rl_dqn.py", line 209, in inference_loop_standalone_process
+    p.join()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.8/multiprocessing/popen_fork.py", line 47, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/usr/lib/python3.8/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
