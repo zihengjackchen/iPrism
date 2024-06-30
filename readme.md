@@ -1,14 +1,17 @@
-> # (Under Construction)
 # iPrism: Characterize and Mitigate Risk by Quantifying Change in Escape Routes
-*Paper accepted by DSN 2024*. Introduction, visualization, and other relevant information can be found on the [project website](https://zihengjackchen.github.io/AV-webpages/iprism/).
+*Paper accepted by DSN 2024*. Introduction, visualization, and other relevant information can be found on the [project website](https://zihengjackchen.github.io/iprism-page/).
 
 ## Problem Statement
 In complex and dynamic real-world situations involving multiple actors, ensuring safety is a significant challenge. This complexity often leads to severe accidents. We introduce a novel risk metric called the Safety-Threat Indicator (STI), which is inspired by the proactive strategies of experienced drivers to circumvent hazards by evaluating changes in available escape routes for the AV. STI outperforms the state-of-the-art heuristic and data-driven techniques by 2.7 ~ 4.9 times.
 
 To effectively reduce the risks quantified by STI and prevent accidents, we also developed a reinforcement learning-based Safety-hazard Mitigation Controller (SMC). This controller learns optimal policies for risk reduction and accident avoidance. Our approach demonstrates a substantial reduction in the accident rate for advanced autonomous vehicle agents in rare hazardous scenarios—up to a 77% improvement over current state-of-the-art methods. 
 
+### Examples
+Please see the [demo](./STI-demo) folder for STI calculation on an example scenario and visit [project website](https://zihengjackchen.github.io/iprism-page/) for more information.
 
 ## Installation
+This project uses [Git Large File Storage](https://zihengjackchen.github.io/iprism-page/). 
+
 ### Dependencies
 - [CARLA 0.9.10](https://carla.readthedocs.io/en/0.9.10/start_quickstart/)
   - Change `<PATH_TO_FILE>/iPrism/DiverseEnv/auto/bin/startsim.sh` to use the `CarlaUE4.sh` in the directory that `CARLA` is installed in
@@ -16,8 +19,8 @@ To effectively reduce the risks quantified by STI and prevent accidents, we also
 - Please refer to `requirements.txt` for packages like PyTorch
 - Filling in directories for `<PATH_TO_FILE>` at all places
 - Setting `PYTHONPATH` as 
-    `
-    <PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10/PythonAPI:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10/PythonAPI/carla:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge/scenario_runner:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/team_code:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge:<PATH_TO_FILE>/iPrism/DiverseEnv/carladataset/carla-sim:<PATH_TO_FILE>/iPrism/ReachML/reachml:<PATH_TO_FILE>/iPrism/ReachML/reachml/model:<PATH_TO_FILE>/iPrism/ReachML`
+    ```
+    <PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10/PythonAPI:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10/PythonAPI/carla:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/sim/CARLA_0.9.10/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge/scenario_runner:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/team_code:<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge:<PATH_TO_FILE>/iPrism/DiverseEnv/carladataset/carla-sim:<PATH_TO_FILE>/iPrism/ReachML/reachml:<PATH_TO_FILE>/iPrism/ReachML/reachml/model:<PATH_TO_FILE>/iPrism/ReachML```
 - Place `epoch24.ckpt` (separately uploaded) inside of `<PATH_TO_FILE>/iPrism/DiverseEnv/auto/agents/2020_CARLA_challenge/`
 
 
@@ -27,15 +30,17 @@ To effectively reduce the risks quantified by STI and prevent accidents, we also
 - 64 GB Memory
 - Ubuntu 18.04.5 LTS
 
-### STI Example
-Please see the [demo](./STI-demo) folder for STI calculation on an example scenario. 
-
-### Testing Scenarios
-The scenarios used in this projects are generated using [sc_campaign](https://github.com/zihengjackchen/OTA).
-
 ### Generating STI in Post-Processing
-
-
+Run `<PATH_TO_FILE>/iPrism/iPrism/DiverseEnv/carladataset/carla-sim/bev_planning/risk_driver_traj_parameter_sweeping.py` with arguments 
+```
+<folder_name>
+dyn
+PS
+blocking
+None
+GT
+```
+The main logic can be found in `,PATH_TO_FILE>/iPrism/DiverseEnv/carladataset/carla-sim/bev_planning/generate_risk_traj_poly_single_timestamp.py`.
 ### Inferencing with SMC agent
 - Place a trained weight into `<PATH_TO_FILE>/iPrism/DiverseEnv/auto/ram_shared/dqn_sti_online` and rename to `inference_dicts.0.pkl`
 
@@ -100,5 +105,6 @@ The scenarios used in this projects are generated using [sc_campaign](https://gi
 
 
 # Related Work
-- LBC
-- RIP
+- [Learning by Cheating](https://github.com/bradyz/2020_CARLA_challenge)
+- [RIP](https://rowanmcallister.github.io/publication/carnovel/)
+- [OATomobile](https://github.com/OATML/oatomobile)
