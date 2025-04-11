@@ -1,0 +1,23 @@
+{   
+    "basePath": "/home/sheng/projects/DiverseEnv/auto",
+    "scriptPath": "/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/mitigation_inference_driver.py",
+    "campaigns":
+    [   
+        {
+            "sceneName": "fi_lead_slowdown",
+            "sceneClassName": "LeadSlowDown",
+            "basePath2": "agents/2020_CARLA_challenge",
+            "sceneMgrDir": "scenario_runner/srunner/scenario_configs",
+            "sceneRoute": "leaderboard/data/routes_fi/route_highway.xml",
+            "tunableParameters": {
+                "listofNames": ["first_vehicle_location", "first_vehicle_speed", "event_trigger_distance"],
+                "listofRanges": [
+                    [30, 80, 5],
+                    [0, 20, 2],
+                    [25, 45, 2]
+                ]
+            }
+        }
+    ]
+}
+

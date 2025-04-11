@@ -1,0 +1,22 @@
+{   
+    "basePath": "/media/sheng/data4/projects/DiverseEnv/auto",
+    "scriptPath": "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py",
+    "campaigns":
+    [   
+        {
+            "sceneName": "fi_front_accident",
+            "sceneClassName": "FrontAccident",
+            "basePath2": "agents/2020_CARLA_challenge",
+            "sceneMgrDir": "scenario_runner/srunner/scenario_configs",
+            "sceneRoute": "leaderboard/data/routes_fi/route_highway.xml",
+            "tunableParameters": {
+                "listofNames": ["distance_lane_change", "distance_same_lane", "crash_event_trigger_distance"],
+                "listofRanges": [
+                    [2, 20, 2],
+                    [1, 10, 1],
+                    [0, 10, 1]
+                ]
+            }
+        }
+    ]
+}

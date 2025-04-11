@@ -1,0 +1,54 @@
+<driver-config>
+	<base_path> /home/sheng/projects/auto/ </base_path>
+    	<docker_base_path> /auto </docker_base_path>
+    <programs>
+	    <agent_path> leaderboard/leaderboard/leaderboard_evaluator.py </agent_path>
+    </programs>
+    <scenario>
+	    <!-- scenario file name without .json and without full path -->
+	    <name> fi_lead_slowdown </name> <!-- fi_ghost_cutin -->
+        <route> leaderboard/data/routes_fi/route_highway.xml </route> 
+        <!-- leaderboard/data/routes_training/route_42.xml -->
+        <!-- leaderboard/data/routes_fi/route_highway.xml -->
+    </scenario>
+    <campaigns>
+	    <!--	<INJECT_CPU_PERMANNET>
+            <agent_mode> SINGLE_AGENT </agent_mode>
+            <enabled> false </enabled>
+            <num_experiments> 0 </num_experiments>
+            <profile_timeout> 30000 </profile_timeout>
+            <injection_timeout> 1200 </injection_timeout>
+	</INJECT_CPU_PERMANNET>
+	-->
+	<!--<INJECT_CPU_PERMANNET>
+            <agent_mode> DUAL_AGENT_RR </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 300 </num_experiments>
+            <profile_timeout> 30000 </profile_timeout>
+            <injection_timeout> 1200 </injection_timeout>
+	</INJECT_CPU_PERMANNET> -->
+	
+	<!-- <INJECT_GPU_PERMANNET>
+            <agent_mode> SINGLE_AGENT </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 2000 </num_experiments>
+            <profile_timeout> 30000 </profile_timeout>
+            <injection_timeout> 10000 </injection_timeout>
+    </INJECT_GPU_PERMANNET> --> 
+    <INJECT_GPU_PERMANNET>
+            <agent_mode> DUAL_AGENT_RR </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 500 </num_experiments>
+            <profile_timeout> 3000 </profile_timeout>
+	        <injection_timeout> 600 </injection_timeout>
+            <inject_opcode_list>  </inject_opcode_list>
+            <repeatitions_golden> 0 </repeatitions_golden>
+            <repeatitions_injection> 3 </repeatitions_injection>
+            <!-- preprocessing method gauss=gaussian_noise, darken=reduce brightness -->
+            <preprocessing> </preprocessing> 
+            <!-- preparam gauss:mean,std; darken:value, leave at blank if preprocessing is not used -->
+            <preparam> </preparam>
+	</INJECT_GPU_PERMANNET> 
+
+    </campaigns>
+</driver-config>

@@ -1,0 +1,1 @@
+continue training on good weight, mitigation buffer size constraint removed, replay 99 (cleared), state 20, booking keeping 20
