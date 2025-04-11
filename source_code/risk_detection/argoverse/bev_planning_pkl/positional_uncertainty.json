@@ -1,0 +1,26 @@
+{
+    "gaussian2DShift": {
+        "centerMeanXY": [0, 0],
+        "centerCovariance": [[0.03, 0], [0, 0.03]]
+    },
+    "gaussian2DRotate": {
+        "rotationMean": 0,
+        "rotationVariance": 5
+    },
+    "gaussian2DCorners": {
+        "corner0Mean": [0, 0],
+        "corner1Mean": [0, 0],
+        "corner2Mean": [0, 0],
+        "corner3Mean": [0, 0],
+        "corner0Covariance": [[0.03, 0.03], [0.03, 0.1]],
+        "corner1Covariance": [[0.03, 0.03], [0.03, 0.1]],
+        "corner2Covariance": [[0.03, 0.03], [0.03, 0.1]],
+        "corner3Covariance": [[0.03, 0.03], [0.03, 0.1]]
+    },
+    "gaussian2DShiftRotate": {
+        "centerMeanXY": [0, 0],
+        "centerCovariance": [[0.075, 0], [0, 0.075]],
+        "rotationMean": 0,
+        "rotationVariance": 7.5
+    }
+}
