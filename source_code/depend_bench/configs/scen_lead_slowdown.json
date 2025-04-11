@@ -1,0 +1,22 @@
+{   
+    "basePath": "/media/sheng/data4/projects/DiverseEnv/auto",
+    "scriptPath": "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py",
+    "campaigns":
+    [   
+        {
+            "sceneName": "fi_lead_slowdown",
+            "sceneClassName": "LeadSlowDown",
+            "basePath2": "agents/2020_CARLA_challenge",
+            "sceneMgrDir": "scenario_runner/srunner/scenario_configs",
+            "sceneRoute": "leaderboard/data/routes_fi/route_highway.xml",
+            "tunableParameters": {
+                "listofNames": ["first_vehicle_location", "first_vehicle_speed", "event_trigger_distance"],
+                "listofRanges": [
+                    [20, 70, 5],
+                    [0, 100, 10],
+                    [25, 45, 2]
+                ]
+            }
+        }
+    ]
+}

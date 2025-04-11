@@ -1,0 +1,57 @@
+<driver-config>
+	<base_path> /home/sheng/projects/auto/ </base_path>
+    	<docker_base_path> /auto </docker_base_path>
+    <programs>
+	    <agent_path> leaderboard/leaderboard/leaderboard_evaluator.py </agent_path>
+    </programs>
+    <scenario>
+	    <!-- scenario file name without .json and without full path -->
+	    <name> fi_lead_slowdown </name>
+    </scenario>
+    <campaigns>
+        <!-- <profile_cpu>
+            <agent_mode> SINGLE_AGENT </agent_mode>
+            <experiment_mode> CPU_PROFILE </experiment_mode>
+            <num_experiments> 1 </num_experiments>
+            <enabled> true </enabled>
+            <timeout> 2000 </timeout>
+        </profile_cpu> -->
+	<!-- <INJECT_CPU_PERMANNET>
+            <agent_mode> SINGLE_AGENT </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 2 </num_experiments>
+            <profile_timeout> 30000 </profile_timeout>
+            <injection_timeout> 1200 </injection_timeout>
+	</INJECT_CPU_PERMANNET> -->
+	
+	<!-- <INJECT_CPU_PERMANNET>
+            <agent_mode> DUAL_AGENT_RR </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 2 </num_experiments>
+            <profile_timeout> 30000 </profile_timeout>
+            <injection_timeout> 1200 </injection_timeout>
+	</INJECT_CPU_PERMANNET> -->
+	<!-- <INJECT_GPU_PERMANNET>
+            <agent_mode> SINGLE_AGENT </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 2000 </num_experiments>
+            <profile_timeout> 30000 </profile_timeout>
+            <injection_timeout> 10000 </injection_timeout>
+	</INJECT_GPU_PERMANNET> -->
+	<!-- <INJECT_GPU_PERMANNET>
+            <agent_mode> DUAL_AGENT_RR </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 178 </num_experiments>
+            <profile_timeout> 3000 </profile_timeout>
+            <injection_timeout> 600 </injection_timeout>
+	</INJECT_GPU_PERMANNET> -->
+    <INJECT_GPU_PERMANNET>
+            <agent_mode> DUAL_AGENT_DUP </agent_mode>
+            <enabled> true </enabled>
+            <num_experiments> 178 </num_experiments>
+            <profile_timeout> 3000 </profile_timeout>
+            <injection_timeout> 600 </injection_timeout>
+	</INJECT_GPU_PERMANNET>
+
+    </campaigns>
+</driver-config>

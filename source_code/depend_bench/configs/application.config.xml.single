@@ -1,0 +1,26 @@
+<driver-config>
+	<base_path> /home/sjha8/projects/auto/ </base_path>
+    	<docker_base_path> /auto </docker_base_path>
+    <programs>
+	    <agent_path> leaderboard/leaderboard/leaderboard_evaluator.py </agent_path>
+    </programs>
+    <scenario>
+	    <!-- scenario file name without .json and without full path -->
+	    <name> fi_ghost_cutin </name> <!-- fi_ghost_cutin -->
+        <route> leaderboard/data/routes_fi/route_highway.xml </route> 
+        <!-- leaderboard/data/routes_training/route_42.xml -->
+        <!-- leaderboard/data/routes_fi/route_highway.xml -->
+    </scenario>
+    <campaigns>
+    	<INJECT_GPU_PERMANNET>
+            <agent_mode> SINGLE_AGENT </agent_mode>
+            <enabled> true </enabled>
+	    <num_experiments> 5000 </num_experiments>
+	    <profile_timeout> 3000 </profile_timeout>
+	    <injection_timeout> 600 </injection_timeout>
+	    <inject_opcode_list> 49, 53, 64 </inject_opcode_list>
+	    <repeatitions_golden> 10 </repeatitions_golden>
+	    <repeatitions_injection> 3 </repeatitions_injection> 
+    	</INJECT_GPU_PERMANNET> 
+    </campaigns>
+</driver-config>
