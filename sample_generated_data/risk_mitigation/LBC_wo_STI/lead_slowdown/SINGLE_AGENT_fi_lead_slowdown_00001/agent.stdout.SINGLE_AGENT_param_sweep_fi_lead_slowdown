@@ -1,0 +1,2957 @@
+New episode load state dicts.
+
+creating control dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_logs/routes_fi_route_highway-1124_122057-fi_lead_slowdown_logs-single_ctl.csv
+
+creating ego trajectory dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_logs/routes_fi_route_highway-1124_122057-fi_lead_slowdown_logs-single_traj.csv
+
+creating cvip dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_logs/routes_fi_route_highway-1124_122057-fi_lead_slowdown_logs-single_cvip.csv
+
+creating network points dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_logs/routes_fi_route_highway-1124_122057-fi_lead_slowdown_logs-single_points.csv
+
+creating pid delta dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_logs/routes_fi_route_highway-1124_122057-fi_lead_slowdown_logs-single_piddelta.csv
+
+creating unclipped control dump file at: //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_logs/routes_fi_route_highway-1124_122057-fi_lead_slowdown_logs-single_unclip_ctl.csv
+
+done creating dump files.
+Positional uncertainty is not enabled for this run.
+Prediction type: CVCTR
+Prepare for stepping
+
+[1m========= Preparing RouteScenario_0 (repetition 0) =========
+> Setting up the agent[0m
+Loading the world
+Save to //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_data/route_highway.xml_fi_lead_slowdown.json.pkl
+Exclude list: [17, 23]
+Location(x=192.362411, y=-86.262680, z=0.700000) Rotation(pitch=0.000000, yaw=89.330902, roll=0.000000)
+Base scenario time out after: 36.333333333333336
+Replacing key first_vehicle_location's value from 50 to 30.
+Replacing key first_vehicle_speed's value from 10 to 0.
+Replacing key event_trigger_distance's value from 35 to 27.
+Config for LeadSlowDown scenario is {'first_vehicle_location': 30, 'first_vehicle_speed': 0, 'other_actor_max_brake': 1.0, 'event_trigger_distance': 27}
+2.0531441755592823 seconds in game passed.
+Action: tensor([[[0.0037, 0.5921],
+         [0.0027, 0.3306],
+         [0.0025, 0.2344],
+         [0.0019, 0.1819]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003503, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.0781441759318113 seconds in game passed.
+Action: tensor([[[0.0037, 0.5921],
+         [0.0027, 0.3306],
+         [0.0025, 0.2344],
+         [0.0019, 0.1819]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002961, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.1031441763043404 seconds in game passed.
+Action: tensor([[[0.0037, 0.5921],
+         [0.0027, 0.3306],
+         [0.0025, 0.2344],
+         [0.0019, 0.1819]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002997, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.1281441766768694 seconds in game passed.
+Action: tensor([[[0.0037, 0.5921],
+         [0.0027, 0.3306],
+         [0.0025, 0.2344],
+         [0.0019, 0.1819]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003033, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.1531441770493984 seconds in game passed.
+Action: tensor([[[0.0037, 0.5921],
+         [0.0027, 0.3306],
+         [0.0025, 0.2344],
+         [0.0019, 0.1819]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003069, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2178144177
+$$$$$$$$$$$$$$$$$$$$$ 0.37647461891174316$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7129607200622559$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2178144177 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3730013370513916$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4901154041290283 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.1781441774219275 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0055, 0.5915],
+         [0.0029, 0.3230],
+         [0.0028, 0.2229],
+         [0.0025, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003958, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.2031441777944565 seconds in game passed.
+Action: tensor([[[0.0055, 0.5915],
+         [0.0029, 0.3230],
+         [0.0028, 0.2229],
+         [0.0025, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003862, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.2281441781669855 seconds in game passed.
+Action: tensor([[[0.0055, 0.5915],
+         [0.0029, 0.3230],
+         [0.0028, 0.2229],
+         [0.0025, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003907, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.2531441785395145 seconds in game passed.
+Action: tensor([[[0.0055, 0.5915],
+         [0.0029, 0.3230],
+         [0.0028, 0.2229],
+         [0.0025, 0.1690]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003952, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2278144178
+$$$$$$$$$$$$$$$$$$$$$ 0.565054178237915$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6894752979278564$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2278144178 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.37425971031188965$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6550216674804688 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.2781441789120436 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0047, 0.5953],
+         [0.0021, 0.3244],
+         [0.0018, 0.2238],
+         [0.0014, 0.1696]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003068, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.3031441792845726 seconds in game passed.
+Action: tensor([[[0.0047, 0.5953],
+         [0.0021, 0.3244],
+         [0.0018, 0.2238],
+         [0.0014, 0.1696]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003256, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.3281441796571016 seconds in game passed.
+Action: tensor([[[0.0047, 0.5953],
+         [0.0021, 0.3244],
+         [0.0018, 0.2238],
+         [0.0014, 0.1696]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003292, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.3531441800296307 seconds in game passed.
+Action: tensor([[[0.0047, 0.5953],
+         [0.0021, 0.3244],
+         [0.0018, 0.2238],
+         [0.0014, 0.1696]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003327, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2378144180
+$$$$$$$$$$$$$$$$$$$$$ 0.39890503883361816$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.693861722946167$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2378144180 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3776571750640869$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.514636516571045 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.3781441804021597 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0035, 0.5936],
+         [0.0015, 0.3238],
+         [0.0012, 0.2233],
+         [0.0007, 0.1691]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002462, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 3.415575186870881e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.4031441807746887 seconds in game passed.
+Action: tensor([[[0.0035, 0.5936],
+         [0.0015, 0.3238],
+         [0.0012, 0.2233],
+         [0.0007, 0.1691]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002637, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.4281441811472178 seconds in game passed.
+Action: tensor([[[0.0035, 0.5936],
+         [0.0015, 0.3238],
+         [0.0012, 0.2233],
+         [0.0007, 0.1691]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.453144181519747 seconds in game passed.
+Action: tensor([[[0.0035, 0.5936],
+         [0.0015, 0.3238],
+         [0.0012, 0.2233],
+         [0.0007, 0.1691]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002689, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2478144181
+$$$$$$$$$$$$$$$$$$$$$ 0.38361549377441406$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6883900165557861$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2478144181 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.38324570655822754$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4809956550598145 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.478144181892276 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0028, 0.5918],
+         [0.0015, 0.3228],
+         [0.0013, 0.2224],
+         [0.0008, 0.1684]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002413, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 3.4024588532599863e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.503144182264805 seconds in game passed.
+Action: tensor([[[0.0028, 0.5918],
+         [0.0015, 0.3228],
+         [0.0013, 0.2224],
+         [0.0008, 0.1684]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002486, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.528144182637334 seconds in game passed.
+Action: tensor([[[0.0028, 0.5918],
+         [0.0015, 0.3228],
+         [0.0013, 0.2224],
+         [0.0008, 0.1684]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002509, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.553144183009863 seconds in game passed.
+Action: tensor([[[0.0028, 0.5918],
+         [0.0015, 0.3228],
+         [0.0013, 0.2224],
+         [0.0008, 0.1684]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2578144183
+$$$$$$$$$$$$$$$$$$$$$ 0.3910555839538574$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6957511901855469$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2578144183 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3900473117828369$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5038447380065918 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.578144183382392 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0025, 0.5900],
+         [0.0014, 0.3221],
+         [0.0012, 0.2220],
+         [0.0007, 0.1680]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002334, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 1.9067608460816242e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.603144183754921 seconds in game passed.
+Action: tensor([[[0.0025, 0.5900],
+         [0.0014, 0.3221],
+         [0.0012, 0.2220],
+         [0.0007, 0.1680]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002391, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.62814418412745 seconds in game passed.
+Action: tensor([[[0.0025, 0.5900],
+         [0.0014, 0.3221],
+         [0.0012, 0.2220],
+         [0.0007, 0.1680]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002412, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.653144184499979 seconds in game passed.
+Action: tensor([[[0.0025, 0.5900],
+         [0.0014, 0.3221],
+         [0.0012, 0.2220],
+         [0.0007, 0.1680]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002432, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2678144184
+$$$$$$$$$$$$$$$$$$$$$ 0.4046180248260498$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7146122455596924$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2678144184 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3738882541656494$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5202302932739258 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.678144184872508 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0023, 0.5896],
+         [0.0015, 0.3220],
+         [0.0013, 0.2219],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002460, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 1.1075855307842519e-05
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.703144185245037 seconds in game passed.
+Action: tensor([[[0.0023, 0.5896],
+         [0.0015, 0.3220],
+         [0.0013, 0.2219],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002479, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.728144185617566 seconds in game passed.
+Action: tensor([[[0.0023, 0.5896],
+         [0.0015, 0.3220],
+         [0.0013, 0.2219],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002500, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.753144185990095 seconds in game passed.
+Action: tensor([[[0.0023, 0.5896],
+         [0.0015, 0.3220],
+         [0.0013, 0.2219],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2778144186
+$$$$$$$$$$$$$$$$$$$$$ 0.3819601535797119$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7245676517486572$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2778144186 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3830842971801758$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5308308601379395 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.778144186362624 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0021, 0.5891],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002496, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 2.6223839576618197e-06
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.803144186735153 seconds in game passed.
+Action: tensor([[[0.0021, 0.5891],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002524, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.8281441871076822 seconds in game passed.
+Action: tensor([[[0.0021, 0.5891],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002544, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.8531441874802113 seconds in game passed.
+Action: tensor([[[0.0021, 0.5891],
+         [0.0015, 0.3219],
+         [0.0013, 0.2218],
+         [0.0007, 0.1679]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002564, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2878144187
+$$$$$$$$$$$$$$$$$$$$$ 0.38461828231811523$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7004797458648682$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2878144187 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.38117051124572754$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4943366050720215 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.8781441878527403 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0022, 0.5887],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002696, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+2.9031441882252693 seconds in game passed.
+Action: tensor([[[0.0022, 0.5887],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002699, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.9281441885977983 seconds in game passed.
+Action: tensor([[[0.0022, 0.5887],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002720, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+2.9531441889703274 seconds in game passed.
+Action: tensor([[[0.0022, 0.5887],
+         [0.0016, 0.3217],
+         [0.0015, 0.2217],
+         [0.0008, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002742, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 2978144189
+$$$$$$$$$$$$$$$$$$$$$ 0.38547277450561523$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7128696441650391$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 2978144189 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.37208080291748047$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4965064525604248 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+2.9781441893428564 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0021, 0.5885],
+         [0.0018, 0.3217],
+         [0.0016, 0.2217],
+         [0.0009, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002821, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.0031441897153854 seconds in game passed.
+Action: tensor([[[0.0021, 0.5885],
+         [0.0018, 0.3217],
+         [0.0016, 0.2217],
+         [0.0009, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002834, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.0281441900879145 seconds in game passed.
+Action: tensor([[[0.0021, 0.5885],
+         [0.0018, 0.3217],
+         [0.0016, 0.2217],
+         [0.0009, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002856, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.0531441904604435 seconds in game passed.
+Action: tensor([[[0.0021, 0.5885],
+         [0.0018, 0.3217],
+         [0.0016, 0.2217],
+         [0.0009, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002842, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3078144190
+$$$$$$$$$$$$$$$$$$$$$ 0.5488467216491699$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7116913795471191$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3078144190 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3770437240600586$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6648075580596924 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.0781441908329725 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0020, 0.5887],
+         [0.0016, 0.3217],
+         [0.0014, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002637, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.1031441912055016 seconds in game passed.
+Action: tensor([[[0.0020, 0.5887],
+         [0.0016, 0.3217],
+         [0.0014, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002652, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.1281441915780306 seconds in game passed.
+Action: tensor([[[0.0020, 0.5887],
+         [0.0016, 0.3217],
+         [0.0014, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002636, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.1531441919505596 seconds in game passed.
+Action: tensor([[[0.0020, 0.5887],
+         [0.0016, 0.3217],
+         [0.0014, 0.2217],
+         [0.0008, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002620, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3178144192
+$$$$$$$$$$$$$$$$$$$$$ 0.39047932624816895$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7010903358459473$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3178144192 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.4077799320220947$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.536931037902832 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.1781441923230886 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0019, 0.5878],
+         [0.0018, 0.3214],
+         [0.0017, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002700, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.2031441926956177 seconds in game passed.
+Action: tensor([[[0.0019, 0.5878],
+         [0.0018, 0.3214],
+         [0.0017, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002659, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.2281441930681467 seconds in game passed.
+Action: tensor([[[0.0019, 0.5878],
+         [0.0018, 0.3214],
+         [0.0017, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002635, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.2531441934406757 seconds in game passed.
+Action: tensor([[[0.0019, 0.5878],
+         [0.0018, 0.3214],
+         [0.0017, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002612, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3278144193
+$$$$$$$$$$$$$$$$$$$$$ 0.390610933303833$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7043049335479736$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3278144193 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.38047027587890625$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5037786960601807 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.2781441938132048 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0019, 0.5882],
+         [0.0017, 0.3215],
+         [0.0016, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002580, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 2.622383957655847e-06
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.303144194185734 seconds in game passed.
+Action: tensor([[[0.0019, 0.5882],
+         [0.0017, 0.3215],
+         [0.0016, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002569, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.328144194558263 seconds in game passed.
+Action: tensor([[[0.0019, 0.5882],
+         [0.0017, 0.3215],
+         [0.0016, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.353144194930792 seconds in game passed.
+Action: tensor([[[0.0019, 0.5882],
+         [0.0017, 0.3215],
+         [0.0016, 0.2215],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002540, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3378144195
+$$$$$$$$$$$$$$$$$$$$$ 0.3870854377746582$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7214515209197998$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3378144195 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3844733238220215$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5373458862304688 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.378144195303321 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002514, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.40314419567585 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002512, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.428144196048379 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002506, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.453144196420908 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0018, 0.3213],
+         [0.0017, 0.2214],
+         [0.0010, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002501, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3478144196
+$$$$$$$$$$$$$$$$$$$$$ 0.38532018661499023$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7257888317108154$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3478144196 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3863341808319092$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5250213146209717 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.478144196793437 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0018, 0.5881],
+         [0.0017, 0.3214],
+         [0.0016, 0.2215],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002433, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.503144197165966 seconds in game passed.
+Action: tensor([[[0.0018, 0.5881],
+         [0.0017, 0.3214],
+         [0.0016, 0.2215],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002441, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.528144197538495 seconds in game passed.
+Action: tensor([[[0.0018, 0.5881],
+         [0.0017, 0.3214],
+         [0.0016, 0.2215],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002438, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.553144197911024 seconds in game passed.
+Action: tensor([[[0.0018, 0.5881],
+         [0.0017, 0.3214],
+         [0.0016, 0.2215],
+         [0.0009, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002435, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3578144198
+$$$$$$$$$$$$$$$$$$$$$ 0.3890976905822754$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6940476894378662$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3578144198 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3818967342376709$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4996449947357178 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.578144198283553 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3212],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002462, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.603144198656082 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3212],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002457, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.628144199028611 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3212],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002456, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.65314419940114 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3212],
+         [0.0017, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002456, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3678144199
+$$$$$$$$$$$$$$$$$$$$$ 0.39379453659057617$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7028913497924805$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3678144199 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.38525986671447754$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.516775131225586 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.6781441997736692 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0018, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002448, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.7031442001461983 seconds in game passed.
+Action: tensor([[[0.0018, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002449, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.7281442005187273 seconds in game passed.
+Action: tensor([[[0.0018, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002449, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.7531442008912563 seconds in game passed.
+Action: tensor([[[0.0018, 0.5880],
+         [0.0017, 0.3214],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002448, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3778144201
+$$$$$$$$$$$$$$$$$$$$$ 0.39244818687438965$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7471556663513184$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3778144201 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3838193416595459$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.5501954555511475 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.7781442012637854 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0017, 0.5872],
+         [0.0017, 0.3211],
+         [0.0016, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002403, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.8031442016363144 seconds in game passed.
+Action: tensor([[[0.0017, 0.5872],
+         [0.0017, 0.3211],
+         [0.0016, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.8281442020088434 seconds in game passed.
+Action: tensor([[[0.0017, 0.5872],
+         [0.0017, 0.3211],
+         [0.0016, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002409, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.8531442023813725 seconds in game passed.
+Action: tensor([[[0.0017, 0.5872],
+         [0.0017, 0.3211],
+         [0.0016, 0.2213],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002409, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3878144202
+$$$$$$$$$$$$$$$$$$$$$ 0.3930931091308594$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.8727970123291016$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3878144202 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3776402473449707$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6698455810546875 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.8781442027539015 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0016, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002393, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+3.9031442031264305 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0016, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002394, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.9281442034989595 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0016, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002392, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+3.9531442038714886 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0016, 0.3213],
+         [0.0016, 0.2214],
+         [0.0009, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002390, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 3978144204
+$$$$$$$$$$$$$$$$$$$$$ 0.389087438583374$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6959285736083984$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 3978144204 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.38078904151916504$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4998204708099365 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+3.9781442042440176 seconds in game passed.
+Skip conversion, the game just started.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002439, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.003144204616547 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002429, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.028144204989076 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002427, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.053144205361605 seconds in game passed.
+Action: tensor([[[0.0017, 0.5873],
+         [0.0017, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002425, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 4078144205
+$$$$$$$$$$$$$$$$$$$$$ 0.5101332664489746$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.822871208190918$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4078144205 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3791079521179199$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.7401487827301025 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+4.078144205734134 seconds in game passed.
+At 4.078144205734134 seconds, saving state-action tuples.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0017, 0.3212],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002390, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.103144206106663 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0017, 0.3212],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002396, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.128144206479192 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0017, 0.3212],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002395, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.153144206851721 seconds in game passed.
+Action: tensor([[[0.0018, 0.5878],
+         [0.0017, 0.3212],
+         [0.0016, 0.2214],
+         [0.0010, 0.1675]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002395, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 4178144207
+$$$$$$$$$$$$$$$$$$$$$ 0.38283348083496094$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7013950347900391$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4178144207 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.37022924423217773$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4810059070587158 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+4.17814420722425 seconds in game passed.
+At 4.17814420722425 seconds, saving state-action tuples.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0017, 0.3210],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002389, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.203144207596779 seconds in game passed.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0017, 0.3210],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002389, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.228144207969308 seconds in game passed.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0017, 0.3210],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002387, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.253144208341837 seconds in game passed.
+Action: tensor([[[0.0017, 0.5870],
+         [0.0017, 0.3210],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002386, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 4278144208
+$$$$$$$$$$$$$$$$$$$$$ 0.37554335594177246$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7037732601165771$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4278144208 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.37384676933288574$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.479417324066162 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+4.278144208714366 seconds in game passed.
+At 4.278144208714366 seconds, saving state-action tuples.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0016, 0.3212],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002397, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.303144209086895 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0016, 0.3212],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002394, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.328144209459424 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0016, 0.3212],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002393, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.353144209831953 seconds in game passed.
+Action: tensor([[[0.0018, 0.5877],
+         [0.0016, 0.3212],
+         [0.0016, 0.2213],
+         [0.0010, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002392, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 4378144210
+$$$$$$$$$$$$$$$$$$$$$ 0.3743164539337158$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.690605878829956$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+50.16000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4378144210 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3771235942840576$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.476768970489502 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 50.16000000000001, 'empty': 50.16000000000001, 'full': 50.16000000000001} {0: 201}
+4.378144210204482 seconds in game passed.
+At 4.378144210204482 seconds, saving state-action tuples.
+Action: tensor([[[0.0018, 0.5872],
+         [0.0018, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002459, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: nan
+Current mitigation activation: 0
+#############################
+Total reward: 0
+4.403144210577011 seconds in game passed.
+Action: tensor([[[0.0018, 0.5872],
+         [0.0018, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002448, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.42814421094954 seconds in game passed.
+Action: tensor([[[0.0018, 0.5872],
+         [0.0018, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002448, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+4.453144211322069 seconds in game passed.
+Action: tensor([[[0.0018, 0.5872],
+         [0.0018, 0.3211],
+         [0.0017, 0.2213],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002448, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0
+Start Processing Time stamp: 4478144211
+$$$$$$$$$$$$$$$$$$$$$ 0.3396899700164795$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+52.64
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6117081642150879$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+52.64
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4478144211 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.33133935928344727$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.3087189197540283 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 52.64, 'empty': 52.64, 'full': 52.64} {0: 201}
+4.478144211694598 seconds in game passed.
+At 4.478144211694598 seconds, saving state-action tuples.
+Action: tensor([[[0.0019, 0.5871],
+         [0.0018, 0.3211],
+         [0.0017, 0.2212],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002510, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.043058220802945746
+Current mitigation activation: 0
+#############################
+Total reward: 0.043058220802945746
+4.503144212067127 seconds in game passed.
+Action: tensor([[[0.0019, 0.5871],
+         [0.0018, 0.3211],
+         [0.0017, 0.2212],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002501, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.043058220802945746
+4.528144212439656 seconds in game passed.
+Action: tensor([[[0.0019, 0.5871],
+         [0.0018, 0.3211],
+         [0.0017, 0.2212],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002502, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.043058220802945746
+4.553144212812185 seconds in game passed.
+Action: tensor([[[0.0019, 0.5871],
+         [0.0018, 0.3211],
+         [0.0017, 0.2212],
+         [0.0011, 0.1674]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002503, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.043058220802945746
+Start Processing Time stamp: 4578144213
+$$$$$$$$$$$$$$$$$$$$$ 0.5271337032318115$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+72.02000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.9334962368011475$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+72.02000000000004
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4578144213 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.6992430686950684$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 2.1980435848236084 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 72.02000000000004, 'empty': 72.02000000000004, 'full': 72.02000000000004} {0: 201}
+4.578144213184714 seconds in game passed.
+At 4.578144213184714 seconds, saving state-action tuples.
+Action: tensor([[[1.4437e-03, 5.8596e-01],
+         [1.1947e-03, 3.2076e-01],
+         [1.0738e-03, 2.2111e-01],
+         [4.3048e-04, 1.6737e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001900, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.1620764510544917
+Current mitigation activation: 0
+#############################
+Total reward: 0.20513467185743745
+4.603144213557243 seconds in game passed.
+Action: tensor([[[1.4437e-03, 5.8596e-01],
+         [1.1947e-03, 3.2076e-01],
+         [1.0738e-03, 2.2111e-01],
+         [4.3048e-04, 1.6737e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001995, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.20513467185743745
+4.628144213929772 seconds in game passed.
+Action: tensor([[[1.4437e-03, 5.8596e-01],
+         [1.1947e-03, 3.2076e-01],
+         [1.0738e-03, 2.2111e-01],
+         [4.3048e-04, 1.6737e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001989, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.20513467185743745
+4.653144214302301 seconds in game passed.
+Action: tensor([[[1.4437e-03, 5.8596e-01],
+         [1.1947e-03, 3.2076e-01],
+         [1.0738e-03, 2.2111e-01],
+         [4.3048e-04, 1.6737e-01]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001984, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.20513467185743745
+Start Processing Time stamp: 4678144214
+$$$$$$$$$$$$$$$$$$$$$ 0.5172281265258789$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+82.26000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.9108600616455078$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+82.26000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4678144214 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.5229618549346924$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.9773192405700684 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 82.26000000000003, 'empty': 82.26000000000003, 'full': 82.26000000000003} {0: 201}
+4.67814421467483 seconds in game passed.
+At 4.67814421467483 seconds, saving state-action tuples.
+Action: tensor([[[0.0018, 0.5838],
+         [0.0014, 0.3202],
+         [0.0015, 0.2208],
+         [0.0012, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002274, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.26583094725433565
+Current mitigation activation: 0
+#############################
+Total reward: 0.4709656191117731
+4.7031442150473595 seconds in game passed.
+Action: tensor([[[0.0018, 0.5838],
+         [0.0014, 0.3202],
+         [0.0015, 0.2208],
+         [0.0012, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002223, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.4709656191117731
+4.7281442154198885 seconds in game passed.
+Action: tensor([[[0.0018, 0.5838],
+         [0.0014, 0.3202],
+         [0.0015, 0.2208],
+         [0.0012, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002221, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.4709656191117731
+4.7531442157924175 seconds in game passed.
+Action: tensor([[[0.0018, 0.5838],
+         [0.0014, 0.3202],
+         [0.0015, 0.2208],
+         [0.0012, 0.1669]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002219, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.4709656191117731
+Start Processing Time stamp: 4778144216
+$$$$$$$$$$$$$$$$$$$$$ 0.49792909622192383$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+90.92
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.8496146202087402$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+90.92
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4778144216 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.48668885231018066$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.8609461784362793 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 90.92, 'empty': 90.92, 'full': 90.92} {0: 201}
+4.778144216164947 seconds in game passed.
+At 4.778144216164947 seconds, saving state-action tuples.
+Action: tensor([[[0.0025, 0.5815],
+         [0.0024, 0.3201],
+         [0.0027, 0.2211],
+         [0.0024, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003252, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.35322937458880765
+Current mitigation activation: 0
+#############################
+Total reward: 0.8241949937005808
+4.803144216537476 seconds in game passed.
+Action: tensor([[[0.0025, 0.5815],
+         [0.0024, 0.3201],
+         [0.0027, 0.2211],
+         [0.0024, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.8241949937005808
+4.828144216910005 seconds in game passed.
+Action: tensor([[[0.0025, 0.5815],
+         [0.0024, 0.3201],
+         [0.0027, 0.2211],
+         [0.0024, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003099, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.8241949937005808
+4.853144217282534 seconds in game passed.
+Action: tensor([[[0.0025, 0.5815],
+         [0.0024, 0.3201],
+         [0.0027, 0.2211],
+         [0.0024, 0.1676]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003108, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 0.8241949937005808
+Start Processing Time stamp: 4878144217
+$$$$$$$$$$$$$$$$$$$$$ 0.4424712657928467$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+101.86
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7420439720153809$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+101.86
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4878144217 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.420698881149292$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.6350996494293213 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 101.86, 'empty': 101.86, 'full': 101.86} {0: 201}
+4.878144217655063 seconds in game passed.
+At 4.878144217655063 seconds, saving state-action tuples.
+Action: tensor([[[0.0029, 0.5863],
+         [0.0031, 0.3216],
+         [0.0035, 0.2215],
+         [0.0034, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003770, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.42624411823786357
+Current mitigation activation: 0
+#############################
+Total reward: 1.2504391119384444
+4.903144218027592 seconds in game passed.
+Action: tensor([[[0.0029, 0.5863],
+         [0.0031, 0.3216],
+         [0.0035, 0.2215],
+         [0.0034, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003678, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.2504391119384444
+4.928144218400121 seconds in game passed.
+Action: tensor([[[0.0029, 0.5863],
+         [0.0031, 0.3216],
+         [0.0035, 0.2215],
+         [0.0034, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003694, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.2504391119384444
+4.95314421877265 seconds in game passed.
+Action: tensor([[[0.0029, 0.5863],
+         [0.0031, 0.3216],
+         [0.0035, 0.2215],
+         [0.0034, 0.1678]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003710, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.2504391119384444
+Start Processing Time stamp: 4978144219
+$$$$$$$$$$$$$$$$$$$$$ 0.40796661376953125$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+107.32000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.7053782939910889$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+107.32000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 4978144219 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.586571455001831$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.7268435955047607 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 107.32000000000001, 'empty': 107.32000000000001, 'full': 107.32000000000001} {0: 201}
+4.978144219145179 seconds in game passed.
+At 4.978144219145179 seconds, saving state-action tuples.
+Action: tensor([[[0.0021, 0.5895],
+         [0.0023, 0.3221],
+         [0.0025, 0.2214],
+         [0.0023, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002815, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.48783431622988416
+Current mitigation activation: 0
+#############################
+Total reward: 1.7382734281683285
+5.003144219517708 seconds in game passed.
+Action: tensor([[[0.0021, 0.5895],
+         [0.0023, 0.3221],
+         [0.0025, 0.2214],
+         [0.0023, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002971, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.7382734281683285
+5.028144219890237 seconds in game passed.
+Action: tensor([[[0.0021, 0.5895],
+         [0.0023, 0.3221],
+         [0.0025, 0.2214],
+         [0.0023, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002977, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.7382734281683285
+5.053144220262766 seconds in game passed.
+Action: tensor([[[0.0021, 0.5895],
+         [0.0023, 0.3221],
+         [0.0025, 0.2214],
+         [0.0023, 0.1677]]], device='cuda:0', grad_fn=<StackBackward0>)
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002983, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 1.7382734281683285
+Start Processing Time stamp: 5078144220
+$$$$$$$$$$$$$$$$$$$$$ 0.3774712085723877$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+113.04000000000005
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.6614062786102295$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+113.04000000000005
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5078144220 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3788597583770752$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.4442939758300781 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 113.04000000000005, 'empty': 113.04000000000005, 'full': 113.04000000000005} {0: 201}
+5.078144220635295 seconds in game passed.
+At 5.078144220635295 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[-2.5693e-04,  5.8795e-01],
+         [ 1.6667e-05,  3.2180e-01],
+         [ 1.4787e-04,  2.2117e-01],
+         [-1.9804e-04,  1.6745e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.540684567363201
+Current mitigation activation: 0
+#############################
+Total reward: 2.2789579955315293
+5.103144221007824 seconds in game passed.
+Action: tensor([[[-2.5693e-04,  5.8795e-01],
+         [ 1.6667e-05,  3.2180e-01],
+         [ 1.4787e-04,  2.2117e-01],
+         [-1.9804e-04,  1.6745e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000782, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.2789579955315293
+5.128144221380353 seconds in game passed.
+Action: tensor([[[-2.5693e-04,  5.8795e-01],
+         [ 1.6667e-05,  3.2180e-01],
+         [ 1.4787e-04,  2.2117e-01],
+         [-1.9804e-04,  1.6745e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000761, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.2789579955315293
+5.153144221752882 seconds in game passed.
+Action: tensor([[[-2.5693e-04,  5.8795e-01],
+         [ 1.6667e-05,  3.2180e-01],
+         [ 1.4787e-04,  2.2117e-01],
+         [-1.9804e-04,  1.6745e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000740, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.2789579955315293
+Start Processing Time stamp: 5178144222
+$$$$$$$$$$$$$$$$$$$$$ 0.3042318820953369$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+116.67999999999999
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.5149438381195068$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+116.67999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5178144222 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3015284538269043$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.1543593406677246 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 116.67999999999999, 'empty': 116.67999999999999, 'full': 116.67999999999999} {0: 201}
+5.178144222125411 seconds in game passed.
+At 5.178144222125411 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[ 2.7431e-04,  5.8926e-01],
+         [-3.8547e-04,  3.2141e-01],
+         [-2.9927e-04,  2.2109e-01],
+         [-4.4782e-04,  1.6754e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000637, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.5867247007952285
+Current mitigation activation: 0
+#############################
+Total reward: 2.8656826963267577
+5.20314422249794 seconds in game passed.
+Action: tensor([[[ 2.7431e-04,  5.8926e-01],
+         [-3.8547e-04,  3.2141e-01],
+         [-2.9927e-04,  2.2109e-01],
+         [-4.4782e-04,  1.6754e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000629, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.8656826963267577
+5.228144222870469 seconds in game passed.
+Action: tensor([[[ 2.7431e-04,  5.8926e-01],
+         [-3.8547e-04,  3.2141e-01],
+         [-2.9927e-04,  2.2109e-01],
+         [-4.4782e-04,  1.6754e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000608, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.8656826963267577
+5.253144223242998 seconds in game passed.
+Action: tensor([[[ 2.7431e-04,  5.8926e-01],
+         [-3.8547e-04,  3.2141e-01],
+         [-2.9927e-04,  2.2109e-01],
+         [-4.4782e-04,  1.6754e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000586, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 2.8656826963267577
+Start Processing Time stamp: 5278144223
+$$$$$$$$$$$$$$$$$$$$$ 0.30831122398376465$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+122.90000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.50250244140625$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+122.90000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5278144223 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.2971348762512207$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.134507656097412 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 122.90000000000002, 'empty': 122.90000000000002, 'full': 122.90000000000002} {0: 201}
+5.278144223615527 seconds in game passed.
+At 5.278144223615527 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[-2.4795e-04,  5.9080e-01],
+         [-1.0481e-03,  3.2159e-01],
+         [-9.4247e-04,  2.2113e-01],
+         [-1.0607e-03,  1.6750e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000131, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.6275252231917077
+Current mitigation activation: 0
+#############################
+Total reward: 3.4932079195184653
+5.303144223988056 seconds in game passed.
+Action: tensor([[[-2.4795e-04,  5.9080e-01],
+         [-1.0481e-03,  3.2159e-01],
+         [-9.4247e-04,  2.2113e-01],
+         [-1.0607e-03,  1.6750e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000045, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.4932079195184653
+5.328144224360585 seconds in game passed.
+Action: tensor([[[-2.4795e-04,  5.9080e-01],
+         [-1.0481e-03,  3.2159e-01],
+         [-9.4247e-04,  2.2113e-01],
+         [-1.0607e-03,  1.6750e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000074, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.4932079195184653
+5.353144224733114 seconds in game passed.
+Action: tensor([[[-2.4795e-04,  5.9080e-01],
+         [-1.0481e-03,  3.2159e-01],
+         [-9.4247e-04,  2.2113e-01],
+         [-1.0607e-03,  1.6750e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.4932079195184653
+Start Processing Time stamp: 5378144225
+$$$$$$$$$$$$$$$$$$$$$ 0.30835604667663574$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+128.58000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.5115978717803955$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+128.58000000000004
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5378144225 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.30220985412597656$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.1549532413482666 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 128.58000000000004, 'empty': 128.58000000000004, 'full': 128.58000000000004} {0: 201}
+5.378144225105643 seconds in game passed.
+At 5.378144225105643 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[ 6.3312e-04,  5.8934e-01],
+         [-5.2054e-04,  3.2139e-01],
+         [-4.0141e-04,  2.2113e-01],
+         [-4.4445e-04,  1.6768e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000608, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.6644464680488185
+Current mitigation activation: 0
+#############################
+Total reward: 4.157654387567284
+5.403144225478172 seconds in game passed.
+Action: tensor([[[ 6.3312e-04,  5.8934e-01],
+         [-5.2054e-04,  3.2139e-01],
+         [-4.0141e-04,  2.2113e-01],
+         [-4.4445e-04,  1.6768e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000464, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.157654387567284
+5.428144225850701 seconds in game passed.
+Action: tensor([[[ 6.3312e-04,  5.8934e-01],
+         [-5.2054e-04,  3.2139e-01],
+         [-4.0141e-04,  2.2113e-01],
+         [-4.4445e-04,  1.6768e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000442, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Resetting ego-vehicle!
+Total reward: 4.157654387567284
+5.45314422622323 seconds in game passed.
+Action: tensor([[[ 6.3312e-04,  5.8934e-01],
+         [-5.2054e-04,  3.2139e-01],
+         [-4.0141e-04,  2.2113e-01],
+         [-4.4445e-04,  1.6768e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000420, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.157654387567284
+Start Processing Time stamp: 5478144226
+$$$$$$$$$$$$$$$$$$$$$ 0.46683692932128906$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+129.07999999999998
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.5003516674041748$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+129.07999999999998
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5478144226 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.2967567443847656$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.289830207824707 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 129.07999999999998, 'empty': 129.07999999999998, 'full': 129.07999999999998} {0: 201}
+5.478144226595759 seconds in game passed.
+At 5.478144226595759 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[0.0018, 0.5879],
+         [0.0009, 0.3215],
+         [0.0012, 0.2219],
+         [0.0013, 0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001874, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.6985200678296168
+Current mitigation activation: 0
+#############################
+Total reward: 4.856174455396901
+5.503144226968288 seconds in game passed.
+Action: tensor([[[0.0018, 0.5879],
+         [0.0009, 0.3215],
+         [0.0012, 0.2219],
+         [0.0013, 0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001623, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.856174455396901
+5.5281442273408175 seconds in game passed.
+Action: tensor([[[0.0018, 0.5879],
+         [0.0009, 0.3215],
+         [0.0012, 0.2219],
+         [0.0013, 0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001616, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.856174455396901
+5.5531442277133465 seconds in game passed.
+Action: tensor([[[0.0018, 0.5879],
+         [0.0009, 0.3215],
+         [0.0012, 0.2219],
+         [0.0013, 0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001609, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.856174455396901
+Start Processing Time stamp: 5578144228
+$$$$$$$$$$$$$$$$$$$$$ 0.29067063331604004$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+132.16000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.4719245433807373$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+132.16000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5578144228 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.27939653396606445$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0836985111236572 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 132.16000000000003, 'empty': 132.16000000000003, 'full': 132.16000000000003} {0: 201}
+5.5781442280858755 seconds in game passed.
+At 5.5781442280858755 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[1.2920e-03, 5.8993e-01],
+         [9.5219e-04, 3.2207e-01],
+         [8.0142e-04, 2.2279e-01],
+         [4.5354e-04, 1.6905e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001476, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.7304189666120663
+Current mitigation activation: 0
+#############################
+Total reward: 5.586593422008967
+5.6031442284584045 seconds in game passed.
+Action: tensor([[[1.2920e-03, 5.8993e-01],
+         [9.5219e-04, 3.2207e-01],
+         [8.0142e-04, 2.2279e-01],
+         [4.5354e-04, 1.6905e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001495, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.586593422008967
+5.628144228830934 seconds in game passed.
+Action: tensor([[[1.2920e-03, 5.8993e-01],
+         [9.5219e-04, 3.2207e-01],
+         [8.0142e-04, 2.2279e-01],
+         [4.5354e-04, 1.6905e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.586593422008967
+5.653144229203463 seconds in game passed.
+Action: tensor([[[1.2920e-03, 5.8993e-01],
+         [9.5219e-04, 3.2207e-01],
+         [8.0142e-04, 2.2279e-01],
+         [4.5354e-04, 1.6905e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.586593422008967
+Start Processing Time stamp: 5678144229
+$$$$$$$$$$$$$$$$$$$$$ 0.2782714366912842$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+133.14000000000001
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.45844221115112305$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+133.14000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5678144229 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.2723710536956787$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0345873832702637 seconds.
+{'0': 0.0} {'0': 0.0} {'0': 133.14000000000001, 'empty': 133.14000000000001, 'full': 133.14000000000001} {0: 201}
+5.678144229575992 seconds in game passed.
+At 5.678144229575992 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[0.0019, 0.5880],
+         [0.0022, 0.3205],
+         [0.0021, 0.2213],
+         [0.0018, 0.1676]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002633, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.0
+Current reward: 0.7606888977042887
+Current mitigation activation: 0
+#############################
+Total reward: 6.347282319713256
+5.703144229948521 seconds in game passed.
+Action: tensor([[[0.0019, 0.5880],
+         [0.0022, 0.3205],
+         [0.0021, 0.2213],
+         [0.0018, 0.1676]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002450, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.347282319713256
+5.72814423032105 seconds in game passed.
+Action: tensor([[[0.0019, 0.5880],
+         [0.0022, 0.3205],
+         [0.0021, 0.2213],
+         [0.0018, 0.1676]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002456, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.347282319713256
+5.753144230693579 seconds in game passed.
+Action: tensor([[[0.0019, 0.5880],
+         [0.0022, 0.3205],
+         [0.0021, 0.2213],
+         [0.0018, 0.1676]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002462, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.347282319713256
+Start Processing Time stamp: 5778144231
+$$$$$$$$$$$$$$$$$$$$$ 0.245880126953125$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+139.26000000000008
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.4006054401397705$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+135.92
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5778144231 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.24117517471313477$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.9210293292999268 seconds.
+{'0': 0.023983914979176266} {'0': 0.023983914979176266} {'0': 139.26000000000008, 'empty': 139.26000000000008, 'full': 135.92} {0: 201}
+5.778144231066108 seconds in game passed.
+At 5.778144231066108 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[0.0025, 0.5943],
+         [0.0020, 0.3222],
+         [0.0018, 0.2217],
+         [0.0015, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002544, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.023983914979176266
+Current reward: 0.7517525838484733
+Current mitigation activation: 0
+#############################
+Total reward: 7.099034903561729
+5.803144231438637 seconds in game passed.
+Action: tensor([[[0.0025, 0.5943],
+         [0.0020, 0.3222],
+         [0.0018, 0.2217],
+         [0.0015, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002526, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.099034903561729
+5.828144231811166 seconds in game passed.
+Action: tensor([[[0.0025, 0.5943],
+         [0.0020, 0.3222],
+         [0.0018, 0.2217],
+         [0.0015, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002523, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.099034903561729
+5.853144232183695 seconds in game passed.
+Action: tensor([[[0.0025, 0.5943],
+         [0.0020, 0.3222],
+         [0.0018, 0.2217],
+         [0.0015, 0.1679]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002519, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.099034903561729
+Start Processing Time stamp: 5878144232
+$$$$$$$$$$$$$$$$$$$$$ 0.2281184196472168$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+138.74000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.5415279865264893$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+130.26
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5878144232 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.2256619930267334$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0233917236328125 seconds.
+{'0': 0.06112152227187577} {'0': 0.06112152227187577} {'0': 138.74000000000004, 'empty': 138.74000000000004, 'full': 130.26} {0: 201}
+5.878144232556224 seconds in game passed.
+At 5.878144232556224 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[0.0023, 0.5902],
+         [0.0028, 0.3216],
+         [0.0028, 0.2216],
+         [0.0025, 0.1682]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003054, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.06112152227187577
+Current reward: 0.7175718951740794
+Current mitigation activation: 0
+#############################
+Total reward: 7.816606798735808
+5.903144232928753 seconds in game passed.
+Action: tensor([[[0.0023, 0.5902],
+         [0.0028, 0.3216],
+         [0.0028, 0.2216],
+         [0.0025, 0.1682]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002960, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.816606798735808
+5.928144233301282 seconds in game passed.
+Action: tensor([[[0.0023, 0.5902],
+         [0.0028, 0.3216],
+         [0.0028, 0.2216],
+         [0.0025, 0.1682]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002955, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.816606798735808
+5.953144233673811 seconds in game passed.
+Action: tensor([[[0.0023, 0.5902],
+         [0.0028, 0.3216],
+         [0.0028, 0.2216],
+         [0.0025, 0.1682]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002951, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.816606798735808
+Start Processing Time stamp: 5978144234
+$$$$$$$$$$$$$$$$$$$$$ 0.21507024765014648$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+141.1
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.35973095893859863$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+125.89999999999999
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 5978144234 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.21246337890625$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.8128740787506104 seconds.
+{'0': 0.10772501771793057} {'0': 0.10772501771793057} {'0': 141.1, 'empty': 141.1, 'full': 125.89999999999999} {0: 201}
+5.97814423404634 seconds in game passed.
+At 5.97814423404634 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[ 9.3041e-04,  5.8917e-01],
+         [-1.0729e-04,  3.2113e-01],
+         [-3.2458e-04,  2.2108e-01],
+         [-6.1812e-04,  1.6782e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000253, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.10772501771793057
+Current reward: 0.6548945722849937
+Current mitigation activation: 0
+#############################
+Total reward: 8.471501371020802
+6.003144234418869 seconds in game passed.
+Action: tensor([[[ 9.3041e-04,  5.8917e-01],
+         [-1.0729e-04,  3.2113e-01],
+         [-3.2458e-04,  2.2108e-01],
+         [-6.1812e-04,  1.6782e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000676, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.471501371020802
+6.028144234791398 seconds in game passed.
+Action: tensor([[[ 9.3041e-04,  5.8917e-01],
+         [-1.0729e-04,  3.2113e-01],
+         [-3.2458e-04,  2.2108e-01],
+         [-6.1812e-04,  1.6782e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000653, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.471501371020802
+6.053144235163927 seconds in game passed.
+Action: tensor([[[ 9.3041e-04,  5.8917e-01],
+         [-1.0729e-04,  3.2113e-01],
+         [-3.2458e-04,  2.2108e-01],
+         [-6.1812e-04,  1.6782e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.471501371020802
+Start Processing Time stamp: 6078144235
+$$$$$$$$$$$$$$$$$$$$$ 0.21134233474731445$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+141.1
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.34944987297058105$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+120.90000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6078144235 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.2107374668121338$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.7971405982971191 seconds.
+{'0': 0.14316087880935488} {'0': 0.14316087880935488} {'0': 141.1, 'empty': 141.1, 'full': 120.90000000000002} {0: 201}
+6.078144235536456 seconds in game passed.
+At 6.078144235536456 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[-0.0008,  0.5924],
+         [-0.0020,  0.3224],
+         [-0.0024,  0.2216],
+         [-0.0028,  0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001431, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.14316087880935488
+Current reward: 0.5950544416763257
+Current mitigation activation: 0
+#############################
+Total reward: 9.066555812697127
+6.103144235908985 seconds in game passed.
+Action: tensor([[[-0.0008,  0.5924],
+         [-0.0020,  0.3224],
+         [-0.0024,  0.2216],
+         [-0.0028,  0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001108, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.066555812697127
+6.128144236281514 seconds in game passed.
+Action: tensor([[[-0.0008,  0.5924],
+         [-0.0020,  0.3224],
+         [-0.0024,  0.2216],
+         [-0.0028,  0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001125, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.066555812697127
+6.153144236654043 seconds in game passed.
+Action: tensor([[[-0.0008,  0.5924],
+         [-0.0020,  0.3224],
+         [-0.0024,  0.2216],
+         [-0.0028,  0.1685]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001142, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.066555812697127
+Start Processing Time stamp: 6178144237
+$$$$$$$$$$$$$$$$$$$$$ 0.22164344787597656$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+141.1
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.31688570976257324$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+114.24000000000002
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6178144237 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.21134066581726074$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.7776007652282715 seconds.
+{'0': 0.19036144578313233} {'0': 0.19036144578313233} {'0': 141.1, 'empty': 141.1, 'full': 114.24000000000002} {0: 201}
+6.178144237026572 seconds in game passed.
+At 6.178144237026572 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[-0.0022,  0.5910],
+         [-0.0036,  0.3221],
+         [-0.0042,  0.2212],
+         [-0.0048,  0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002912, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.19036144578313233
+Current reward: 0.5156341141070122
+Current mitigation activation: 0
+#############################
+Total reward: 9.582189926804139
+6.203144237399101 seconds in game passed.
+Action: tensor([[[-0.0022,  0.5910],
+         [-0.0036,  0.3221],
+         [-0.0042,  0.2212],
+         [-0.0048,  0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002657, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.582189926804139
+6.22814423777163 seconds in game passed.
+Action: tensor([[[-0.0022,  0.5910],
+         [-0.0036,  0.3221],
+         [-0.0042,  0.2212],
+         [-0.0048,  0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002692, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.582189926804139
+6.253144238144159 seconds in game passed.
+Action: tensor([[[-0.0022,  0.5910],
+         [-0.0036,  0.3221],
+         [-0.0042,  0.2212],
+         [-0.0048,  0.1678]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002726, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.582189926804139
+Start Processing Time stamp: 6278144238
+$$$$$$$$$$$$$$$$$$$$$ 0.22050714492797852$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+142.60000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.26723265647888184$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+109.58000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6278144238 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.21288275718688965$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.7263848781585693 seconds.
+{'0': 0.2315568022440393} {'0': 0.2315568022440393} {'0': 142.60000000000002, 'empty': 142.60000000000002, 'full': 109.58000000000001} {0: 201}
+6.278144238516688 seconds in game passed.
+At 6.278144238516688 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[-0.0025,  0.5970],
+         [-0.0044,  0.3239],
+         [-0.0050,  0.2223],
+         [-0.0053,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2315568022440393
+Current reward: 0.4464054084352367
+Current mitigation activation: 0
+#############################
+Total reward: 10.028595335239375
+6.303144238889217 seconds in game passed.
+Action: tensor([[[-0.0025,  0.5970],
+         [-0.0044,  0.3239],
+         [-0.0050,  0.2223],
+         [-0.0053,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003406, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.028595335239375
+6.328144239261746 seconds in game passed.
+Action: tensor([[[-0.0025,  0.5970],
+         [-0.0044,  0.3239],
+         [-0.0050,  0.2223],
+         [-0.0053,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003441, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.028595335239375
+6.353144239634275 seconds in game passed.
+Action: tensor([[[-0.0025,  0.5970],
+         [-0.0044,  0.3239],
+         [-0.0050,  0.2223],
+         [-0.0053,  0.1689]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003476, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.028595335239375
+Start Processing Time stamp: 6378144240
+$$$$$$$$$$$$$$$$$$$$$ 0.22559046745300293$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+142.66000000000005
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.24550819396972656$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+102.80000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6378144240 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.21261215209960938$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.7094156742095947 seconds.
+{'0': 0.2794055796999861} {'0': 0.2794055796999861} {'0': 142.66000000000005, 'empty': 142.66000000000005, 'full': 102.80000000000003} {0: 201}
+6.3781442400068045 seconds in game passed.
+At 6.3781442400068045 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[-1.7165e-04,  5.9120e-01],
+         [-7.8214e-04,  3.2188e-01],
+         [-7.9818e-04,  2.2140e-01],
+         [-9.5142e-04,  1.6804e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000102, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.2794055796999861
+Current reward: 0.3663072248505915
+Current mitigation activation: 0
+#############################
+Total reward: 10.394902560089967
+6.4031442403793335 seconds in game passed.
+Action: tensor([[[-1.7165e-04,  5.9120e-01],
+         [-7.8214e-04,  3.2188e-01],
+         [-7.9818e-04,  2.2140e-01],
+         [-9.5142e-04,  1.6804e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000501, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.394902560089967
+6.4281442407518625 seconds in game passed.
+Action: tensor([[[-1.7165e-04,  5.9120e-01],
+         [-7.8214e-04,  3.2188e-01],
+         [-7.9818e-04,  2.2140e-01],
+         [-9.5142e-04,  1.6804e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000506, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.394902560089967
+6.4531442411243916 seconds in game passed.
+Action: tensor([[[-1.7165e-04,  5.9120e-01],
+         [-7.8214e-04,  3.2188e-01],
+         [-7.9818e-04,  2.2140e-01],
+         [-9.5142e-04,  1.6804e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000511, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.394902560089967
+Start Processing Time stamp: 6478144241
+$$$$$$$$$$$$$$$$$$$$$ 0.21486997604370117$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+142.76
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.2352581024169922$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+97.93999999999993
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6478144241 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.21454167366027832$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6905825138092041 seconds.
+{'0': 0.31395348837209347} {'0': 0.31395348837209347} {'0': 142.76, 'empty': 142.76, 'full': 97.93999999999993} {0: 201}
+6.478144241496921 seconds in game passed.
+At 6.478144241496921 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[ 3.4250e-05,  5.9272e-01],
+         [ 1.6980e-04,  3.2267e-01],
+         [ 2.0406e-04,  2.2210e-01],
+         [-1.4478e-04,  1.6871e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000250, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.31395348837209347
+Current reward: 0.31264847302980486
+Current mitigation activation: 0
+#############################
+Total reward: 10.707551033119772
+6.50314424186945 seconds in game passed.
+Action: tensor([[[ 3.4250e-05,  5.9272e-01],
+         [ 1.6980e-04,  3.2267e-01],
+         [ 2.0406e-04,  2.2210e-01],
+         [-1.4478e-04,  1.6871e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000108, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.707551033119772
+6.528144242241979 seconds in game passed.
+Action: tensor([[[ 3.4250e-05,  5.9272e-01],
+         [ 1.6980e-04,  3.2267e-01],
+         [ 2.0406e-04,  2.2210e-01],
+         [-1.4478e-04,  1.6871e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000096, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.707551033119772
+6.553144242614508 seconds in game passed.
+Action: tensor([[[ 3.4250e-05,  5.9272e-01],
+         [ 1.6980e-04,  3.2267e-01],
+         [ 2.0406e-04,  2.2210e-01],
+         [-1.4478e-04,  1.6871e-01]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000083, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.707551033119772
+Start Processing Time stamp: 6578144242
+$$$$$$$$$$$$$$$$$$$$$ 0.20291852951049805$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+147.20000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.16163158416748047$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+93.44
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6578144242 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.2030012607574463$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.592644214630127 seconds.
+{'0': 0.36521739130434794} {'0': 0.36521739130434794} {'0': 147.20000000000002, 'empty': 147.20000000000002, 'full': 93.44} {0: 201}
+6.578144242987037 seconds in game passed.
+At 6.578144242987037 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[0.0031, 0.5984],
+         [0.0036, 0.3263],
+         [0.0034, 0.2247],
+         [0.0025, 0.1711]]])
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003864, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.36521739130434794
+Current reward: 0.2373897353318095
+Current mitigation activation: 0
+#############################
+Total reward: 10.944940768451582
+6.603144243359566 seconds in game passed.
+Action: tensor([[[0.0031, 0.5984],
+         [0.0036, 0.3263],
+         [0.0034, 0.2247],
+         [0.0025, 0.1711]]])
+agent 0 action: VehicleControl(throttle=0.868624, steer=0.003267, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.944940768451582
+6.628144243732095 seconds in game passed.
+Action: tensor([[[0.0031, 0.5984],
+         [0.0036, 0.3263],
+         [0.0034, 0.2247],
+         [0.0025, 0.1711]]])
+agent 0 action: VehicleControl(throttle=0.815750, steer=0.003294, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.944940768451582
+6.653144244104624 seconds in game passed.
+Action: tensor([[[0.0031, 0.5984],
+         [0.0036, 0.3263],
+         [0.0034, 0.2247],
+         [0.0025, 0.1711]]])
+agent 0 action: VehicleControl(throttle=0.764059, steer=0.003322, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.944940768451582
+Start Processing Time stamp: 6678144244
+$$$$$$$$$$$$$$$$$$$$$ 0.1965646743774414$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+150.56000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.12699055671691895$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+74.08
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6678144244 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.35269689559936523$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.702141523361206 seconds.
+{'0': 0.507970244420829} {'0': 0.507970244420829} {'0': 150.56000000000003, 'empty': 150.56000000000003, 'full': 74.08} {0: 201}
+6.678144244477153 seconds in game passed.
+At 6.678144244477153 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[2.0534e-03, 6.2077e-01],
+         [2.2206e-03, 3.4075e-01],
+         [1.7528e-03, 2.3489e-01],
+         [6.0749e-04, 1.7976e-01]]])
+agent 0 action: VehicleControl(throttle=0.439910, steer=0.001871, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.507970244420829
+Current reward: -0.014623699160587034
+Current mitigation activation: 0
+#############################
+Total reward: 10.930317069290995
+6.703144244849682 seconds in game passed.
+Action: tensor([[[2.0534e-03, 6.2077e-01],
+         [2.2206e-03, 3.4075e-01],
+         [1.7528e-03, 2.3489e-01],
+         [6.0749e-04, 1.7976e-01]]])
+agent 0 action: VehicleControl(throttle=0.417019, steer=0.002114, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.930317069290995
+6.728144245222211 seconds in game passed.
+Action: tensor([[[2.0534e-03, 6.2077e-01],
+         [2.2206e-03, 3.4075e-01],
+         [1.7528e-03, 2.3489e-01],
+         [6.0749e-04, 1.7976e-01]]])
+agent 0 action: VehicleControl(throttle=0.372849, steer=0.002115, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.930317069290995
+6.75314424559474 seconds in game passed.
+Action: tensor([[[2.0534e-03, 6.2077e-01],
+         [2.2206e-03, 3.4075e-01],
+         [1.7528e-03, 2.3489e-01],
+         [6.0749e-04, 1.7976e-01]]])
+agent 0 action: VehicleControl(throttle=0.363267, steer=0.002116, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.930317069290995
+Start Processing Time stamp: 6778144245
+$$$$$$$$$$$$$$$$$$$$$ 0.19458866119384766$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+153.46
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.11784625053405762$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+108.60607259863251
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6778144245 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.18727922439575195$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.5257241725921631 seconds.
+{'0': 0.29228416135388696} {'0': 0.29228416135388696} {'0': 153.46, 'empty': 153.46, 'full': 108.60607259863251} {0: 201}
+6.778144245967269 seconds in game passed.
+At 6.778144245967269 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[ 3.9016e-04,  6.3772e-01],
+         [-9.6239e-05,  3.4482e-01],
+         [-8.0989e-04,  2.3641e-01],
+         [-1.9004e-03,  1.8047e-01]]])
+agent 0 action: VehicleControl(throttle=0.350322, steer=-0.000261, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.29228416135388696
+Current reward: 0.3940858118770629
+Current mitigation activation: 0
+#############################
+Total reward: 11.324402881168057
+6.803144246339798 seconds in game passed.
+Action: tensor([[[ 3.9016e-04,  6.3772e-01],
+         [-9.6239e-05,  3.4482e-01],
+         [-8.0989e-04,  2.3641e-01],
+         [-1.9004e-03,  1.8047e-01]]])
+agent 0 action: VehicleControl(throttle=0.337798, steer=0.000107, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.324402881168057
+6.828144246712327 seconds in game passed.
+Action: tensor([[[ 3.9016e-04,  6.3772e-01],
+         [-9.6239e-05,  3.4482e-01],
+         [-8.0989e-04,  2.3641e-01],
+         [-1.9004e-03,  1.8047e-01]]])
+agent 0 action: VehicleControl(throttle=0.325691, steer=0.000082, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.324402881168057
+6.853144247084856 seconds in game passed.
+Action: tensor([[[ 3.9016e-04,  6.3772e-01],
+         [-9.6239e-05,  3.4482e-01],
+         [-8.0989e-04,  2.3641e-01],
+         [-1.9004e-03,  1.8047e-01]]])
+agent 0 action: VehicleControl(throttle=0.313999, steer=0.000058, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.324402881168057
+Start Processing Time stamp: 6878144247
+$$$$$$$$$$$$$$$$$$$$$ 0.1867995262145996$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+155.82000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.06866073608398438$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+52.480000000000004
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6878144247 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.1854419708251953$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.4673342704772949 seconds.
+{'0': 0.6632011295084072} {'0': 0.6632011295084072} {'0': 155.82000000000002, 'empty': 155.82000000000002, 'full': 52.480000000000004} {0: 201}
+6.878144247457385 seconds in game passed.
+At 6.878144247457385 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[ 1.4191e-03,  6.5368e-01],
+         [-6.1330e-04,  3.5228e-01],
+         [-1.7235e-03,  2.4187e-01],
+         [-2.8834e-03,  1.8459e-01]]])
+agent 0 action: VehicleControl(throttle=0.302957, steer=0.000055, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.6632011295084072
+Current reward: -0.31602730528066664
+Current mitigation activation: 0
+#############################
+Total reward: 11.00837557588739
+6.903144247829914 seconds in game passed.
+Action: tensor([[[ 1.4191e-03,  6.5368e-01],
+         [-6.1330e-04,  3.5228e-01],
+         [-1.7235e-03,  2.4187e-01],
+         [-2.8834e-03,  1.8459e-01]]])
+agent 0 action: VehicleControl(throttle=0.292325, steer=0.000021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.00837557588739
+6.928144248202443 seconds in game passed.
+Action: tensor([[[ 1.4191e-03,  6.5368e-01],
+         [-6.1330e-04,  3.5228e-01],
+         [-1.7235e-03,  2.4187e-01],
+         [-2.8834e-03,  1.8459e-01]]])
+agent 0 action: VehicleControl(throttle=0.281646, steer=-0.000009, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.00837557588739
+6.953144248574972 seconds in game passed.
+Action: tensor([[[ 1.4191e-03,  6.5368e-01],
+         [-6.1330e-04,  3.5228e-01],
+         [-1.7235e-03,  2.4187e-01],
+         [-2.8834e-03,  1.8459e-01]]])
+agent 0 action: VehicleControl(throttle=0.270942, steer=-0.000038, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 11.00837557588739
+Start Processing Time stamp: 6978144248
+$$$$$$$$$$$$$$$$$$$$$ 0.17083263397216797$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+158.89999999999995
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.05871295928955078$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+54.42
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 6978144248 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.16741132736206055$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.42450547218322754 seconds.
+{'0': 0.6575204531151666} {'0': 0.6575204531151666} {'0': 158.89999999999995, 'empty': 158.89999999999995, 'full': 54.42} {0: 201}
+6.978144248947501 seconds in game passed.
+At 6.978144248947501 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[-0.0016,  0.6694],
+         [-0.0051,  0.3575],
+         [-0.0065,  0.2435],
+         [-0.0075,  0.1855]]])
+agent 0 action: VehicleControl(throttle=0.260144, steer=-0.004572, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.6575204531151666
+Current reward: -0.307091663058481
+Current mitigation activation: 0
+#############################
+Total reward: 10.70128391282891
+7.00314424932003 seconds in game passed.
+Action: tensor([[[-0.0016,  0.6694],
+         [-0.0051,  0.3575],
+         [-0.0065,  0.2435],
+         [-0.0075,  0.1855]]])
+agent 0 action: VehicleControl(throttle=0.249326, steer=-0.003873, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.70128391282891
+7.028144249692559 seconds in game passed.
+Action: tensor([[[-0.0016,  0.6694],
+         [-0.0051,  0.3575],
+         [-0.0065,  0.2435],
+         [-0.0075,  0.1855]]])
+agent 0 action: VehicleControl(throttle=0.238490, steer=-0.003922, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.70128391282891
+7.053144250065088 seconds in game passed.
+Action: tensor([[[-0.0016,  0.6694],
+         [-0.0051,  0.3575],
+         [-0.0065,  0.2435],
+         [-0.0075,  0.1855]]])
+agent 0 action: VehicleControl(throttle=0.227636, steer=-0.003970, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.70128391282891
+Start Processing Time stamp: 7078144250
+$$$$$$$$$$$$$$$$$$$$$ 0.17786169052124023$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+158.97999999999996
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.045226335525512695$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+49.64000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7078144250 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.1667792797088623$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.41527509689331055 seconds.
+{'0': 0.6877594665995721} {'0': 0.6877594665995721} {'0': 158.97999999999996, 'empty': 158.97999999999996, 'full': 49.64000000000001} {0: 201}
+7.078144250437617 seconds in game passed.
+At 7.078144250437617 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[-1.6427e-04,  6.8837e-01],
+         [-4.5662e-03,  3.6807e-01],
+         [-6.3885e-03,  2.5162e-01],
+         [-7.7434e-03,  1.9150e-01]]])
+agent 0 action: VehicleControl(throttle=0.216913, steer=-0.003059, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.6877594665995721
+Current reward: -0.36500554554525694
+Current mitigation activation: 0
+#############################
+Total reward: 10.336278367283652
+7.103144250810146 seconds in game passed.
+Action: tensor([[[-1.6427e-04,  6.8837e-01],
+         [-4.5662e-03,  3.6807e-01],
+         [-6.3885e-03,  2.5162e-01],
+         [-7.7434e-03,  1.9150e-01]]])
+agent 0 action: VehicleControl(throttle=0.206172, steer=-0.003232, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.336278367283652
+7.128144251182675 seconds in game passed.
+Action: tensor([[[-1.6427e-04,  6.8837e-01],
+         [-4.5662e-03,  3.6807e-01],
+         [-6.3885e-03,  2.5162e-01],
+         [-7.7434e-03,  1.9150e-01]]])
+agent 0 action: VehicleControl(throttle=0.195413, steer=-0.003249, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.336278367283652
+7.153144251555204 seconds in game passed.
+Action: tensor([[[-1.6427e-04,  6.8837e-01],
+         [-4.5662e-03,  3.6807e-01],
+         [-6.3885e-03,  2.5162e-01],
+         [-7.7434e-03,  1.9150e-01]]])
+agent 0 action: VehicleControl(throttle=0.184635, steer=-0.003267, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 10.336278367283652
+Start Processing Time stamp: 7178144251
+$$$$$$$$$$$$$$$$$$$$$ 0.192244291305542$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+155.98000000000005
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.030723094940185547$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+25.479999999999997
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7178144251 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.18908333778381348$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.438234806060791 seconds.
+{'0': 0.8366457238107451} {'0': 0.8366457238107451} {'0': 155.98000000000005, 'empty': 155.98000000000005, 'full': 25.479999999999997} {0: 201}
+7.178144251927733 seconds in game passed.
+At 7.178144251927733 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[-0.0007,  0.7139],
+         [-0.0047,  0.3800],
+         [-0.0060,  0.2582],
+         [-0.0067,  0.1951]]])
+agent 0 action: VehicleControl(throttle=0.173854, steer=-0.003643, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.8366457238107451
+Current reward: -0.6483829478476798
+Current mitigation activation: 0
+#############################
+Total reward: 9.687895419435973
+7.2031442523002625 seconds in game passed.
+Action: tensor([[[-0.0007,  0.7139],
+         [-0.0047,  0.3800],
+         [-0.0060,  0.2582],
+         [-0.0067,  0.1951]]])
+agent 0 action: VehicleControl(throttle=0.163054, steer=-0.003584, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.687895419435973
+7.2281442526727915 seconds in game passed.
+Action: tensor([[[-0.0007,  0.7139],
+         [-0.0047,  0.3800],
+         [-0.0060,  0.2582],
+         [-0.0067,  0.1951]]])
+agent 0 action: VehicleControl(throttle=0.152235, steer=-0.003588, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.687895419435973
+7.2531442530453205 seconds in game passed.
+Action: tensor([[[-0.0007,  0.7139],
+         [-0.0047,  0.3800],
+         [-0.0060,  0.2582],
+         [-0.0067,  0.1951]]])
+agent 0 action: VehicleControl(throttle=0.141398, steer=-0.003591, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 9.687895419435973
+Start Processing Time stamp: 7278144253
+$$$$$$$$$$$$$$$$$$$$$ 0.19397640228271484$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+156.32
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.026881694793701172$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+19.499999999999993
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7278144253 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.18806719779968262$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.4347829818725586 seconds.
+{'0': 0.8752558853633572} {'0': 0.8752558853633572} {'0': 156.32, 'empty': 156.32, 'full': 19.499999999999993} {0: 201}
+7.2781442534178495 seconds in game passed.
+At 7.2781442534178495 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[ 0.0016,  0.7521],
+         [-0.0041,  0.4108],
+         [-0.0055,  0.2812],
+         [-0.0060,  0.2134]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.002102, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.8752558853633572
+Current reward: -0.7127575850520895
+Current mitigation activation: 0
+#############################
+Total reward: 8.975137834383883
+7.303144253790379 seconds in game passed.
+Action: tensor([[[ 0.0016,  0.7521],
+         [-0.0041,  0.4108],
+         [-0.0055,  0.2812],
+         [-0.0060,  0.2134]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.002328, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.975137834383883
+7.328144254162908 seconds in game passed.
+Action: tensor([[[ 0.0016,  0.7521],
+         [-0.0041,  0.4108],
+         [-0.0055,  0.2812],
+         [-0.0060,  0.2134]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.002308, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.975137834383883
+7.353144254535437 seconds in game passed.
+Action: tensor([[[ 0.0016,  0.7521],
+         [-0.0041,  0.4108],
+         [-0.0055,  0.2812],
+         [-0.0060,  0.2134]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.002289, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.975137834383883
+Start Processing Time stamp: 7378144254
+$$$$$$$$$$$$$$$$$$$$$ 0.19408059120178223$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+151.94000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.02125716209411621$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+13.860000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7378144254 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.18932056427001953$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.4302330017089844 seconds.
+{'0': 0.9087797814926944} {'0': 0.9087797814926944} {'0': 151.94000000000003, 'empty': 151.94000000000003, 'full': 13.860000000000001} {0: 201}
+7.378144254907966 seconds in game passed.
+At 7.378144254907966 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[ 0.0095,  0.8365],
+         [ 0.0014,  0.4542],
+         [-0.0009,  0.3140],
+         [-0.0010,  0.2376]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.005031, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.9087797814926944
+Current reward: -0.7614923528708293
+Current mitigation activation: 0
+#############################
+Total reward: 8.213645481513053
+7.403144255280495 seconds in game passed.
+Action: tensor([[[ 0.0095,  0.8365],
+         [ 0.0014,  0.4542],
+         [-0.0009,  0.3140],
+         [-0.0010,  0.2376]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.003878, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.213645481513053
+7.428144255653024 seconds in game passed.
+Action: tensor([[[ 0.0095,  0.8365],
+         [ 0.0014,  0.4542],
+         [-0.0009,  0.3140],
+         [-0.0010,  0.2376]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.003936, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.213645481513053
+7.453144256025553 seconds in game passed.
+Action: tensor([[[ 0.0095,  0.8365],
+         [ 0.0014,  0.4542],
+         [-0.0009,  0.3140],
+         [-0.0010,  0.2376]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.003994, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 8.213645481513053
+Start Processing Time stamp: 7478144256
+$$$$$$$$$$$$$$$$$$$$$ 0.20178794860839844$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+148.42000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.020793914794921875$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+17.760000000000005
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7478144256 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.20133328437805176$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.45247411727905273 seconds.
+{'0': 0.8803395768764318} {'0': 0.8803395768764318} {'0': 148.42000000000002, 'empty': 148.42000000000002, 'full': 17.760000000000005} {0: 201}
+7.478144256398082 seconds in game passed.
+At 7.478144256398082 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[-0.0132,  0.9305],
+         [-0.0037,  0.5222],
+         [-0.0058,  0.3592],
+         [-0.0057,  0.2733]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.009430, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.8803395768764318
+Current reward: -0.6799193214843897
+Current mitigation activation: 0
+#############################
+Total reward: 7.533726160028664
+7.503144256770611 seconds in game passed.
+Action: tensor([[[-0.0132,  0.9305],
+         [-0.0037,  0.5222],
+         [-0.0058,  0.3592],
+         [-0.0057,  0.2733]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.007297, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.533726160028664
+7.52814425714314 seconds in game passed.
+Action: tensor([[[-0.0132,  0.9305],
+         [-0.0037,  0.5222],
+         [-0.0058,  0.3592],
+         [-0.0057,  0.2733]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.007386, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.533726160028664
+7.553144257515669 seconds in game passed.
+Action: tensor([[[-0.0132,  0.9305],
+         [-0.0037,  0.5222],
+         [-0.0058,  0.3592],
+         [-0.0057,  0.2733]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.007475, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 7.533726160028664
+Start Processing Time stamp: 7578144257
+$$$$$$$$$$$$$$$$$$$$$ 0.22514748573303223$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+141.28
+Done evaluating empty grid, empty success: 0 succeed goals: []
+$$$$$$$$$$$$$$$$$$$$$ 0.022742033004760742$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+18.380000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7578144257 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.39324069023132324$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6673774719238281 seconds.
+{'0': 0.8699037372593432} {'0': 0.8699037372593432} {'0': 141.28, 'empty': 141.28, 'full': 18.380000000000003} {0: 201}
+7.578144257888198 seconds in game passed.
+At 7.578144257888198 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[-0.0157,  0.9484],
+         [-0.0101,  0.7045],
+         [-0.0101,  0.4941],
+         [-0.0097,  0.4073]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.014361, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.8699037372593432
+Current reward: -0.6161684967244626
+Current mitigation activation: 0
+#############################
+Total reward: 6.917557663304201
+7.603144258260727 seconds in game passed.
+Action: tensor([[[-0.0157,  0.9484],
+         [-0.0101,  0.7045],
+         [-0.0101,  0.4941],
+         [-0.0097,  0.4073]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.013444, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.917557663304201
+7.628144258633256 seconds in game passed.
+Action: tensor([[[-0.0157,  0.9484],
+         [-0.0101,  0.7045],
+         [-0.0101,  0.4941],
+         [-0.0097,  0.4073]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.013642, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.917557663304201
+7.653144259005785 seconds in game passed.
+Action: tensor([[[-0.0157,  0.9484],
+         [-0.0101,  0.7045],
+         [-0.0101,  0.4941],
+         [-0.0097,  0.4073]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.013840, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.917557663304201
+Start Processing Time stamp: 7678144259
+$$$$$$$$$$$$$$$$$$$$$ 0.2981572151184082$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+133.38
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_7678144259] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.006905078887939453$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+1.0800000000000003
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7678144259 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.27837562561035156$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6101794242858887 seconds.
+{'0': 0.9919028340080971} {'0': 0.9919028340080971} {'0': 133.38, 'empty': 133.38, 'full': 1.0800000000000003} {0: 201}
+7.678144259378314 seconds in game passed.
+At 7.678144259378314 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[-0.0234,  0.9487],
+         [-0.0149,  0.8348],
+         [-0.0117,  0.6695],
+         [-0.0086,  0.5580]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.022194, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.9919028340080971
+Current reward: -0.750040550685058
+Current mitigation activation: 0
+#############################
+Total reward: 6.1675171126191435
+7.703144259750843 seconds in game passed.
+Action: tensor([[[-0.0234,  0.9487],
+         [-0.0149,  0.8348],
+         [-0.0117,  0.6695],
+         [-0.0086,  0.5580]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.021113, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.1675171126191435
+7.728144260123372 seconds in game passed.
+Action: tensor([[[-0.0234,  0.9487],
+         [-0.0149,  0.8348],
+         [-0.0117,  0.6695],
+         [-0.0086,  0.5580]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.021380, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.1675171126191435
+7.753144260495901 seconds in game passed.
+Action: tensor([[[-0.0234,  0.9487],
+         [-0.0149,  0.8348],
+         [-0.0117,  0.6695],
+         [-0.0086,  0.5580]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.021647, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 6.1675171126191435
+Start Processing Time stamp: 7778144260
+$$$$$$$$$$$$$$$$$$$$$ 0.32535862922668457$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+131.28000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_7778144260] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.006321907043457031$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.9600000000000001
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7778144260 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.32478904724121094$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6828329563140869 seconds.
+{'0': 0.9926873857404022} {'0': 0.9926873857404022} {'0': 131.28000000000003, 'empty': 131.28000000000003, 'full': 0.9600000000000001} {0: 201}
+7.77814426086843 seconds in game passed.
+At 7.77814426086843 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[ 0.0171,  0.9537],
+         [-0.0028,  0.9477],
+         [-0.0128,  0.9185],
+         [-0.0122,  0.6707]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.010515, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 0.9926873857404022
+Current reward: -0.6779503639648109
+Current mitigation activation: 0
+#############################
+Total reward: 5.489566748654332
+7.803144261240959 seconds in game passed.
+Action: tensor([[[ 0.0171,  0.9537],
+         [-0.0028,  0.9477],
+         [-0.0128,  0.9185],
+         [-0.0122,  0.6707]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.005262, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.489566748654332
+7.828144261613488 seconds in game passed.
+Action: tensor([[[ 0.0171,  0.9537],
+         [-0.0028,  0.9477],
+         [-0.0128,  0.9185],
+         [-0.0122,  0.6707]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.005353, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.489566748654332
+7.853144261986017 seconds in game passed.
+Action: tensor([[[ 0.0171,  0.9537],
+         [-0.0028,  0.9477],
+         [-0.0128,  0.9185],
+         [-0.0122,  0.6707]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.005445, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 5.489566748654332
+Start Processing Time stamp: 7878144262
+$$$$$$$$$$$$$$$$$$$$$ 0.32534050941467285$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+120.64000000000003
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_7878144262] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.0026993751525878906$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7878144262 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.3221902847290039$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.6763496398925781 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 120.64000000000003, 'empty': 120.64000000000003, 'full': 0.0} {0: 201}
+7.878144262358546 seconds in game passed.
+At 7.878144262358546 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[ 0.0265,  0.9550],
+         [ 0.0042,  0.9519],
+         [-0.0066,  0.9500],
+         [-0.0017,  0.9377]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.015911, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 1.0
+Current reward: -0.6119033818744148
+Current mitigation activation: 0
+#############################
+Total reward: 4.877663366779918
+7.903144262731075 seconds in game passed.
+Action: tensor([[[ 0.0265,  0.9550],
+         [ 0.0042,  0.9519],
+         [-0.0066,  0.9500],
+         [-0.0017,  0.9377]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.014398, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.877663366779918
+7.928144263103604 seconds in game passed.
+Action: tensor([[[ 0.0265,  0.9550],
+         [ 0.0042,  0.9519],
+         [-0.0066,  0.9500],
+         [-0.0017,  0.9377]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.014596, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.877663366779918
+7.953144263476133 seconds in game passed.
+Action: tensor([[[ 0.0265,  0.9550],
+         [ 0.0042,  0.9519],
+         [-0.0066,  0.9500],
+         [-0.0017,  0.9377]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.014795, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.877663366779918
+Start Processing Time stamp: 7978144263
+$$$$$$$$$$$$$$$$$$$$$ 0.38802027702331543$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+111.57999999999997
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_7978144263] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.002501964569091797$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 7978144263 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.39189982414245605$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.8092248439788818 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 111.57999999999997, 'empty': 111.57999999999997, 'full': 0.0} {0: 201}
+7.978144263848662 seconds in game passed.
+At 7.978144263848662 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[1.5482e-03, 9.5594e-01],
+         [1.0930e-03, 9.5426e-01],
+         [2.7336e-04, 9.5365e-01],
+         [8.6812e-04, 9.5327e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.002637, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 1.0
+Current reward: -0.5364765034551863
+Current mitigation activation: 0
+#############################
+Total reward: 4.341186863324731
+8.003144264221191 seconds in game passed.
+Action: tensor([[[1.5482e-03, 9.5594e-01],
+         [1.0930e-03, 9.5426e-01],
+         [2.7336e-04, 9.5365e-01],
+         [8.6812e-04, 9.5327e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000341, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.341186863324731
+8.02814426459372 seconds in game passed.
+Action: tensor([[[1.5482e-03, 9.5594e-01],
+         [1.0930e-03, 9.5426e-01],
+         [2.7336e-04, 9.5365e-01],
+         [8.6812e-04, 9.5327e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000404, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.341186863324731
+8.05314426496625 seconds in game passed.
+Action: tensor([[[1.5482e-03, 9.5594e-01],
+         [1.0930e-03, 9.5426e-01],
+         [2.7336e-04, 9.5365e-01],
+         [8.6812e-04, 9.5327e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000467, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 4.341186863324731
+Start Processing Time stamp: 8078144265
+$$$$$$$$$$$$$$$$$$$$$ 0.4129197597503662$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+106.18000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_8078144265] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.002366781234741211$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8078144265 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.41390466690063477$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 0.8556702136993408 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 106.18000000000004, 'empty': 106.18000000000004, 'full': 0.0} {0: 201}
+8.078144265338778 seconds in game passed.
+At 8.078144265338778 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[7.0497e-04, 9.5617e-01],
+         [1.5379e-03, 9.5470e-01],
+         [1.8452e-03, 9.5421e-01],
+         [1.9137e-03, 9.5394e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000269, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 1.0
+Current reward: -0.4639223210879042
+Current mitigation activation: 0
+#############################
+Total reward: 3.8772645422368273
+8.103144265711308 seconds in game passed.
+Action: tensor([[[7.0497e-04, 9.5617e-01],
+         [1.5379e-03, 9.5470e-01],
+         [1.8452e-03, 9.5421e-01],
+         [1.9137e-03, 9.5394e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000361, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.8772645422368273
+8.128144266083837 seconds in game passed.
+Action: tensor([[[7.0497e-04, 9.5617e-01],
+         [1.5379e-03, 9.5470e-01],
+         [1.8452e-03, 9.5421e-01],
+         [1.9137e-03, 9.5394e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000411, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.8772645422368273
+8.153144266456366 seconds in game passed.
+Action: tensor([[[7.0497e-04, 9.5617e-01],
+         [1.5379e-03, 9.5470e-01],
+         [1.8452e-03, 9.5421e-01],
+         [1.9137e-03, 9.5394e-01]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000462, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.8772645422368273
+Start Processing Time stamp: 8178144266
+$$$$$$$$$$$$$$$$$$$$$ 0.4532132148742676$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+94.22000000000004
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_8178144266] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.0025115013122558594$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8178144266 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.6119015216827393$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.1010384559631348 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 94.22000000000004, 'empty': 94.22000000000004, 'full': 0.0} {0: 201}
+8.178144266828895 seconds in game passed.
+At 8.178144266828895 seconds, saving state-action tuples.
+Repeating previous action.
+Mitigation action: 0
+Action: tensor([[[0.0013, 0.9561],
+         [0.0016, 0.9545],
+         [0.0018, 0.9540],
+         [0.0019, 0.9537]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000963, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 1.0
+Current reward: -0.39153787029063125
+Current mitigation activation: 0
+#############################
+Total reward: 3.485726671946196
+8.203144267201424 seconds in game passed.
+Action: tensor([[[0.0013, 0.9561],
+         [0.0016, 0.9545],
+         [0.0018, 0.9540],
+         [0.0019, 0.9537]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000949, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.485726671946196
+8.228144267573953 seconds in game passed.
+Action: tensor([[[0.0013, 0.9561],
+         [0.0016, 0.9545],
+         [0.0018, 0.9540],
+         [0.0019, 0.9537]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001008, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.485726671946196
+8.253144267946482 seconds in game passed.
+Action: tensor([[[0.0013, 0.9561],
+         [0.0016, 0.9545],
+         [0.0018, 0.9540],
+         [0.0019, 0.9537]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001067, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.485726671946196
+Start Processing Time stamp: 8278144268
+$$$$$$$$$$$$$$$$$$$$$ 0.49056077003479004$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+87.20000000000002
+Done evaluating empty grid, empty success: 0 succeed goals: []
+[full_8278144268] Last time step did not produce any possible points!
+$$$$$$$$$$$$$$$$$$$$$ 0.002406597137451172$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+0.0
+Done evaluating fully occupied grid, full obstacle success: 0 succeed goals: []
+UUID to be removed at time 8278144268 is 201.
+$$$$$$$$$$$$$$$$$$$$$ 0.4899003505706787$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Done analysing one frame after 1.0134954452514648 seconds.
+{'0': 1.0} {'0': 1.0} {'0': 87.20000000000002, 'empty': 87.20000000000002, 'full': 0.0} {0: 201}
+8.27814426831901 seconds in game passed.
+At 8.27814426831901 seconds, saving state-action tuples.
+Mitigation action: 0
+Action: tensor([[[0.0010, 0.9561],
+         [0.0015, 0.9546],
+         [0.0018, 0.9541],
+         [0.0019, 0.9538]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000834, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+#############################
+Current risk: 1.0
+Current reward: -0.31923042572813287
+Current mitigation activation: 0
+#############################
+Total reward: 3.1664962462180632
+8.30314426869154 seconds in game passed.
+Action: tensor([[[0.0010, 0.9561],
+         [0.0015, 0.9546],
+         [0.0018, 0.9541],
+         [0.0019, 0.9538]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000920, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.1664962462180632
+8.328144269064069 seconds in game passed.
+Action: tensor([[[0.0010, 0.9561],
+         [0.0015, 0.9546],
+         [0.0018, 0.9541],
+         [0.0019, 0.9538]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000961, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.1664962462180632
+8.353144269436598 seconds in game passed.
+Action: tensor([[[0.0010, 0.9561],
+         [0.0015, 0.9546],
+         [0.0018, 0.9541],
+         [0.0019, 0.9538]]])
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001002, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Total reward: 3.1664962462180632
+Post-processing after stepping
+Simulation done, stopping the scenario
+Stopping the route
+
+========= Results of RouteScenario_0 (repetition 0) ------ [91mFAILURE[0m =========
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-11-24 12:21:03 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-11-24 12:22:30 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 87.55s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 6.33s               │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.072               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ FAILURE │ 19.93 % │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ SUCCESS │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ FAILURE │ 1 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ SUCCESS │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+Simulation saved.
+Registering the global statistics
+================= Finish episode 0 =================
+Episode: 0, reward: 3.17, average_reward: 3.1664962462180632 
+
+Saving mitigation results to //home/sheng/projects/DiverseEnv/auto/mitigationsweep_results_lead_slowdown_acc_only_no_risk_retrained_agent_acc/SINGLE_AGENT_fi_lead_slowdown_00001/fi_lead_slowdown_data
