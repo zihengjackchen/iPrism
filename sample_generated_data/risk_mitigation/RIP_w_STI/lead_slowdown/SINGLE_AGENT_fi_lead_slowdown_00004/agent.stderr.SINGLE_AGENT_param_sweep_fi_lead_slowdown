@@ -1,0 +1,124 @@
+/usr/local/lib/python3.7/dist-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+/home/sheng/.local/lib/python3.7/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Using cache found in /home/sheng/.cache/torch/hub/pytorch_vision_v0.6.0
+Using cache found in /home/sheng/.cache/torch/hub/pytorch_vision_v0.6.0
+Using cache found in /home/sheng/.cache/torch/hub/pytorch_vision_v0.6.0
+Using cache found in /home/sheng/.cache/torch/hub/pytorch_vision_v0.6.0
+/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/carla_sim_datautils.py:210: RuntimeWarning: invalid value encountered in arccos
+  angle = np.arccos(dot_product)
+/media/sheng/data4/projects/DiverseEnv/carladataset/carla-sim/bev_planning_sim/generate_risk_traj_poly_single_timestamp_simfunction.py:135: RuntimeWarning: invalid value encountered in sqrt
+  area = np.sqrt(s * (s - a_b) * (s - b_c) * (s - c_a))
+WARNING:root:Warning there is no success but we will continue anyway.
+/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/scenarios/scenario_manager.py:410: RuntimeWarning: invalid value encountered in true_divide
+  unit_vector_1 = ego_vector / np.linalg.norm(ego_vector)
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+/media/sheng/data4/projects/DiverseEnv/carladataset/carla-sim/bev_planning_sim/generate_risk_traj_poly_single_timestamp_simfunction.py:138: RuntimeWarning: divide by zero encountered in true_divide
+  circum_r = a_b * b_c * c_a / (4.0 * area)
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING:root:Warning there is no success but we will continue anyway.
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 201 (sensor.lidar.ray_cast) 
+/home/sheng/projects/auto/bin/startsim.sh: line 6: 24200 Killed                  ~/projects/auto/sim/carla-0.9.10/CarlaUE4.sh -quality-level=Epic -world-port=2000 -resx=800 -resy=600 -opengl

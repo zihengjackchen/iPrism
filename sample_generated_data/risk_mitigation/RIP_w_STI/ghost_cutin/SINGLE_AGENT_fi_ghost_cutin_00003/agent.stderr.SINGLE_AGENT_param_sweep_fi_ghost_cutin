@@ -1,0 +1,42 @@
+/usr/local/lib/python3.7/dist-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/oatomobile/simulators/carla/simulator.py", line 1712, in __init__
+    self._traffic_manager = self._client.get_trafficmanager(8000)
+RuntimeError: trying to create rpc server for traffic manager; but the system failed to create because of bind error.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/mitigation_rl_rip_sti.py", line 250, in inference_single_episode_rl_mitigation
+    self.gym_environment = oatomobile.envs.CARLAEnv(town="Town05", carla_server=carla_server, server_port=2000, fps=40)
+  File "/usr/local/lib/python3.7/dist-packages/oatomobile/envs/carla.py", line 103, in __init__
+    server_port=server_port
+  File "/usr/local/lib/python3.7/dist-packages/oatomobile/core/rl.py", line 45, in __init__
+    self._sim = sim_fn(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/oatomobile/simulators/carla/simulator.py", line 1719, in __init__
+    CARLASimulator.stop_carla_server()
+  File "/usr/local/lib/python3.7/dist-packages/oatomobile/simulators/carla/simulator.py", line 1631, in stop_carla_server
+    os.killpg(cls.carla_server.pid, signal.SIGKILL)
+ProcessLookupError: [Errno 3] No such process
+/home/sheng/projects/auto/bin/startsim.sh: line 6:  9890 Killed                  ~/projects/auto/sim/carla-0.9.10/CarlaUE4.sh -quality-level=Epic -world-port=2000 -resx=800 -resy=600 -opengl
