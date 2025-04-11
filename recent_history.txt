@@ -1,0 +1,16 @@
+ 1087  git add .
+ 1088  git status
+ 1089  git add .
+ 1090  git status
+ 1091  git commit -m "batch update"
+ 1092  git push
+ 1093  filter-repo
+ 1094  git lfs uninstall\n
+ 1095  git lfs
+ 1096  git lfs list
+ 1097  git lfs ls-files
+ 1098  git status
+ 1099  git remote set-url origin git@github.com:zihengjackchen/iPrism.git\n
+ 1100  git status
+ 1101  history | grep git\n
+ 1102  history
