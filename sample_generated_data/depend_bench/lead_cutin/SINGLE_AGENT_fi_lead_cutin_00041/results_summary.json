@@ -1,0 +1,55 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            0,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.guardrail and id=0 at (x=197.415, y=35.469, z=0.033)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.audi.a2 and id=201 at (x=193.123, y=-18.652, z=0.034)",
+                        "Agent collided against object with type=vehicle.audi.a2 and id=201 at (x=191.605, y=13.137, z=0.0)",
+                        "Agent collided against object with type=vehicle.audi.a2 and id=201 at (x=195.026, y=33.417, z=0.014)"
+                    ],
+                    "outside_route_lanes": [],
+                    "red_light": [],
+                    "route_dev": [],
+                    "route_timeout": [],
+                    "stop_infraction": [],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 49.1750007327646,
+                    "duration_system": 167.8728289604187,
+                    "route_length": 131.56012567009267
+                },
+                "route_id": "RouteScenario_0",
+                "scores": {
+                    "score_composed": 13.182911958469091,
+                    "score_penalty": 0.1404,
+                    "score_route": 93.89538431958043
+                },
+                "status": "Failed"
+            }
+        ]
+    },
+    "eligible": false,
+    "entry_status": "Started",
+    "labels": [],
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": []
+}

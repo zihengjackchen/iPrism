@@ -1,0 +1,1 @@
+/media/sheng/data4/projects/DiverseEnv/auto/bin/startsim.sh: line 6: 27759 Killed                  /media/sheng/data4/projects/DiverseEnv/auto/sim/CARLA_0.9.10/CarlaUE4.sh -quality-level=Epic -world-port=2000 -resx=800 -resy=600 -opengl
