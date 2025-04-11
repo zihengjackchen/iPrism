@@ -1,0 +1,26 @@
+/home/sheng/.local/lib/python3.8/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3190.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/sheng/.local/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/sheng/.local/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/carla_sim_datautils.py:210: RuntimeWarning: invalid value encountered in arccos
+  angle = np.arccos(dot_product)
+/home/sheng/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/scenarios/scenario_manager.py:474: RuntimeWarning: invalid value encountered in true_divide
+  unit_vector_1 = ego_vector / np.linalg.norm(ego_vector)
+/home/sheng/projects/DiverseEnv/auto/bin/startsim.sh: line 6: 149378 Killed                  /home/sheng/projects/DiverseEnv/auto/sim/CARLA_0.9.10/CarlaUE4.sh -quality-level=Epic -world-port=2000 -resx=800 -resy=600 -opengl
