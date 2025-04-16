@@ -1,6 +1,6 @@
 # iPrism: Characterize and Mitigate Risk by Quantifying Change in Escape Routes
 
-*Paper accepted by DSN 2024*. Introduction, visualization, and other relevant information can be found on the [project website](https://zihengjackchen.github.io/iprism-page/).
+*Paper accepted by [DSN 2024](https://ieeexplore.ieee.org/abstract/document/10646631)*. Introduction, visualization, and other relevant information can be found on the [project website](https://zihengjackchen.github.io/iprism-page/).
 
 
 ## Problem Statement
