@@ -1,0 +1,430 @@
+├── depend_bench
+│   ├── front_accident
+│   │   ├── SINGLE_AGENT_fi_front_accident_00000
+│   │   │   ├── agent.stderr.SINGLE_AGENT_param_sweep_fi_front_accident
+│   │   │   ├── agent.stdout.SINGLE_AGENT_param_sweep_fi_front_accident
+│   │   │   ├── done.txt
+│   │   │   ├── exitcodes.txt
+│   │   │   ├── experiment_status
+│   │   │   ├── fi_front_accident_data
+│   │   │   ├── fi_front_accident_logs
+│   │   │   │   ├── routes_fi_route_highway-0413_142310-fi_front_accident_logs-single_ctl.csv
+│   │   │   │   ├── routes_fi_route_highway-0413_142310-fi_front_accident_logs-single_cvip.csv
+│   │   │   │   ├── routes_fi_route_highway-0413_142310-fi_front_accident_logs-single_piddelta.csv
+│   │   │   │   ├── routes_fi_route_highway-0413_142310-fi_front_accident_logs-single_points.csv
+│   │   │   │   ├── routes_fi_route_highway-0413_142310-fi_front_accident_logs-single_traj.csv
+│   │   │   │   └── routes_fi_route_highway-0413_142310-fi_front_accident_logs-single_unclip_ctl.csv
+│   │   │   ├── FrontAccident.json
+│   │   │   ├── param_sweep.stderr
+│   │   │   ├── param_sweep.stdout
+│   │   │   ├── results_summary.json
+│   │   │   ├── sim.stderr.SINGLE_AGENT_param_sweep_fi_front_accident
+│   │   │   ├── sim.stdout.SINGLE_AGENT_param_sweep_fi_front_accident
+│   │   │   ├── simkill.stderr.SINGLE_AGENT_param_sweep_fi_front_accident
+│   │   │   └── simkill.stdout.SINGLE_AGENT_param_sweep_fi_front_accident
+│   ├── ghost_cutin
+│   ├── lead_cutin
+│   ├── lead_slowdown
+│   ├── rear_ending
+│   ├── source_code
+│   │   ├── 2020_CARLA_challenge
+│   │   │   ├── activate
+│   │   │   ├── agent_env.sh
+│   │   │   ├── agent_test.sh
+│   │   │   ├── assets
+│   │   │   │   ├── sample_route.gif
+│   │   │   │   └── stage_1.gif
+│   │   │   ├── carla_project
+│   │   │   │   ├── requirements.txt
+│   │   │   │   └── src
+│   │   │   ├── check.py
+│   │   │   ├── leaderboard
+│   │   │   │   ├── CHANGELOG.md
+│   │   │   │   ├── data
+│   │   │   │   ├── docs
+│   │   │   │   ├── leaderboard
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── README.md
+│   │   │   │   ├── requirements.txt
+│   │   │   │   ├── results.json
+│   │   │   │   ├── scripts
+│   │   │   │   └── team_code
+│   │   │   ├── net_features_size.csv
+│   │   │   ├── net_weights_size.csv
+│   │   │   ├── pin.log
+│   │   │   ├── pintool.log
+│   │   │   ├── profiling_modifications
+│   │   │   │   ├── scenario_manager.py
+│   │   │   │   └── sensor_interface.py
+│   │   │   ├── README.md
+│   │   │   ├── run_agent_new.sh
+│   │   │   ├── run_agent.sh
+│   │   │   ├── sample_data
+│   │   │   │   └── route_00
+│   │   │   ├── scenario_runner
+│   │   │   │   ├── CARLA_VER
+│   │   │   │   ├── Dockerfile
+│   │   │   │   ├── Docs
+│   │   │   │   ├── Jenkinsfile
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── manual_control.py
+│   │   │   │   ├── metrics_manager.py
+│   │   │   │   ├── mkdocs.yml
+│   │   │   │   ├── no_rendering_mode.py
+│   │   │   │   ├── README.md
+│   │   │   │   ├── requirements.txt
+│   │   │   │   ├── scenario_runner.py
+│   │   │   │   └── srunner
+│   │   │   ├── scripts
+│   │   │   │   ├── Dockerfile.master
+│   │   │   │   └── make_docker.sh
+│   │   │   └── simulation_results.json
+│   │   ├── configs
+│   │   │   ├── application.config.dupagent.xml
+│   │   │   ├── application.config.pytorchfi.xml
+│   │   │   ├── application.config.xml
+│   │   │   ├── application.config.xml.challenge
+│   │   │   ├── application.config.xml.example
+│   │   │   ├── application.config.xml.single
+│   │   │   ├── scen_front_accident.json
+│   │   │   ├── scen_ghost_cutin.json
+│   │   │   ├── scen_lead_cutin.json
+│   │   │   ├── scen_lead_slowdown.json
+│   │   │   ├── scen_opposite_driftin.json
+│   │   │   └── scen_rear_ending.json
+│   │   ├── sc_campaign_manager.py
+│   │   ├── sc_driver.py
+│   │   └── sc_driver.pyc
+│   ├── risk_detection
+│   │   ├── argoverse
+│   │   │   ├── bev_planning
+│   │   │   │   ├── __pycache__
+│   │   │   │   ├── bev_driver.py
+│   │   │   │   ├── car_description.py
+│   │   │   │   ├── dc_driver_traj_queued.py
+│   │   │   │   ├── frenet_hyperparameters.py
+│   │   │   │   ├── generate_bev.py
+│   │   │   │   ├── generate_risk_traj_poly_single_timestamp_original.py
+│   │   │   │   ├── generate_risk_traj_poly_single_timestamp.py
+│   │   │   │   ├── generate_risk_traj_poly_sts_dispatcher.py
+│   │   │   │   ├── generate_traj_data_poly_single_timestamp_original.py
+│   │   │   │   ├── generate_traj_data_poly_single_timestamp.py
+│   │   │   │   ├── generate_traj_data_poly_sts_dispatcher.py
+│   │   │   │   ├── kinematic_model.py
+│   │   │   │   ├── legacy
+│   │   │   │   ├── path_configs.py
+│   │   │   │   ├── planners.py
+│   │   │   │   ├── positional_uncertainty.json
+│   │   │   │   ├── risk_driver_traj_queued.py
+│   │   │   │   └── uncerntainty_campaign.py
+│   │   │   └── bev_planning_pkl
+│   │   │       ├── __pycache__
+│   │   │       ├── bev_driver.py
+│   │   │       ├── car_description.py
+│   │   │       ├── dc_driver_traj_queued.py
+│   │   │       ├── frenet_hyperparameters.py
+│   │   │       ├── generate_bev.py
+│   │   │       ├── generate_risk_traj_poly_single_timestamp_original.py
+│   │   │       ├── generate_risk_traj_poly_single_timestamp.py
+│   │   │       ├── generate_risk_traj_poly_sts_dispatcher.py
+│   │   │       ├── generate_traj_data_poly_single_timestamp_original.py
+│   │   │       ├── generate_traj_data_poly_single_timestamp.py
+│   │   │       ├── generate_traj_data_poly_sts_dispatcher.py
+│   │   │       ├── kinematic_model.py
+│   │   │       ├── legacy
+│   │   │       ├── path_configs.py
+│   │   │       ├── planners.py
+│   │   │       ├── positional_uncertainty.json
+│   │   │       ├── reachml
+│   │   │       ├── risk_driver_data_queued_pkl.py
+│   │   │       ├── risk_driver_traj_queued_pkl.py
+│   │   │       └── uncerntainty_campaign.py
+│   │   └── depend_bench
+│   │       ├── bev_planning
+│   │       │   ├── animate.py
+│   │       │   ├── car_description.py
+│   │       │   ├── frenet_hyperparameters.py
+│   │       │   ├── generate_risk_traj_poly_parallel_double.py
+│   │       │   ├── generate_risk_traj_poly_single_timestamp_original.py
+│   │       │   ├── generate_risk_traj_poly_single_timestamp.py
+│   │       │   ├── generate_risk_traj_poly_sts_dispatcher.py
+│   │       │   ├── generate_traj_data_poly_single_timestamp_original.py
+│   │       │   ├── generate_traj_data_poly_single_timestamp.py
+│   │       │   ├── generate_traj_data_poly_sts_dispatcher.py
+│   │       │   ├── kinematic_model.py
+│   │       │   ├── libs
+│   │       │   ├── motion_prediction.py
+│   │       │   ├── path_configs.py
+│   │       │   ├── planners.py
+│   │       │   ├── rasterizedLanes.pkl
+│   │       │   ├── risk_driver_data_parameter_sweeping.py
+│   │       │   ├── risk_driver_traj_parameter_sweeping.py
+│   │       │   ├── risk_driver_traj_queued.py
+│   │       │   ├── test.py
+│   │       │   ├── timebasedobst.pkl
+│   │       │   └── uncerntainty_campaign.py
+│   │       ├── bev_planning_metrics
+│   │       │   ├── __pycache__
+│   │       │   ├── animate.py
+│   │       │   ├── car_description.py
+│   │       │   ├── frenet_hyperparameters.py
+│   │       │   ├── generate_risk_traj_poly_parallel_double.py
+│   │       │   ├── generate_risk_traj_poly_single_timestamp_save.py
+│   │       │   ├── generate_risk_traj_poly_single_timestamp.py
+│   │       │   ├── generate_risk_traj_poly_sts_dispatcher.py
+│   │       │   ├── generate_traj_data_poly_single_timestamp.py
+│   │       │   ├── generate_traj_data_poly_sts_dispatcher.py
+│   │       │   ├── kinematic_model.py
+│   │       │   ├── libs
+│   │       │   ├── motion_prediction.py
+│   │       │   ├── path_configs.py
+│   │       │   ├── planners.py
+│   │       │   ├── rasterizedLanes.pkl
+│   │       │   ├── risk_driver_data_parameter_sweeping.py
+│   │       │   ├── risk_driver_traj_parameter_sweeping_metrics.py
+│   │       │   ├── risk_driver_traj_queued.py
+│   │       │   ├── running_time_evaluation _fast_gpt_frames.py
+│   │       │   ├── test_image
+│   │       │   ├── test.py
+│   │       │   ├── timebasedobst.pkl
+│   │       │   └── uncerntainty_campaign.py
+│   │       └── bev_planning_pkl
+│   │           ├── __pycache__
+│   │           ├── animate.py
+│   │           ├── car_description.py
+│   │           ├── frenet_hyperparameters.py
+│   │           ├── generate_risk_traj_poly_parallel_double.py
+│   │           ├── generate_risk_traj_poly_single_timestamp_original.py
+│   │           ├── generate_risk_traj_poly_single_timestamp.py
+│   │           ├── generate_risk_traj_poly_sts_dispatcher.py
+│   │           ├── generate_traj_data_poly_single_timestamp_original.py
+│   │           ├── generate_traj_data_poly_single_timestamp.py
+│   │           ├── generate_traj_data_poly_sts_dispatcher.py
+│   │           ├── kinematic_model.py
+│   │           ├── libs
+│   │           ├── motion_prediction.py
+│   │           ├── path_configs.py
+│   │           ├── pkl_model_training_reachml
+│   │           ├── planners.py
+│   │           ├── rasterizedLanes.pkl
+│   │           ├── risk_driver_data_parameter_sweeping_pkl.py
+│   │           ├── risk_driver_traj_parameter_sweeping.py
+│   │           ├── risk_driver_traj_queued.py
+│   │           ├── running_time_evaluation _fast_gpt_frames.py
+│   │           ├── test.py
+│   │           ├── timebasedobst.pkl
+│   │           ├── uncerntainty_campaign.py
+│   │           └── visualization
+│   └── risk_mitigation
+│       ├── auto
+│       │   ├── agents
+│       │   │   └── 2020_CARLA_challenge
+│       │   ├── bin
+│       │   │   ├── docker_env.sh
+│       │   │   ├── docker_login.sh
+│       │   │   ├── killsim.sh
+│       │   │   ├── run_client.sh
+│       │   │   ├── run_server.sh
+│       │   │   └── startsim.sh
+│       │   ├── leaderboard
+│       │   │   ├── __init__.py
+│       │   │   ├── __pycache__
+│       │   │   ├── autoagents
+│       │   │   ├── carla_sim_data_utils.py
+│       │   │   ├── carla_sim_datautils.py
+│       │   │   ├── consts.py
+│       │   │   ├── debug_draft.py
+│       │   │   ├── Digraph.gv
+│       │   │   ├── env_interactor.py
+│       │   │   ├── envs
+│       │   │   ├── leaderboard_evaluator.py
+│       │   │   ├── mitigation_inference_driver.py
+│       │   │   ├── mitigation_rl_ddpg.py
+│       │   │   ├── mitigation_rl_dqn_conditional.py
+│       │   │   ├── mitigation_rl_dqn.py
+│       │   │   ├── mitigation_rl_duel_dqn.py
+│       │   │   ├── mitigation_rl_rip_sti.py
+│       │   │   ├── mitigation_rl_rip.py
+│       │   │   ├── mitigation_rl.py
+│       │   │   ├── not_used_codes.py
+│       │   │   ├── replay_buffer.py
+│       │   │   ├── runs
+│       │   │   ├── runs0503evening
+│       │   │   ├── runs0504evening
+│       │   │   ├── runs0504evening_fixed_random
+│       │   │   ├── runs0504morning
+│       │   │   ├── runs0505morning
+│       │   │   ├── runs0505overnight
+│       │   │   ├── runs0506morning
+│       │   │   ├── runs0506morning2
+│       │   │   ├── runs0506overnight
+│       │   │   ├── runs0510overnight
+│       │   │   ├── runs0523
+│       │   │   ├── runs0523late
+│       │   │   ├── runs0600backup
+│       │   │   ├── runs0715morning
+│       │   │   ├── runs0722morning
+│       │   │   ├── runs0723evening
+│       │   │   ├── runs0723morning
+│       │   │   ├── runs0729eveningttc
+│       │   │   ├── runs0730
+│       │   │   ├── runs0730morningtcc
+│       │   │   ├── runsicra2023
+│       │   │   ├── scenarios
+│       │   │   ├── simulation_results.json
+│       │   │   ├── try_tensorboard.py
+│       │   │   └── utils
+│       │   ├── mtps_campaign_manager
+│       │   │   └── bin
+│       │   └── ram_shared
+│       │       └── dqn_sti_online
+│       └── carladataset
+│           └── carla-sim
+│               ├── bev_planning
+│               └── bev_planning_sim
+├── split_large_files.sh
+├── sti_demo
+│   ├── 4-actors
+│   │   ├── areas
+│   │   │   ├── full-approx.png
+│   │   │   ├── full.png
+│   │   │   ├── without#0.png
+│   │   │   ├── without#1.png
+│   │   │   ├── without#2.png
+│   │   │   └── without#3.png
+│   │   ├── without#2_at_time_0.0.png
+│   │   ├── without#2_at_time_0.1.png
+│   │   ├── without#2_at_time_0.2.png
+│   │   ├── without#2_at_time_0.3.png
+│   │   ├── without#2_at_time_0.4.png
+│   │   ├── without#2_at_time_0.5.png
+│   │   ├── without#2_at_time_0.6.png
+│   │   ├── without#2_at_time_0.7.png
+│   │   ├── without#2_at_time_0.8.png
+│   │   ├── without#2_at_time_0.9.png
+│   │   ├── without#2_at_time_1.0.png
+│   │   ├── without#2_at_time_1.1.png
+│   │   ├── without#2_at_time_1.2.png
+│   │   ├── without#2_at_time_1.3.png
+│   │   └── without#2_at_time_1.4.png
+│   ├── asset
+│   │   ├── argoverse.gif
+│   │   ├── full-approx.png
+│   │   ├── ghost_cutin.gif
+│   │   ├── reach_tube_construction.gif
+│   │   └── risk_calculation.gif
+│   ├── kinematic_model.py
+│   ├── libs
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-38.pyc
+│   │   │   └── stanley_controller.cpython-38.pyc
+│   │   ├── car_description
+│   │   │   ├── __pycache__
+│   │   │   │   └── car_description.cpython-38.pyc
+│   │   │   └── car_description.py
+│   │   ├── normalise_angle
+│   │   │   ├── __pycache__
+│   │   │   │   └── normalise_angle.cpython-38.pyc
+│   │   │   └── normalise_angle.py
+│   │   ├── SciPyCubicSpline
+│   │   │   ├── __pycache__
+│   │   │   │   └── cubic_spline_interpolator.cpython-38.pyc
+│   │   │   ├── cubic_spline_interpolator.py
+│   │   │   ├── README.md
+│   │   │   ├── requirements.txt
+│   │   │   ├── resources
+│   │   │   │   └── profile.png
+│   │   │   └── tests
+│   │   │       ├── test.ipynb
+│   │   │       └── waypoints.csv
+│   │   └── stanley_controller.py
+│   ├── readme.md
+│   └── sti_demo.py
+└── weights
+    ├── LBC_agent
+    │   ├── epoch24_unsplitted.ckpt
+    │   ├── epoch24.ckpt_chunk_aa
+    │   ├── epoch24.ckpt_chunk_ab
+    │   ├── epoch24.ckpt_chunk_ac
+    │   ├── epoch24.ckpt_chunk_ad
+    │   ├── epoch24.ckpt_chunk_ae
+    │   ├── epoch24.ckpt_chunk_af
+    │   ├── epoch24.ckpt_chunk_ag
+    │   ├── epoch24.ckpt_chunk_ah
+    │   ├── epoch24.ckpt_chunk_ai
+    │   └── epoch24.ckpt_chunk_aj
+    ├── mitigation
+    │   ├── dqn_sti_online
+    │   │   ├── inference_dicts.0(ghost_cutin)_unsplitted.pkl
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_aa
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ab
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ac
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ad
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ae
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_af
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ag
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ah
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ai
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_aj
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_ak
+    │   │   ├── inference_dicts.0(ghost_cutin).pkl_chunk_al
+    │   │   └── inference_dicts.0(ghost_cutin).pkl_chunk_am
+    │   ├── inference_dicts.0(ghost_cutin_curved)_unsplitted.pkl
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_aa
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ab
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ac
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ad
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ae
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_af
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ag
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ah
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ai
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_aj
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_ak
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_al
+    │   ├── inference_dicts.0(ghost_cutin_curved).pkl_chunk_am
+    │   ├── inference_dicts.0(lead_cutin)_unsplitted.pkl
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_aa
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ab
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ac
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ad
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ae
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_af
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ag
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ah
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ai
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_aj
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_ak
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_al
+    │   ├── inference_dicts.0(lead_cutin).pkl_chunk_am
+    │   ├── inference_dicts.0(lead_slowdown)_unsplitted.pkl
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_aa
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ab
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ac
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ad
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ae
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_af
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ag
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ah
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ai
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_aj
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_ak
+    │   ├── inference_dicts.0(lead_slowdown).pkl_chunk_al
+    │   └── inference_dicts.0(lead_slowdown).pkl_chunk_am
+    ├── pkl
+    │   ├── argoverse
+    │   └── carla
+    │       ├── final_all_smaller_2023-10-30-21-33-32_unsplitted.pth
+    │       ├── final_all_smaller_2023-10-30-21-33-32.pth_chunk_aa
+    │       ├── final_all_smaller_2023-10-30-21-33-32.pth_chunk_ab
+    │       ├── final_all_smaller_2023-10-30-21-33-32.pth_chunk_ac
+    │       ├── final_wo_cutin_smaller_2023-11-13-17-10-24_unsplitted.pth
+    │       ├── final_wo_cutin_smaller_2023-11-13-17-10-24.pth_chunk_aa
+    │       ├── final_wo_cutin_smaller_2023-11-13-17-10-24.pth_chunk_ab
+    │       └── final_wo_cutin_smaller_2023-11-13-17-10-24.pth_chunk_ac
+    └── rip
+        ├── model-400-1.pt
+        ├── model-400-2.pt
+        ├── model-400-3.pt
+        └── model-400-4.pt
